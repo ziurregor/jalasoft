@@ -1,23 +1,22 @@
 ﻿<Properties StartupConfiguration="{86B5A0D0-644F-43BE-8558-68B319FFE7A7}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="TestApi/Model/Pets.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestConsoleApi/Services/HttpService.cs">
     <Files>
       <File FileName="TestConsoleApi/Program.cs" Line="20" Column="1" />
       <File FileName="TestConsoleApi/Services/PetsService.cs" Line="11" Column="29" />
       <File FileName="TestConsoleApi/Services/HttpService.cs" Line="31" Column="54" />
-      <File FileName="TestApi/Model/Pets.cs" Line="6" Column="9" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="TestConsoleApi" expanded="True">
             <Node name="TestApi" expanded="True">
-              <Node name="Model" expanded="True">
-                <Node name="Pets.cs" selected="True" />
-              </Node>
+              <Node name="Model" expanded="True" />
             </Node>
             <Node name="TestConsoleApi" expanded="True">
               <Node name="Model" expanded="True" />
-              <Node name="Services" expanded="True" />
+              <Node name="Services" expanded="True">
+                <Node name="HttpService.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
