@@ -1,0 +1,7 @@
+/Users/rogerruizescobar/Projects/testWS1/testWS1/obj/x86/Debug/testWS1.csproj.CoreCompileInputs.cache
+/Users/rogerruizescobar/Projects/testWS1/testWS1/bin/Debug/Web References/www.dneonline.com/Reference.map
+/Users/rogerruizescobar/Projects/testWS1/testWS1/bin/Debug/testWS1.exe
+/Users/rogerruizescobar/Projects/testWS1/testWS1/bin/Debug/testWS1.pdb
+/Users/rogerruizescobar/Projects/testWS1/testWS1/obj/x86/Debug/testWS1.exe
+/Users/rogerruizescobar/Projects/testWS1/testWS1/obj/x86/Debug/testWS1.pdb
+/Users/rogerruizescobar/Projects/testWS1/testWS1/obj/x86/Debug/testWS1.csprojAssemblyReference.cache

@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{F91E6A79-6C6A-4E4C-87FE-E5B7220A4160}|Default">
+  <MonoDevelop.Ide.ItemProperties.DecRom PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DecRom/Program.cs">
+    <Files>
+      <File FileName="DecRom/Program.cs" Line="107" Column="40" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,24 @@
+﻿<Properties StartupConfiguration="{8169B00D-433B-4775-83B8-201E16F2A1CD}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WebApi/Controllers/ValuesController.cs">
+    <Files>
+      <File FileName="WebApi/Properties/launchSettings.json" Line="1" Column="1" />
+      <File FileName="WebApi/Controllers/ValuesController.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WebApi" expanded="True" selected="True">
+            <Node name="WebApi" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.WebApi PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

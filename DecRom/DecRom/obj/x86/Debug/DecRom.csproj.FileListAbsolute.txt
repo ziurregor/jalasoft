@@ -1,0 +1,6 @@
+/Users/rogerruizescobar/Projects/DecRom/DecRom/bin/Debug/DecRom.exe
+/Users/rogerruizescobar/Projects/DecRom/DecRom/bin/Debug/DecRom.pdb
+/Users/rogerruizescobar/Projects/DecRom/DecRom/obj/x86/Debug/DecRom.csprojAssemblyReference.cache
+/Users/rogerruizescobar/Projects/DecRom/DecRom/obj/x86/Debug/DecRom.csproj.CoreCompileInputs.cache
+/Users/rogerruizescobar/Projects/DecRom/DecRom/obj/x86/Debug/DecRom.exe
+/Users/rogerruizescobar/Projects/DecRom/DecRom/obj/x86/Debug/DecRom.pdb

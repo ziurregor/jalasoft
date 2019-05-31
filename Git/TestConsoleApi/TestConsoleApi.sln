@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsoleApi", "TestConsoleApi\TestConsoleApi.csproj", "{86B5A0D0-644F-43BE-8558-68B319FFE7A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApi", "TestApi\TestApi.csproj", "{A7836103-7FDD-45C6-85A9-55D50D79CF19}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86B5A0D0-644F-43BE-8558-68B319FFE7A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86B5A0D0-644F-43BE-8558-68B319FFE7A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86B5A0D0-644F-43BE-8558-68B319FFE7A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86B5A0D0-644F-43BE-8558-68B319FFE7A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7836103-7FDD-45C6-85A9-55D50D79CF19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7836103-7FDD-45C6-85A9-55D50D79CF19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7836103-7FDD-45C6-85A9-55D50D79CF19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7836103-7FDD-45C6-85A9-55D50D79CF19}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

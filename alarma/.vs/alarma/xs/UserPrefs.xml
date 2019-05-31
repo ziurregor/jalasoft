@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{44B9527C-A88C-4E5D-AC9C-9B1DC4E38BC9}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="alarma/alarmclock.cs">
+    <Files>
+      <File FileName="alarma/Program.cs" Line="19" Column="1" />
+      <File FileName="alarma/alarmclock.cs" Line="27" Column="18" />
+      <File FileName="alarma/alarma.cs" Line="1" Column="1" />
+      <File FileName="alarma/Event.cs" Line="7" Column="31" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="alarma" expanded="True">
+            <Node name="alarma" expanded="True">
+              <Node name="alarmclock.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.alarma PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

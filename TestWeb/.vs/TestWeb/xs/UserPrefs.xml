@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{2F7963B2-49E5-4149-8553-46ABAB18489E}|Default">
+  <MonoDevelop.Ide.ItemProperties.TestWeb PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestWeb/Program.cs">
+    <Files>
+      <File FileName="TestWeb/Controllers/HomeController.cs" Line="1" Column="1" />
+      <File FileName="TestWeb/Program.cs" Line="25" Column="1" />
+      <File FileName="TestWeb/Properties/launchSettings.json" Line="21" Column="30" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TestWeb" expanded="True">
+            <Node name="TestWeb" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

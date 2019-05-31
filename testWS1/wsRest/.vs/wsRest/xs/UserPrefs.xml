@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{42B1930D-9422-4A36-8D37-549523927287}|Default">
+  <MonoDevelop.Ide.ItemProperties.wsRest PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+    <Files>
+      <File FileName="Program.cs" Line="50" Column="18" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/rogerruizescobar/Projects/testWS1/wsRest/Program.cs" relfile="Program.cs" line="36" column="1" />
+      <Breakpoint file="/Users/rogerruizescobar/Projects/testWS1/wsRest/Program.cs" relfile="Program.cs" line="52" column="1" />
+      <Breakpoint file="/Users/rogerruizescobar/Projects/testWS1/wsRest/Program.cs" relfile="Program.cs" line="54" column="46" />
+      <Breakpoint file="/Users/rogerruizescobar/Projects/testWS1/wsRest/Program.cs" relfile="Program.cs" line="44" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

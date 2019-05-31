@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{4347BFFB-FF7A-465F-A84F-657673660758}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="VarianceAndContravariance/Program.cs">
+    <Files>
+      <File FileName="VarianceAndContravariance/Program.cs" Line="35" Column="25" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="VarianceAndContravariance" expanded="True">
+            <Node name="VarianceAndContravariance" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>this.todos</Value>
+          <Value>todos</Value>
+          <Value>todo</Value>
+          <Value>td</Value>
+          <Value>Lt.GetTodos()</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="../../../../../../../Documents/Git-GitLab/Git/JalasoftGit/DataAccessLogic/TodoRepository.cs" line="72" offsetX="302" offsetY="1065" expression="todos" liveUpdate="True" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.VarianceAndContravariance PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

@@ -1,0 +1,5 @@
+/Users/rogerruizescobar/Projects/testWS1/LegoRest/obj/x86/Debug/LegoRest.csproj.CoreCompileInputs.cache
+/Users/rogerruizescobar/Projects/testWS1/LegoRest/bin/Debug/LegoRest.exe
+/Users/rogerruizescobar/Projects/testWS1/LegoRest/bin/Debug/LegoRest.pdb
+/Users/rogerruizescobar/Projects/testWS1/LegoRest/obj/x86/Debug/LegoRest.exe
+/Users/rogerruizescobar/Projects/testWS1/LegoRest/obj/x86/Debug/LegoRest.pdb

@@ -1,0 +1,17 @@
+/Users/rogerruizescobar/Projects/testWS1/wswf.Tests/bin/Debug/wswf.Tests.dll
+/Users/rogerruizescobar/Projects/testWS1/wswf.Tests/bin/Debug/wswf.Tests.pdb
+/Users/rogerruizescobar/Projects/testWS1/wswf.Tests/bin/Debug/Newtonsoft.Json.dll
+/Users/rogerruizescobar/Projects/testWS1/wswf.Tests/bin/Debug/nunit.framework.dll
+/Users/rogerruizescobar/Projects/testWS1/wswf.Tests/bin/Debug/System.Net.Http.Formatting.dll
+/Users/rogerruizescobar/Projects/testWS1/wswf.Tests/bin/Debug/System.Web.Http.dll
+/Users/rogerruizescobar/Projects/testWS1/wswf.Tests/bin/Debug/System.Web.Http.WebHost.dll
+/Users/rogerruizescobar/Projects/testWS1/wswf.Tests/bin/Debug/nunit.framework.xml
+/Users/rogerruizescobar/Projects/testWS1/wswf.Tests/bin/Debug/System.Net.Http.Formatting.xml
+/Users/rogerruizescobar/Projects/testWS1/wswf.Tests/bin/Debug/System.Web.Http.xml
+/Users/rogerruizescobar/Projects/testWS1/wswf.Tests/bin/Debug/System.Web.Http.WebHost.xml
+/Users/rogerruizescobar/Projects/testWS1/wswf.Tests/bin/Debug/Newtonsoft.Json.xml
+/Users/rogerruizescobar/Projects/testWS1/wswf.Tests/obj/Debug/wswf.Tests.csprojAssemblyReference.cache
+/Users/rogerruizescobar/Projects/testWS1/wswf.Tests/obj/Debug/wswf.Tests.csproj.CoreCompileInputs.cache
+/Users/rogerruizescobar/Projects/testWS1/wswf.Tests/obj/Debug/wswf.Tests.csproj.CopyComplete
+/Users/rogerruizescobar/Projects/testWS1/wswf.Tests/obj/Debug/wswf.Tests.dll
+/Users/rogerruizescobar/Projects/testWS1/wswf.Tests/obj/Debug/wswf.Tests.pdb

@@ -1,0 +1,10 @@
+/Users/rogerruizescobar/Projects/testWS1/wsRest/obj/x86/Debug/wsRest.csprojAssemblyReference.cache
+/Users/rogerruizescobar/Projects/testWS1/wsRest/obj/x86/Debug/wsRest.csproj.CoreCompileInputs.cache
+/Users/rogerruizescobar/Projects/testWS1/wsRest/bin/Debug/wsRest.exe
+/Users/rogerruizescobar/Projects/testWS1/wsRest/bin/Debug/wsRest.pdb
+/Users/rogerruizescobar/Projects/testWS1/wsRest/bin/Debug/Newtonsoft.Json.dll
+/Users/rogerruizescobar/Projects/testWS1/wsRest/bin/Debug/Newtonsoft.Json.pdb
+/Users/rogerruizescobar/Projects/testWS1/wsRest/bin/Debug/Newtonsoft.Json.xml
+/Users/rogerruizescobar/Projects/testWS1/wsRest/obj/x86/Debug/wsRest.csproj.CopyComplete
+/Users/rogerruizescobar/Projects/testWS1/wsRest/obj/x86/Debug/wsRest.exe
+/Users/rogerruizescobar/Projects/testWS1/wsRest/obj/x86/Debug/wsRest.pdb

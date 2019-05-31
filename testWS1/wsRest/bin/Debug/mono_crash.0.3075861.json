@@ -1,0 +1,200 @@
+{
+  "protocol_version" : "0.0.1",
+  "configuration" : {
+    "version" : "5.16.0.221 (2018-06/b63e5378e38 Mon Nov 19 17:43:10 EST 2018)",
+    "tlc" : "normal",
+    "sigsgev" : "altstack",
+    "notifications" : "kqueue",
+    "architecture" : "x86",
+    "disabled_features" : "none",
+    "smallconfig" : "disabled",
+    "bigarrays" : "disabled",
+    "softdebug" : "enabled",
+    "interpreter" : "enabled",
+    "llvm_support" : "3.6.0svn-mono-release_60/0b3cb8ac12c"
+  },
+  "memory" : {
+    "Resident Size" : "29220864",
+    "Virtual Size" : "727425024",
+    "minor_gc_time" : "0",
+    "major_gc_time" : "0",
+    "minor_gc_count" : "0",
+    "major_gc_count" : "0",
+    "major_gc_time_concurrent" : "0"
+  },
+  "threads" : [
+    {
+      "is_managed" : false,
+      "managed_thread_ptr" : "0x0",
+      "thread_info_addr" : "0x0",
+      "thread_name" : "tid_5107",
+      "native_thread_id" : "0xb055e000",
+      "ctx" : {
+        "IP" : "0xa73dfed6",
+        "SP" : "0xb055da3c",
+        "BP" : "0xb055da68"
+      },
+      "unmanaged_frames" : [
+        {
+          "native_address" : "unregistered"
+        },
+        {
+          "native_address" : "unregistered"
+        },
+        {
+          "native_address" : "unregistered"
+        },
+        {
+          "native_address" : "unregistered"
+        },
+        {
+          "native_address" : "unregistered"
+        },
+        {
+          "native_address" : "unregistered"
+        },
+        {
+          "native_address" : "unregistered"
+        },
+        {
+          "native_address" : "unregistered"
+        },
+        {
+          "native_address" : "unregistered"
+        },
+        {
+          "native_address" : "unregistered"
+        },
+        {
+          "native_address" : "unregistered"
+        },
+        {
+          "native_address" : "unregistered"
+        },
+        {
+          "native_address" : "unregistered"
+        },
+        {
+          "native_address" : "unregistered"
+        },
+        {
+          "native_address" : "unregistered"
+        },
+        {
+          "native_address" : "unregistered"
+        },
+        {
+          "native_address" : "unregistered"
+        },
+        {
+          "native_address" : "unregistered"
+        },
+        {
+          "native_address" : "unregistered"
+        },
+        {
+          "native_address" : "unregistered"
+        },
+        {
+          "native_address" : "unregistered"
+        }
+      ]
+    },
+    {
+      "is_managed" : false,
+      "managed_thread_ptr" : "0x0",
+      "thread_info_addr" : "0x0",
+      "thread_name" : "tid_303",
+      "native_thread_id" : "0xa98581c0",
+      "ctx" : {
+        "IP" : "0xa73dfd4e",
+        "SP" : "0xbffe612c",
+        "BP" : "0xbffe61a8"
+      },
+      "unmanaged_frames" : [
+        {
+          "native_address" : "unregistered"
+        },
+        {
+          "native_address" : "unregistered"
+        },
+        {
+          "native_address" : "unregistered"
+        },
+        {
+          "native_address" : "unregistered"
+        },
+        {
+          "native_address" : "unregistered"
+        },
+        {
+          "native_address" : "unregistered"
+        },
+        {
+          "native_address" : "unregistered"
+        },
+        {
+          "native_address" : "unregistered"
+        },
+        {
+          "native_address" : "unregistered"
+        },
+        {
+          "native_address" : "unregistered"
+        },
+        {
+          "native_address" : "unregistered"
+        },
+        {
+          "native_address" : "unregistered"
+        },
+        {
+          "native_address" : "unregistered"
+        },
+        {
+          "native_address" : "unregistered"
+        }
+      ]
+    },
+    {
+      "is_managed" : false,
+      "managed_thread_ptr" : "0x0",
+      "thread_info_addr" : "0x0",
+      "thread_name" : "Finalizer",
+      "native_thread_id" : "0xb0256000",
+      "ctx" : {
+        "IP" : "0xa73d643e",
+        "SP" : "0xb0255e6c",
+        "BP" : "0xb0255ef8"
+      },
+      "unmanaged_frames" : [
+        {
+          "native_address" : "unregistered"
+        },
+        {
+          "native_address" : "unregistered"
+        },
+        {
+          "native_address" : "unregistered"
+        },
+        {
+          "native_address" : "unregistered"
+        },
+        {
+          "native_address" : "unregistered"
+        },
+        {
+          "native_address" : "unregistered"
+        },
+        {
+          "native_address" : "unregistered"
+        },
+        {
+          "native_address" : "unregistered"
+        },
+        {
+          "native_address" : "unregistered"
+        }
+      ]
+    }
+  ]}

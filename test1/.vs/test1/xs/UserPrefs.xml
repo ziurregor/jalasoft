@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{3C133EF7-93E8-484A-9116-2F3E1469F405}|">
+  <MonoDevelop.Ide.ItemProperties.test1 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="test1/Default.aspx.cs">
+    <Files>
+      <File FileName="test1/Default.aspx" Line="10" Column="9" />
+      <File FileName="test1/Default.aspx.cs" Line="15" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

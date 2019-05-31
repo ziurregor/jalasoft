@@ -1,0 +1,4 @@
+/Users/rogerruizescobar/Projects/BackEnd/EventsDelegates/EventsDelegates/obj/Debug/netcoreapp2.1/EventsDelegates.csprojAssemblyReference.cache
+/Users/rogerruizescobar/Projects/BackEnd/EventsDelegates/EventsDelegates/obj/Debug/netcoreapp2.1/EventsDelegates.csproj.CoreCompileInputs.cache
+/Users/rogerruizescobar/Projects/BackEnd/EventsDelegates/EventsDelegates/obj/Debug/netcoreapp2.1/EventsDelegates.AssemblyInfoInputs.cache
+/Users/rogerruizescobar/Projects/BackEnd/EventsDelegates/EventsDelegates/obj/Debug/netcoreapp2.1/EventsDelegates.AssemblyInfo.cs

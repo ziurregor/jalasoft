@@ -1,0 +1,6 @@
+/Users/rogerruizescobar/Projects/testWS1/wswf/bin/wswf.dll
+/Users/rogerruizescobar/Projects/testWS1/wswf/bin/wswf.pdb
+/Users/rogerruizescobar/Projects/testWS1/wswf/obj/Debug/wswf.csprojAssemblyReference.cache
+/Users/rogerruizescobar/Projects/testWS1/wswf/obj/Debug/wswf.csproj.CoreCompileInputs.cache
+/Users/rogerruizescobar/Projects/testWS1/wswf/obj/Debug/wswf.dll
+/Users/rogerruizescobar/Projects/testWS1/wswf/obj/Debug/wswf.pdb

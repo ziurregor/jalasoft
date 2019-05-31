@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jalasoft.DotNetCode.Layerin", "Jalasoft.DotNetCode.Layerin\Jalasoft.DotNetCode.Layerin.csproj", "{C1D6DE0E-B8E9-4B81-8F3E-696A28225C57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinesLayer", "BusinesLayer\BusinesLayer.csproj", "{C0F143C2-9601-4917-903A-994F2063E617}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{16E7F385-29EA-462A-A1E8-A8586FB4A500}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1D6DE0E-B8E9-4B81-8F3E-696A28225C57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1D6DE0E-B8E9-4B81-8F3E-696A28225C57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1D6DE0E-B8E9-4B81-8F3E-696A28225C57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1D6DE0E-B8E9-4B81-8F3E-696A28225C57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0F143C2-9601-4917-903A-994F2063E617}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0F143C2-9601-4917-903A-994F2063E617}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0F143C2-9601-4917-903A-994F2063E617}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0F143C2-9601-4917-903A-994F2063E617}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16E7F385-29EA-462A-A1E8-A8586FB4A500}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16E7F385-29EA-462A-A1E8-A8586FB4A500}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16E7F385-29EA-462A-A1E8-A8586FB4A500}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16E7F385-29EA-462A-A1E8-A8586FB4A500}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

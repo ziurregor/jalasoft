@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{86B5A0D0-644F-43BE-8558-68B319FFE7A7}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestConsoleApi/Services/HttpService.cs">
+    <Files>
+      <File FileName="TestConsoleApi/Program.cs" Line="20" Column="1" />
+      <File FileName="TestConsoleApi/Services/PetsService.cs" Line="11" Column="29" />
+      <File FileName="TestConsoleApi/Services/HttpService.cs" Line="31" Column="54" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TestConsoleApi" expanded="True">
+            <Node name="TestApi" expanded="True">
+              <Node name="Model" expanded="True" />
+            </Node>
+            <Node name="TestConsoleApi" expanded="True">
+              <Node name="Model" expanded="True" />
+              <Node name="Services" expanded="True" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.TestConsoleApi PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/rogerruizescobar/Projects/Git/TestConsoleApi/TestApi/Controllers/PetsController.cs" relfile="TestApi/Controllers/PetsController.cs" line="28" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

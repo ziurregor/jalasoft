@@ -1,0 +1,6 @@
+/Users/rogerruizescobar/Projects/Git/TestConsoleApi/TestApi/obj/Debug/netcoreapp2.1/TestApi.csprojAssemblyReference.cache
+/Users/rogerruizescobar/Projects/Git/TestConsoleApi/TestApi/obj/Debug/netcoreapp2.1/TestApi.csproj.CoreCompileInputs.cache
+/Users/rogerruizescobar/Projects/Git/TestConsoleApi/TestApi/obj/Debug/netcoreapp2.1/TestApi.RazorAssemblyInfo.cache
+/Users/rogerruizescobar/Projects/Git/TestConsoleApi/TestApi/obj/Debug/netcoreapp2.1/TestApi.RazorAssemblyInfo.cs
+/Users/rogerruizescobar/Projects/Git/TestConsoleApi/TestApi/obj/Debug/netcoreapp2.1/TestApi.AssemblyInfoInputs.cache
+/Users/rogerruizescobar/Projects/Git/TestConsoleApi/TestApi/obj/Debug/netcoreapp2.1/TestApi.AssemblyInfo.cs

@@ -1,0 +1,11 @@
+/Users/rogerruizescobar/Projects/Git/TestConsoleApi/TestConsoleApi/bin/Debug/netcoreapp2.1/TestConsoleApi.deps.json
+/Users/rogerruizescobar/Projects/Git/TestConsoleApi/TestConsoleApi/bin/Debug/netcoreapp2.1/TestConsoleApi.runtimeconfig.json
+/Users/rogerruizescobar/Projects/Git/TestConsoleApi/TestConsoleApi/bin/Debug/netcoreapp2.1/TestConsoleApi.runtimeconfig.dev.json
+/Users/rogerruizescobar/Projects/Git/TestConsoleApi/TestConsoleApi/bin/Debug/netcoreapp2.1/TestConsoleApi.dll
+/Users/rogerruizescobar/Projects/Git/TestConsoleApi/TestConsoleApi/bin/Debug/netcoreapp2.1/TestConsoleApi.pdb
+/Users/rogerruizescobar/Projects/Git/TestConsoleApi/TestConsoleApi/obj/Debug/netcoreapp2.1/TestConsoleApi.csprojAssemblyReference.cache
+/Users/rogerruizescobar/Projects/Git/TestConsoleApi/TestConsoleApi/obj/Debug/netcoreapp2.1/TestConsoleApi.csproj.CoreCompileInputs.cache
+/Users/rogerruizescobar/Projects/Git/TestConsoleApi/TestConsoleApi/obj/Debug/netcoreapp2.1/TestConsoleApi.AssemblyInfoInputs.cache
+/Users/rogerruizescobar/Projects/Git/TestConsoleApi/TestConsoleApi/obj/Debug/netcoreapp2.1/TestConsoleApi.AssemblyInfo.cs
+/Users/rogerruizescobar/Projects/Git/TestConsoleApi/TestConsoleApi/obj/Debug/netcoreapp2.1/TestConsoleApi.dll
+/Users/rogerruizescobar/Projects/Git/TestConsoleApi/TestConsoleApi/obj/Debug/netcoreapp2.1/TestConsoleApi.pdb

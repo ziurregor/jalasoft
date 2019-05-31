@@ -1,0 +1,11 @@
+/Users/rogerruizescobar/Projects/Jalasoft.DotNet.RabbitNQ/Jalasoft.DotNet.RabbitNQ/bin/Debug/netcoreapp2.2/Jalasoft.DotNet.RabbitNQ.deps.json
+/Users/rogerruizescobar/Projects/Jalasoft.DotNet.RabbitNQ/Jalasoft.DotNet.RabbitNQ/bin/Debug/netcoreapp2.2/Jalasoft.DotNet.RabbitNQ.runtimeconfig.json
+/Users/rogerruizescobar/Projects/Jalasoft.DotNet.RabbitNQ/Jalasoft.DotNet.RabbitNQ/bin/Debug/netcoreapp2.2/Jalasoft.DotNet.RabbitNQ.runtimeconfig.dev.json
+/Users/rogerruizescobar/Projects/Jalasoft.DotNet.RabbitNQ/Jalasoft.DotNet.RabbitNQ/bin/Debug/netcoreapp2.2/Jalasoft.DotNet.RabbitNQ.dll
+/Users/rogerruizescobar/Projects/Jalasoft.DotNet.RabbitNQ/Jalasoft.DotNet.RabbitNQ/bin/Debug/netcoreapp2.2/Jalasoft.DotNet.RabbitNQ.pdb
+/Users/rogerruizescobar/Projects/Jalasoft.DotNet.RabbitNQ/Jalasoft.DotNet.RabbitNQ/obj/Debug/netcoreapp2.2/Jalasoft.DotNet.RabbitNQ.csprojAssemblyReference.cache
+/Users/rogerruizescobar/Projects/Jalasoft.DotNet.RabbitNQ/Jalasoft.DotNet.RabbitNQ/obj/Debug/netcoreapp2.2/Jalasoft.DotNet.RabbitNQ.csproj.CoreCompileInputs.cache
+/Users/rogerruizescobar/Projects/Jalasoft.DotNet.RabbitNQ/Jalasoft.DotNet.RabbitNQ/obj/Debug/netcoreapp2.2/Jalasoft.DotNet.RabbitNQ.AssemblyInfoInputs.cache
+/Users/rogerruizescobar/Projects/Jalasoft.DotNet.RabbitNQ/Jalasoft.DotNet.RabbitNQ/obj/Debug/netcoreapp2.2/Jalasoft.DotNet.RabbitNQ.AssemblyInfo.cs
+/Users/rogerruizescobar/Projects/Jalasoft.DotNet.RabbitNQ/Jalasoft.DotNet.RabbitNQ/obj/Debug/netcoreapp2.2/Jalasoft.DotNet.RabbitNQ.dll
+/Users/rogerruizescobar/Projects/Jalasoft.DotNet.RabbitNQ/Jalasoft.DotNet.RabbitNQ/obj/Debug/netcoreapp2.2/Jalasoft.DotNet.RabbitNQ.pdb

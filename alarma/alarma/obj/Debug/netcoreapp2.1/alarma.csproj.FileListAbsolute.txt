@@ -1,0 +1,11 @@
+/Users/rogerruizescobar/Projects/alarma/alarma/obj/Debug/netcoreapp2.1/alarma.csprojAssemblyReference.cache
+/Users/rogerruizescobar/Projects/alarma/alarma/obj/Debug/netcoreapp2.1/alarma.csproj.CoreCompileInputs.cache
+/Users/rogerruizescobar/Projects/alarma/alarma/obj/Debug/netcoreapp2.1/alarma.AssemblyInfoInputs.cache
+/Users/rogerruizescobar/Projects/alarma/alarma/obj/Debug/netcoreapp2.1/alarma.AssemblyInfo.cs
+/Users/rogerruizescobar/Projects/alarma/alarma/bin/Debug/netcoreapp2.1/alarma.deps.json
+/Users/rogerruizescobar/Projects/alarma/alarma/bin/Debug/netcoreapp2.1/alarma.runtimeconfig.json
+/Users/rogerruizescobar/Projects/alarma/alarma/bin/Debug/netcoreapp2.1/alarma.runtimeconfig.dev.json
+/Users/rogerruizescobar/Projects/alarma/alarma/bin/Debug/netcoreapp2.1/alarma.dll
+/Users/rogerruizescobar/Projects/alarma/alarma/bin/Debug/netcoreapp2.1/alarma.pdb
+/Users/rogerruizescobar/Projects/alarma/alarma/obj/Debug/netcoreapp2.1/alarma.dll
+/Users/rogerruizescobar/Projects/alarma/alarma/obj/Debug/netcoreapp2.1/alarma.pdb

@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{C1D6DE0E-B8E9-4B81-8F3E-696A28225C57}|Default">
+  <MonoDevelop.Ide.ItemProperties.DataAccessLayer FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DataAccessLayer/ITodos.cs">
+    <Files>
+      <File FileName="DataAccessLayer/ITodos.cs" Line="16" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Jalasoft.DotNetCode.Layerin" expanded="True">
+            <Node name="BusinesLayer" expanded="True" />
+            <Node name="DataAccessLayer" expanded="True">
+              <Node name="ITodos.cs" selected="True" />
+            </Node>
+            <Node name="Jalasoft.DotNetCode.Layerin" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Jalasoft.DotNetCode.Layerin FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.BusinesLayer FirstBuild="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

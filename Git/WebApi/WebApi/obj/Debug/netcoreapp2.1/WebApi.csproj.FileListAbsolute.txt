@@ -1,0 +1,14 @@
+/Users/rogerruizescobar/Projects/Git/WebApi/WebApi/bin/Debug/netcoreapp2.1/WebApi.deps.json
+/Users/rogerruizescobar/Projects/Git/WebApi/WebApi/bin/Debug/netcoreapp2.1/WebApi.runtimeconfig.json
+/Users/rogerruizescobar/Projects/Git/WebApi/WebApi/bin/Debug/netcoreapp2.1/WebApi.runtimeconfig.dev.json
+/Users/rogerruizescobar/Projects/Git/WebApi/WebApi/bin/Debug/netcoreapp2.1/WebApi.dll
+/Users/rogerruizescobar/Projects/Git/WebApi/WebApi/bin/Debug/netcoreapp2.1/WebApi.pdb
+/Users/rogerruizescobar/Projects/Git/WebApi/WebApi/obj/Debug/netcoreapp2.1/WebApi.csprojAssemblyReference.cache
+/Users/rogerruizescobar/Projects/Git/WebApi/WebApi/obj/Debug/netcoreapp2.1/WebApi.csproj.CoreCompileInputs.cache
+/Users/rogerruizescobar/Projects/Git/WebApi/WebApi/obj/Debug/netcoreapp2.1/WebApi.RazorAssemblyInfo.cache
+/Users/rogerruizescobar/Projects/Git/WebApi/WebApi/obj/Debug/netcoreapp2.1/WebApi.RazorAssemblyInfo.cs
+/Users/rogerruizescobar/Projects/Git/WebApi/WebApi/obj/Debug/netcoreapp2.1/WebApi.AssemblyInfoInputs.cache
+/Users/rogerruizescobar/Projects/Git/WebApi/WebApi/obj/Debug/netcoreapp2.1/WebApi.AssemblyInfo.cs
+/Users/rogerruizescobar/Projects/Git/WebApi/WebApi/obj/Debug/netcoreapp2.1/WebApi.RazorTargetAssemblyInfo.cache
+/Users/rogerruizescobar/Projects/Git/WebApi/WebApi/obj/Debug/netcoreapp2.1/WebApi.dll
+/Users/rogerruizescobar/Projects/Git/WebApi/WebApi/obj/Debug/netcoreapp2.1/WebApi.pdb

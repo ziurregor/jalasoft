@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{2466EF44-F804-4ABD-A0EB-EFA6863EE873}|">
+  <MonoDevelop.Ide.ItemProperties.test2 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="test2/Default.aspx.designer.cs">
+    <Files>
+      <File FileName="test2/Default.aspx" Line="13" Column="1" />
+      <File FileName="test2/Default.aspx.cs" Line="13" Column="10" />
+      <File FileName="test2/Default.aspx.designer.cs" Line="4" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
