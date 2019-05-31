@@ -1,0 +1,36 @@
+{  
+   "name":"Many to One",
+   "evalNameMaxChars":150,
+   "allowedCharsRule":"^(\\s*[\\w&!¡+\\-\\(\\),.´*@\\\\/%#?¿'\"_áéíóúÁÉÍÓÚÄËÏÖÜäëïöü]\\s*)*$",
+   "valueRequired":true,
+   "headers": [
+      {
+          "allowedCharsRule": "^(\\s*[\\w&!¡+\\-\\(\\),.´*@\\\\/%#?¿'\"_áéíóúÁÉÍÓÚÄËÏÖÜäëïöü]\\s*)*$",
+          "valueRequired": true,
+          "input": false,
+          "minChar": 0,
+          "maxChar": 150,
+          "type": "Text",
+          "id": "36004a67-4c36-4457-a30f-617ca9e0c838",
+          "label": "Description"
+      }
+   ],
+   "body":[  
+      {  
+         "optionRules":{  
+            "minOptions":2,
+            "maxOptions":7,
+            "optionType":"RadioWeight",
+            "allowedCharsRule":"^(\\s*[\\w&!¡+\\-\\(\\),.´*@\\\\/%#?¿'\"_áéíóúÁÉÍÓÚÄËÏÖÜäëïöü]\\s*)*$",
+            "valueRequired":true
+         },
+         "scoreFormula":"sum(i, 0, correctAnswersLength, correctAnswer(i))",
+         "allowedCharsRule":"^(\\s*[\\w&!¡+\\-\\(\\),.´*@\\\\/%#?¿'\"_áéíóúÁÉÍÓÚÄËÏÖÜäëïöü]\\s*)*$",
+         "valueRequired":true,
+         "weighted":true,
+         "id":"5f4df704-8201-4e4f-94c2-4409da82bdb9",
+         "label":"Single Choice With Weight"
+      }
+   ],
+   "id":"11111111-1111-1111-1111-111111111113"
+}

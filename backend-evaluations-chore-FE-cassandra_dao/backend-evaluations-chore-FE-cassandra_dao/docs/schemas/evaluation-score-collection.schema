@@ -1,0 +1,245 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/root.json",
+  "type": "array",
+  "title": "The Root Schema",
+  "items": {
+    "$id": "#/items",
+    "type": "object",
+    "title": "The Items Schema",
+    "required": [
+      "IdEvaluation",
+      "Date",
+      "Owner",
+      "Name",
+      "ScoreFormula",
+      "Score",
+      "QuestionList",
+      "Id"
+    ],
+    "properties": {
+      "IdEvaluation": {
+        "$id": "#/items/properties/IdEvaluation",
+        "type": "string",
+        "title": "The Idevaluation Schema",
+        "default": "",
+        "examples": [
+          "fc14823f-6b66-464e-8300-cafd61c14a63"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "Date": {
+        "$id": "#/items/properties/Date",
+        "type": "string",
+        "title": "The Date Schema",
+        "default": "",
+        "examples": [
+          "2019-03-18T15:47:11.7670291Z"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "Owner": {
+        "$id": "#/items/properties/Owner",
+        "type": "string",
+        "title": "The Owner Schema",
+        "default": "",
+        "examples": [
+          "John Doe"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "Name": {
+        "$id": "#/items/properties/Name",
+        "type": "string",
+        "title": "The Name Schema",
+        "default": "",
+        "examples": [
+          "Score evaluation"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "ScoreFormula": {
+        "$id": "#/items/properties/ScoreFormula",
+        "type": "string",
+        "title": "The Scoreformula Schema",
+        "default": "",
+        "examples": [
+          "sum(i, 0, questionsLenght, questionResult(i))"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "Score": {
+        "$id": "#/items/properties/Score",
+        "type": "integer",
+        "title": "The Score Schema",
+        "default": 0,
+        "examples": [
+          15
+        ]
+      },
+      "QuestionList": {
+        "$id": "#/items/properties/QuestionList",
+        "type": "object",
+        "title": "The Questionlist Schema",
+        "properties": {
+          "^[{(]?[0-9A-F]{8}[-]?(?:[0-9A-F]{4}[-]?){3}[0-9A-F]{12}[)}]?$": {
+            "$id": "#/items/properties/QuestionList/properties/44d6b843-02fa-412d-aee2-8585cccb8246",
+            "type": "object",
+            "title": "The Question Key Schema",
+            "required": [
+              "IdQuestion",
+              "Weigthed",
+              "Weight",
+              "Score",
+              "ScoreFormula",
+              "OptionList",
+              "Answers"
+            ],
+            "properties": {
+              "IdQuestion": {
+                "$id": "#/items/properties/QuestionList/properties/44d6b843-02fa-412d-aee2-8585cccb8246/properties/IdQuestion",
+                "type": "string",
+                "title": "The Idquestion Schema",
+                "default": "",
+                "examples": [
+                  "44d6b843-02fa-412d-aee2-8585cccb8246"
+                ],
+                "pattern": "^(.*)$"
+              },
+              "Weigthed": {
+                "$id": "#/items/properties/QuestionList/properties/44d6b843-02fa-412d-aee2-8585cccb8246/properties/Weigthed",
+                "type": "boolean",
+                "title": "The Weigthed Schema",
+                "default": false,
+                "examples": [
+                  true
+                ]
+              },
+              "Weight": {
+                "$id": "#/items/properties/QuestionList/properties/44d6b843-02fa-412d-aee2-8585cccb8246/properties/Weight",
+                "type": "integer",
+                "title": "The Weight Schema",
+                "default": 0,
+                "examples": [
+                  10
+                ]
+              },
+              "Score": {
+                "$id": "#/items/properties/QuestionList/properties/44d6b843-02fa-412d-aee2-8585cccb8246/properties/Score",
+                "type": "integer",
+                "title": "The Score Schema",
+                "default": 0,
+                "examples": [
+                  5
+                ]
+              },
+              "ScoreFormula": {
+                "$id": "#/items/properties/QuestionList/properties/44d6b843-02fa-412d-aee2-8585cccb8246/properties/ScoreFormula",
+                "type": "string",
+                "title": "The Scoreformula Schema",
+                "default": "",
+                "examples": [
+                  "sum(i, 0, correctAnswersLenght, correctAnswer(i))"
+                ],
+                "pattern": "^(.*)$"
+              },
+              "OptionList": {
+                "$id": "#/items/properties/QuestionList/properties/44d6b843-02fa-412d-aee2-8585cccb8246/properties/OptionList",
+                "type": "object",
+                "title": "The Optionlist Schema",
+                "properties": {
+                  "^[{(]?[0-9A-F]{8}[-]?(?:[0-9A-F]{4}[-]?){3}[0-9A-F]{12}[)}]?$": {
+                    "$id": "#/items/properties/QuestionList/properties/44d6b843-02fa-412d-aee2-8585cccb8246/properties/OptionList/properties/72f573fb-845d-4145-9fc5-c57a3ac8a0e3",
+                    "type": "object",
+                    "title": "The Option key Schema",
+                    "required": [
+                      "IdOption",
+                      "Sequence",
+                      "Weight",
+                      "UserSelected",
+                      "IsAnswer"
+                    ],
+                    "properties": {
+                      "IdOption": {
+                        "$id": "#/items/properties/QuestionList/properties/44d6b843-02fa-412d-aee2-8585cccb8246/properties/OptionList/properties/72f573fb-845d-4145-9fc5-c57a3ac8a0e3/properties/IdOption",
+                        "type": "string",
+                        "title": "The Idoption Schema",
+                        "default": "",
+                        "examples": [
+                          "72f573fb-845d-4145-9fc5-c57a3ac8a0e3"
+                        ],
+                        "pattern": "^(.*)$"
+                      },
+                      "Sequence": {
+                        "$id": "#/items/properties/QuestionList/properties/44d6b843-02fa-412d-aee2-8585cccb8246/properties/OptionList/properties/72f573fb-845d-4145-9fc5-c57a3ac8a0e3/properties/Sequence",
+                        "type": "integer",
+                        "title": "The Sequence Schema",
+                        "default": 0,
+                        "examples": [
+                          1
+                        ]
+                      },
+                      "Weight": {
+                        "$id": "#/items/properties/QuestionList/properties/44d6b843-02fa-412d-aee2-8585cccb8246/properties/OptionList/properties/72f573fb-845d-4145-9fc5-c57a3ac8a0e3/properties/Weight",
+                        "type": "integer",
+                        "title": "The Weight Schema",
+                        "default": 0,
+                        "examples": [
+                          5
+                        ]
+                      },
+                      "UserSelected": {
+                        "$id": "#/items/properties/QuestionList/properties/44d6b843-02fa-412d-aee2-8585cccb8246/properties/OptionList/properties/72f573fb-845d-4145-9fc5-c57a3ac8a0e3/properties/UserSelected",
+                        "type": "boolean",
+                        "title": "The Userselected Schema",
+                        "default": false,
+                        "examples": [
+                          true
+                        ]
+                      },
+                      "IsAnswer": {
+                        "$id": "#/items/properties/QuestionList/properties/44d6b843-02fa-412d-aee2-8585cccb8246/properties/OptionList/properties/72f573fb-845d-4145-9fc5-c57a3ac8a0e3/properties/IsAnswer",
+                        "type": "boolean",
+                        "title": "The Isanswer Schema",
+                        "default": false,
+                        "examples": [
+                          true
+                        ]
+                      }
+                    }
+                  }
+                }
+              },
+              "Answers": {
+                "$id": "#/items/properties/QuestionList/properties/44d6b843-02fa-412d-aee2-8585cccb8246/properties/Answers",
+                "type": "array",
+                "title": "The Answers Schema",
+                "items": {
+                  "$id": "#/items/properties/QuestionList/properties/44d6b843-02fa-412d-aee2-8585cccb8246/properties/Answers/items",
+                  "type": "string",
+                  "title": "The Items Schema",
+                  "default": "",
+                  "examples": [
+                    "72f573fb-845d-4145-9fc5-c57a3ac8a0e3"
+                  ],
+                  "pattern": "^(.*)$"
+                }
+              }
+            }
+          }
+        }
+      },
+      "Id": {
+        "$id": "#/items/properties/Id",
+        "type": "string",
+        "title": "The Id Schema",
+        "default": "",
+        "examples": [
+          "70ec96a5-2adf-463b-a538-b48db06ddeb8"
+        ],
+        "pattern": "^(.*)$"
+      }
+    }
+  }
+}

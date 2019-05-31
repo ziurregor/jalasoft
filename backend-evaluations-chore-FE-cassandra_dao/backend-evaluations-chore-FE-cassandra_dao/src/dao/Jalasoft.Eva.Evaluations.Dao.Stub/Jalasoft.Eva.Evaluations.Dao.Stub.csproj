@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <CodeAnalysisRuleSet>../../../Jalasoft.Eva.StyleCopRuleset.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="StyleCop.Analyzers" Version="1.0.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Jalasoft.Eva.Core.Logger" Version="0.1.0" />
+    <PackageReference Include="log4net" Version="2.0.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\core\domain\Jalasoft.Eva.Evaluations.Domain\Jalasoft.Eva.Evaluations.Domain.csproj" />
+    <ProjectReference Include="..\Jalasoft.Eva.Evaluations.Dao\Jalasoft.Eva.Evaluations.Dao.csproj" />
+  </ItemGroup>
+
+</Project>

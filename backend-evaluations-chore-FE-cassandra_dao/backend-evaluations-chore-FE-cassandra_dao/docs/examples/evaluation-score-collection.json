@@ -1,0 +1,128 @@
+[
+    {
+        "IdEvaluation": "fc14823f-6b66-464e-8300-cafd61c14a63",
+        "Date": "2019-03-18T15:47:11.7670291Z",
+        "Owner": "John Doe",
+        "Name": "Score evaluation",
+        "ScoreFormula": "sum(i, 0, questionsLength, questionResult(i))",
+        "Score": 15,
+        "QuestionList": {
+            "44d6b843-02fa-412d-aee2-8585cccb8246": {
+                "IdQuestion": "44d6b843-02fa-412d-aee2-8585cccb8246",
+                "Weigthed": true,
+                "Weight": 10,
+                "Score": 5,
+                "ScoreFormula": "sum(i, 0, correctAnswersLength, correctAnswer(i))",
+                "OptionList": {
+                    "72f573fb-845d-4145-9fc5-c57a3ac8a0e3": {
+                        "IdOption": "72f573fb-845d-4145-9fc5-c57a3ac8a0e3",
+                        "Sequence": 1,
+                        "Weight": 5,
+                        "UserSelected": true,
+                        "IsAnswer": true
+                    },
+                    "91a62c17-30f7-4096-a631-9b2d3d63856f": {
+                        "IdOption": "91a62c17-30f7-4096-a631-9b2d3d63856f",
+                        "Sequence": 2,
+                        "Weight": 5,
+                        "UserSelected": false,
+                        "IsAnswer": true
+                    }
+                },
+                "Answers": [
+                    "72f573fb-845d-4145-9fc5-c57a3ac8a0e3"
+                ]
+            },
+            "28a66790-05e1-41e6-b000-d21f5be7bcd9": {
+                "IdQuestion": "28a66790-05e1-41e6-b000-d21f5be7bcd9",
+                "Weigthed": true,
+                "Weight": 10,
+                "Score": 10,
+                "ScoreFormula": "sum(i, 0, correctAnswersLength, correctAnswer(i))",
+                "OptionList": {
+                    "7ab16ebc-51f5-4cb1-bce2-e91f13e0ff81": {
+                        "IdOption": "7ab16ebc-51f5-4cb1-bce2-e91f13e0ff81",
+                        "Sequence": 1,
+                        "Weight": 10,
+                        "UserSelected": true,
+                        "IsAnswer": true
+                    },
+                    "f398c3b5-450f-4df4-aef0-90bc9a68678d": {
+                        "IdOption": "f398c3b5-450f-4df4-aef0-90bc9a68678d",
+                        "Sequence": 2,
+                        "Weight": 0,
+                        "UserSelected": false,
+                        "IsAnswer": false
+                    }
+                },
+                "Answers": [
+                    "7ab16ebc-51f5-4cb1-bce2-e91f13e0ff81"
+                ]
+            }
+        },
+        "Id": "70ec96a5-2adf-463b-a538-b48db06ddeb8"
+    },
+    {
+        "IdEvaluation": "fc14823f-6b66-464e-8300-cafd61c14a63",
+        "Date": "2019-03-18T15:47:11.7670291Z",
+        "Owner": "annonymous",
+        "Name": "Score evaluation",
+        "ScoreFormula": "sum(i, 0, questionsLength, questionResult(i))",
+        "Score": 15,
+        "QuestionList": {
+            "44d6b843-02fa-412d-aee2-8585cccb8246": {
+                "IdQuestion": "44d6b843-02fa-412d-aee2-8585cccb8246",
+                "Weigthed": true,
+                "Weight": 10,
+                "Score": 5,
+                "ScoreFormula": "sum(i, 0, correctAnswersLength, correctAnswer(i))",
+                "OptionList": {
+                    "72f573fb-845d-4145-9fc5-c57a3ac8a0e3": {
+                        "IdOption": "72f573fb-845d-4145-9fc5-c57a3ac8a0e3",
+                        "Sequence": 1,
+                        "Weight": 5,
+                        "UserSelected": true,
+                        "IsAnswer": true
+                    },
+                    "91a62c17-30f7-4096-a631-9b2d3d63856f": {
+                        "IdOption": "91a62c17-30f7-4096-a631-9b2d3d63856f",
+                        "Sequence": 2,
+                        "Weight": 5,
+                        "UserSelected": false,
+                        "IsAnswer": true
+                    }
+                },
+                "Answers": [
+                    "72f573fb-845d-4145-9fc5-c57a3ac8a0e3"
+                ]
+            },
+            "28a66790-05e1-41e6-b000-d21f5be7bcd9": {
+                "IdQuestion": "28a66790-05e1-41e6-b000-d21f5be7bcd9",
+                "Weigthed": true,
+                "Weight": 10,
+                "Score": 10,
+                "ScoreFormula": "sum(i, 0, correctAnswersLength, correctAnswer(i))",
+                "OptionList": {
+                    "7ab16ebc-51f5-4cb1-bce2-e91f13e0ff81": {
+                        "IdOption": "7ab16ebc-51f5-4cb1-bce2-e91f13e0ff81",
+                        "Sequence": 1,
+                        "Weight": 10,
+                        "UserSelected": true,
+                        "IsAnswer": true
+                    },
+                    "f398c3b5-450f-4df4-aef0-90bc9a68678d": {
+                        "IdOption": "f398c3b5-450f-4df4-aef0-90bc9a68678d",
+                        "Sequence": 2,
+                        "Weight": 0,
+                        "UserSelected": false,
+                        "IsAnswer": false
+                    }
+                },
+                "Answers": [
+                    "7ab16ebc-51f5-4cb1-bce2-e91f13e0ff81"
+                ]
+            }
+        },
+        "Id": "5f4df704-8201-4e4f-94c2-4409da82bdb9"
+    }
+]

@@ -1,0 +1,276 @@
+#%RAML 1.0
+title: EvaPro
+baseUri: /api/v1
+types:
+  health: !include schemas/health.schema
+  evaluation: !include schemas/evaluation.schema
+  evaluation-collection: !include schemas/evaluation-collection.schema
+  template: !include schemas/template.schema
+  template-collection: !include schemas/template-collection.schema  
+  http-error-collection: !include schemas/http-error-collection.schema
+  evaluation-answer: !include schemas/evaluation-answer.schema
+  evaluation-score: !include schemas/evaluation-score.schema
+  evaluation-score-collection: !include schemas/evaluation-score-collection.schema
+
+/health:
+  get:
+    description: Get service health information
+    responses:
+      200:
+        body:
+          application/json:
+            type: health
+            example: !include /examples/health.json
+
+/evaluations:
+  get:
+      description: Get a list of evaluations
+      queryParameters:
+        page[number]:
+          description: Specify the page that you want to retrieve
+          type: integer
+          required: true
+          minimum: 1          
+          example: 1
+        page[size]:
+          description: Specify the amount of items that will be retrieved per page
+          type: integer
+          required: true
+          minimum: 1    
+          example: 20
+        filter:
+          description: Specify how to filter the collection by name
+          type: string
+          required: false          
+          default: ""
+          example: "tech"
+        sort:
+          description: Specify the sorting criteria by property, either ascendand or descendant (appending "-" symbol at property's beginning)
+          type: string
+          required: false
+          default:
+          example: -Name
+      responses:
+        200:
+          body:
+            application/json:
+              type: evaluation-collection
+              example: !include examples/evaluation-collection.json
+  post:
+      description: Post a new evaluation
+      body:
+        application/json:
+          examples: 
+            example1: !include examples/evaluation-post.json
+            example2: !include examples/evaluation-post-m2o.json
+      responses:
+        201:
+          body:
+            application/json:
+              type: evaluation
+              examples: 
+                example1: !include examples/evaluation.json
+                example2: !include examples/evaluation-m2o.json
+        400:
+          body:
+            application/json:
+              type: http-error-collection
+              example: !include examples/http-error-collection.json
+  /{id}:
+    get:
+      description: Get an evaluation
+      responses:
+        200:
+          body:
+            application/json:
+              type: evaluation
+              example: !include examples/evaluation.json
+    delete:
+      description: Delete an evaluation
+      responses:
+        204:
+          description: No Content
+        404:
+          description: Not found
+          body:
+            application/json:
+              example: |
+                {
+                  "Id": "74afde12-3d18-452f-90cc-a3361116485f",
+                  "Detail": "Unable to find an evaluation with id 11111111-1111-1111-1111-111111111119"
+                }
+        400:
+          description: Bad request
+          body:
+            application/json:
+              example: |
+                {
+                  "Id": "6c3a96ed-4c41-476b-ac6b-59715a624eea",
+                  "Detail": "Invalid Id request, please enter a valid GUID for evaluation"
+                }
+    patch:
+      description: Update a evaluation
+      body:
+        application/json:
+          type: evaluation
+      responses:
+        204:
+          description: Sucessful update
+        404:
+          description: Not found
+          body:
+            application/json:
+              example: |
+                {
+                  "Id": "4f93110d-18f4-4ccd-8e2d-463b7943581e",
+                  "Detail": "Evaluation could not be found"
+                }
+    /answers:
+      get:
+        description: Get the list of answers of an evaluation
+        responses: 
+          200:
+            body:
+              application/json:
+                type: evaluation-score-collection
+                example: !include examples/evaluation-score-collection.json
+      post:
+        description: Post a set of new answers for the evaluation
+        body:
+          application/json:
+            type: evaluation-answer
+            example: !include examples/evaluation-answer-post.json
+        responses:
+          201:
+            description: Succesful creation of answers for the evaluation
+            body:
+              application/json:
+                type: evaluation-score
+                example: !include examples/evaluation-score.json
+          404:
+            description: Not found
+            body:
+              application/json:
+                example: |
+                  {
+                    "Errors": [
+                      {
+                        "Id": "c9817ff4-fef0-4e7a-b696-601282765b60",
+                        "Detail": "Unable to find an evaluation with id 6cd36dd4-ff22-4462-aa6a-37fc22a77ddb"
+                      }
+                    ]
+                  }
+      /{id}:
+        get:
+          description: Get the answers of an evaluation
+          responses: 
+            200:
+              description: Answers have been found for the given evaluation
+              body:
+                application/json:
+                  type: evaluation-score
+                  example: !include examples/evaluation-score.json
+            404:
+              description: Not found
+              body:
+                application/json:
+                  type:
+                  example: |
+                    {
+                      "Errors": [
+                        {
+                          "Id": "c9817ff4-fef0-4e7a-b696-601282765b60",
+                          "Detail": "Unable to find an evaluation with id 6cd36dd4-ff22-4462-aa6a-37fc22a77ddb"
+                        }
+                      ]
+                    }
+/templates:
+  get:
+      description: Get the list of templates
+      responses:
+          200:
+            body:
+              application/json:
+                type: template-collection
+                example: !include examples/template-collection.json
+
+  post:
+      description: Posts a new template
+      body:
+        application/json:
+          type: template
+          examples: 
+            example1: !include examples/template.json
+            example2: !include examples/template-m2o.json
+
+      responses:
+        201:
+          body:
+            application/json:
+              type: template
+              examples: 
+                example1: !include examples/template.json
+                example2: !include examples/template-m2o.json
+
+  /{id}:
+    get:
+        description: Read (Get) a single template with 'id' parameter.
+        responses:
+          404:
+            description: Not found
+            body:
+              application/json:
+                example: |
+                  {
+                    "Id": "74afde12-3d18-452f-90cc-a3361116485f",
+                    "Detail": "Unable to find a template with id 11111111-1111-1111-1111-111111111119"
+                  }
+          200:
+            body:
+              application/json:
+                type: template
+                example: !include examples/template.json
+
+    delete:
+      description: Delete a template
+      responses:
+        204:
+          description: No Content
+        404:
+          description: Not found
+          body:
+            application/json:
+              example: |
+                {
+                  "Id": "74afde12-3d18-452f-90cc-a3361116485f",
+                  "Detail": "Unable to find an evaluation with id 11111111-1111-1111-1111-111111111119"
+                }
+        400:
+          description: Bad request
+          body:
+            application/json:
+              example: |
+                {
+                  "Id": "6c3a96ed-4c41-476b-ac6b-59715a624eea",
+                  "Detail": "Invalid Id request, please enter a valid GUID for template"
+                }
+
+    patch:
+      description: Update a template
+      body:
+        application/json:
+          type: template
+          example: !include examples/template.json
+
+      responses:
+        204:
+          description: Sucessful update
+        404:
+          description: Not found
+          body:
+            application/json:
+              example: |
+                {
+                  "Id": "4f93110d-18f4-4ccd-8e2d-463b7943581e",
+                  "Detail": "Template could not be found"
+                }

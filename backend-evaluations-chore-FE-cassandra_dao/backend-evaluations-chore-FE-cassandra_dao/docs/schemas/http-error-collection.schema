@@ -1,0 +1,48 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/root.json",
+  "type": "object",
+  "title": "The Http Error Collection Schema",
+  "required": [
+    "Errors"
+  ],
+  "properties": {
+    "Errors": {
+      "$id": "#/properties/Errors",
+      "type": "array",
+      "title": "The Errors Schema",
+      "items": {
+        "$id": "#/properties/Errors/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "required": [
+          "Id",
+          "Details"
+        ],
+        "properties": {
+          "Id": {
+            "$id": "#/properties/Errors/items/properties/Id",
+            "type": "string",
+            "title": "The Id Schema",
+            "default": "",
+            "examples": [
+              "12321412"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "Details": {
+            "$id": "#/properties/Errors/items/properties/Details",
+            "type": "string",
+            "title": "The Details Schema",
+            "default": "",
+            "examples": [
+              "the details"
+            ],
+            "pattern": "^(.*)$"
+          }
+        }
+      }
+    }
+  }
+}

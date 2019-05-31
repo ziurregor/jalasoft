@@ -1,0 +1,33 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/root.json",
+  "type": "object",
+  "title": "The Http Error Schema",
+  "required": [
+    "Id",
+    "Details"
+  ],
+  "properties": {
+    "Id": {
+      "$id": "#/properties/Id",
+      "type": "string",
+      "title": "The Id Schema",
+      "default": "",
+      "examples": [
+        "12321412"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "Details": {
+      "$id": "#/properties/Details",
+      "type": "string",
+      "title": "The Details Schema",
+      "default": "",
+      "examples": [
+        "the details"
+      ],
+      "pattern": "^(.*)$"
+    }
+  }
+}

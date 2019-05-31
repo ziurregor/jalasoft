@@ -1,0 +1,117 @@
+{
+  "Name": "Ruben 360 Evaluation",
+  "IdTemplate": "11111111-1111-1111-1111-111111111112",
+  "Owner": "John Doe",
+  "QualificationRanges": [
+    {
+      "Id": "c6739efc-de61-4bd5-9497-a4d6c070e03b",
+      "Start": 0,
+      "End": 50,
+      "Qualification": "Reproved"
+    },
+    {
+      "Id": "394a2b46-c963-4e0d-83d5-c0c141b1ba7b",
+      "Start": 51,
+      "End": 100,
+      "Qualification": "Approved"
+    }
+  ],
+  "Headers": [
+    {
+      "IdTemplateDataField": "36004a67-4c36-4457-a30f-617ca9e0c838",
+      "Value": "360 Evaluation"
+    },
+    {
+      "IdTemplateDataField": "5fc44a67-4c36-4457-a30f-617ca9e98f4q",
+      "Value": "Within these questions you'll evaluate your teammate's performance in different areas."
+    },
+    {
+      "IdTemplateDataField": "b9ec7a3d-f201-457a-9521-89ec9e88ce38",
+      "Value": 3600
+    }
+  ],
+  "Body": [
+    {
+      "id": "68f31a7b-c48-300d-7714-835cf346b927",
+      "sequence": 1,
+      "name": "Best practices",
+      "questions": [
+        {
+          "Sequence": 1,
+          "IdTemplateQuestionField": "bb457d6c-2422-4adf-8517-46d95fc962e6",
+          "Options": [
+            {
+              "Sequence": 1,
+              "Text": "Often",
+              "Weight": 3
+            },
+            {
+              "Sequence": 2,
+              "Text": "Sometimes",
+              "Weight": 2
+            },
+            {
+              "Sequence": 3,
+              "Text": "Rarely",
+              "Weight": 1
+            },
+            {
+              "Sequence": 4,
+              "Text": "Never",
+              "Weight": 0
+            }
+          ],
+          "Text": "Does the candidate Apply TDD?",
+          "Weight": 3,
+          "Weighted": true
+        },
+        {
+          "Sequence": 2,
+          "IdTemplateQuestionField": "5f4df704-8201-4e4f-94c2-4409da82bdb9",
+          "Options": [
+            {
+              "Sequence": 1,
+              "Text": "TDD",
+              "Weight": 1
+            },
+            {
+              "Sequence": 2,
+              "Text": "Code Styling",
+              "Weight": 1
+            },
+            {
+              "Sequence": 3,
+              "Text": "DDD",
+              "Weight": 1
+            },
+            {
+              "Sequence": 4,
+              "Text": "MVV",
+              "Weight": 1
+            }
+          ],
+          "Text": "Which of the following practices does the candidate follow?",
+          "Weight": 4,
+          "Weighted": false
+        },
+        {
+          "Sequence": 3,
+          "IdTemplateQuestionField": "5f4df704-8201-4e4f-94c2-4409da82bdb9",
+          "Options": [
+            {
+              "Text": "Honesty",
+              "Weight": 0
+            },
+            {
+              "Text": "Robbery",
+              "Weight": 7
+            }
+          ],
+          "Text": "What values does the candidate follow?",
+          "Weight": 7,
+          "Weighted": true
+        }
+      ]
+    }
+  ]
+}
