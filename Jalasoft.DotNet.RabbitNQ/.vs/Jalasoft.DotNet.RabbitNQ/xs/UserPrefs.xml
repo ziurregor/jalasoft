@@ -1,26 +1,38 @@
 ﻿<Properties StartupConfiguration="{A102D608-2131-4866-A481-2B93A77CB6E5}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="alasoft.DotNet.RabbitNQ.Receiver/Program.cs">
     <Files>
-      <File FileName="Jalasoft.DotNet.RabbitNQ/Program.cs" Line="19" Column="36" />
-      <File FileName="alasoft.DotNet.RabbitNQ.Receiver/Program.cs" Line="2" Column="12" />
+      <File FileName="Jalasoft.DotNet.RabbitNQ/Program.cs" Line="55" Column="10" />
+      <File FileName="alasoft.DotNet.RabbitNQ.Receiver/Program.cs" Line="36" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Jalasoft.DotNet.RabbitNQ" expanded="True">
-            <Node name="Jalasoft.DotNet.RabbitNQ" expanded="True" />
-            <Node name="Jalasoft.DotNet.RabbitNQ.Receiver" expanded="True" selected="True" />
+            <Node name="Jalasoft.DotNet.RabbitNQ" expanded="True">
+              <Node name="Model" expanded="True" />
+            </Node>
+            <Node name="Jalasoft.DotNet.RabbitNQ.Receiver" expanded="True">
+              <Node name="Model" expanded="True" />
+              <Node name="Program.cs" selected="True" />
+            </Node>
           </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>queueName</Value>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.Jalasoft.DotNet.RabbitNQ PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Jalasoft.DotNet.RabbitNQ.Receiver FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Jalasoft.DotNet.RabbitNQ.Receiver PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/rogerruizescobar/Projects/Jalasoft.DotNet.RabbitNQ/alasoft.DotNet.RabbitNQ.Receiver/Program.cs" relfile="alasoft.DotNet.RabbitNQ.Receiver/Program.cs" line="10" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

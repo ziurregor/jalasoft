@@ -3,6 +3,8 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="DataAccessLayer/ITodos.cs">
     <Files>
       <File FileName="DataAccessLayer/ITodos.cs" Line="16" Column="1" />
+      <File FileName="Jalasoft.DotNetCode.Layerin/Controllers/ValuesController.cs" Line="1" Column="1" />
+      <File FileName="DataAccessLayer/Todos.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -10,9 +12,12 @@
           <Node name="Jalasoft.DotNetCode.Layerin" expanded="True">
             <Node name="BusinesLayer" expanded="True" />
             <Node name="DataAccessLayer" expanded="True">
-              <Node name="ITodos.cs" selected="True" />
+              <Node name="Todos.cs" selected="True" />
             </Node>
-            <Node name="Jalasoft.DotNetCode.Layerin" expanded="True" />
+            <Node name="Jalasoft.DotNetCode.Layerin" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Properties" expanded="True" />
+            </Node>
           </Node>
         </State>
       </Pad>

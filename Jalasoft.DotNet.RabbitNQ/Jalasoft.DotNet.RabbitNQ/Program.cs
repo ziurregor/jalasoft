@@ -2,6 +2,8 @@
 using System.Linq;
 using RabbitMQ.Client;
 using System.Text;
+using Jalasoft.DotNet.RabbitNQ.Model;
+using Newtonsoft.Json;
 
 class EmitLogTopic
 {
@@ -39,10 +41,17 @@ class EmitLogTopic
                               routingKey: "*.topic");
 
             var routingKey = (args.Length > 0) ? args[0] : "anonymous.info";
-            var message = (args.Length > 1)
-                          ? string.Join(" ", args.Skip(1).ToArray())
-                          : "Hello World!";
-            var body = Encoding.UTF8.GetBytes(message);
+
+            //var message = (args.Length > 1)
+                          //? string.Join(" ", args.Skip(1).ToArray())
+                          //: "Hello World!";
+
+            var message = new Product();
+            message.ProductName = "TV 14'";
+            message.Group = "Electronic";
+            message.Price = 100;
+
+            var body = Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(message));
             channel.BasicPublish(exchange: "topic_logs",
                                  routingKey: routingKey,
                                  basicProperties: null,

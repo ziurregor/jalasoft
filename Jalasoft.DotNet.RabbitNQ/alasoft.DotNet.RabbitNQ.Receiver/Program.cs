@@ -2,6 +2,7 @@
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 using System.Text;
+using Newtonsoft.Json;
 
 class ReceiveLogsTopic
 {
@@ -38,11 +39,12 @@ class ReceiveLogsTopic
             consumer.Received += (model, ea) =>
             {
                 var body = ea.Body;
-                var message = Encoding.UTF8.GetString(body);
+                var message = JsonConvert.DeserializeObject(Encoding.UTF8.GetString(body));
+
                 var routingKey = ea.RoutingKey;
                 Console.WriteLine(" [x] Received '{0}':'{1}'",
                                   routingKey,
-                                  message);
+                                  message.ToString());
             };
             channel.BasicConsume(queue: queueName,
                                  autoAck: true,
