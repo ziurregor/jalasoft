@@ -38,13 +38,13 @@ class EmitLogTopic
                                 );
             channel.QueueBind(queue: "Q1", 
                               exchange: "E1", 
-                              routingKey: "anonymous.#");
+                              routingKey: "*.Beni.*.Electrodomestics");
             channel.QueueBind(queue: "Q2",
                               exchange: "E2",
-                              routingKey: "anonymous.*");
+                              routingKey: "Oriente.Beni.New.#");
             channel.QueueBind(queue: "Q3",
                               exchange: "E1",
-                              routingKey: "*.topic");
+                              routingKey: "Oriente.*.*.Electrodomestics");
 
             var routingKey = (args.Length > 0) ? args[0] : "anonymous.info";
 
