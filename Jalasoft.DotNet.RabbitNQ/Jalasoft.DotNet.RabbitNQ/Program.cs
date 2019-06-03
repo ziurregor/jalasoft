@@ -13,8 +13,14 @@ class EmitLogTopic
         using (var connection = factory.CreateConnection())
         using (var channel = connection.CreateModel())
         {
-            channel.ExchangeDeclare(exchange: "topic_logs",
+
+
+            channel.ExchangeDeclare(exchange: "E1",
                                     type: "topic");
+            channel.ExchangeDeclare(exchange: "E2",
+                                    type: "topic");
+
+
             channel.QueueDeclare(queue: "Q1", 
                                  durable: true, 
                                  exclusive: false, 
@@ -31,13 +37,13 @@ class EmitLogTopic
                                  autoDelete: false
                                 );
             channel.QueueBind(queue: "Q1", 
-                              exchange: "topic_logs", 
+                              exchange: "E1", 
                               routingKey: "anonymous.#");
             channel.QueueBind(queue: "Q2",
-                              exchange: "topic_logs",
+                              exchange: "E2",
                               routingKey: "anonymous.*");
             channel.QueueBind(queue: "Q3",
-                              exchange: "topic_logs",
+                              exchange: "E1",
                               routingKey: "*.topic");
 
             var routingKey = (args.Length > 0) ? args[0] : "anonymous.info";
