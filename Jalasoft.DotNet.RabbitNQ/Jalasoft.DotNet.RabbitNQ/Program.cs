@@ -46,7 +46,7 @@ class EmitLogTopic
                               exchange: "E1",
                               routingKey: "Oriente.*.*.Electrodomestics");
 
-            var routingKey = (args.Length > 0) ? args[0] : "anonymous.info";
+            var routingKey = (args.Length > 0) ? args[0] : "Oriente.Beni.New";
 
             //var message = (args.Length > 1)
                           //? string.Join(" ", args.Skip(1).ToArray())
@@ -58,7 +58,11 @@ class EmitLogTopic
             message.Price = 100;
 
             var body = Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(message));
-            channel.BasicPublish(exchange: "topic_logs",
+            channel.BasicPublish(exchange: "E1",
+                                 routingKey: routingKey,
+                                 basicProperties: null,
+                                 body: body);
+            channel.BasicPublish(exchange: "E2",
                                  routingKey: routingKey,
                                  basicProperties: null,
                                  body: body);
