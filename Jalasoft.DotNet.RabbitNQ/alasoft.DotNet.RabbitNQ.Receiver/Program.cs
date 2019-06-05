@@ -3,6 +3,7 @@ using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 using System.Text;
 using Newtonsoft.Json;
+using System.Threading.Tasks;
 
 class ReceiveLogsTopic
 {
@@ -45,10 +46,14 @@ class ReceiveLogsTopic
                 Console.WriteLine(" [x] Received '{0}':'{1}'",
                                   routingKey,
                                   message.ToString());
+                Task.Delay(50);
+                channel.BasicAck(ea.DeliveryTag,true);
+
+
             };
 
             channel.BasicConsume(queue: queueName,
-                                 autoAck: true,
+                                 autoAck: false,
                                  consumer: consumer);
             
             Console.WriteLine(" Press [enter] to exit.");

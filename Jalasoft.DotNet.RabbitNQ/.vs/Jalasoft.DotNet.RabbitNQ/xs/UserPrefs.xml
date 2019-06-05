@@ -1,18 +1,19 @@
 ﻿<Properties StartupConfiguration="{B31CEA86-110B-4EC1-AFAF-3C714B98E4D3}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
   <MonoDevelop.Ide.Workbench ActiveDocument="alasoft.DotNet.RabbitNQ.Receiver/Program.cs">
     <Files>
-      <File FileName="Jalasoft.DotNet.RabbitNQ/Program.cs" Line="55" Column="10" />
-      <File FileName="alasoft.DotNet.RabbitNQ.Receiver/Program.cs" Line="49" Column="1" />
+      <File FileName="Jalasoft.DotNet.RabbitNQ/Program.cs" Line="12" Column="1" />
+      <File FileName="alasoft.DotNet.RabbitNQ.Receiver/Program.cs" Line="54" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Jalasoft.DotNet.RabbitNQ" expanded="True" selected="True">
+          <Node name="Jalasoft.DotNet.RabbitNQ" expanded="True">
             <Node name="Jalasoft.DotNet.RabbitNQ" expanded="True">
               <Node name="Model" expanded="True" />
             </Node>
             <Node name="Jalasoft.DotNet.RabbitNQ.Receiver" expanded="True">
               <Node name="Model" expanded="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -30,7 +31,7 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/rogerruizescobar/Projects/Jalasoft.DotNet.RabbitNQ/alasoft.DotNet.RabbitNQ.Receiver/Program.cs" relfile="alasoft.DotNet.RabbitNQ.Receiver/Program.cs" line="11" column="1" />
+      <Breakpoint file="/Users/rogerruizescobar/Projects/Jalasoft.DotNet.RabbitNQ/alasoft.DotNet.RabbitNQ.Receiver/Program.cs" relfile="alasoft.DotNet.RabbitNQ.Receiver/Program.cs" line="12" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
