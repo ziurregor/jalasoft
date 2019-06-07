@@ -9,3 +9,13 @@
 /Users/rogerruizescobar/Projects/Jalasoft.DotNet.RabbitNQ/alasoft.DotNet.RabbitNQ.Receiver/obj/Debug/netcoreapp2.2/Jalasoft.DotNet.RabbitNQ.Receiver.AssemblyInfo.cs
 /Users/rogerruizescobar/Projects/Jalasoft.DotNet.RabbitNQ/alasoft.DotNet.RabbitNQ.Receiver/obj/Debug/netcoreapp2.2/Jalasoft.DotNet.RabbitNQ.Receiver.dll
 /Users/rogerruizescobar/Projects/Jalasoft.DotNet.RabbitNQ/alasoft.DotNet.RabbitNQ.Receiver/obj/Debug/netcoreapp2.2/Jalasoft.DotNet.RabbitNQ.Receiver.pdb
+C:\git\jala-new\jalasoft\Jalasoft.DotNet.RabbitNQ\alasoft.DotNet.RabbitNQ.Receiver\obj\Debug\netcoreapp2.2\Jalasoft.DotNet.RabbitNQ.Receiver.csproj.CoreCompileInputs.cache
+C:\git\jala-new\jalasoft\Jalasoft.DotNet.RabbitNQ\alasoft.DotNet.RabbitNQ.Receiver\obj\Debug\netcoreapp2.2\Jalasoft.DotNet.RabbitNQ.Receiver.AssemblyInfoInputs.cache
+C:\git\jala-new\jalasoft\Jalasoft.DotNet.RabbitNQ\alasoft.DotNet.RabbitNQ.Receiver\obj\Debug\netcoreapp2.2\Jalasoft.DotNet.RabbitNQ.Receiver.AssemblyInfo.cs
+C:\git\jala-new\jalasoft\Jalasoft.DotNet.RabbitNQ\alasoft.DotNet.RabbitNQ.Receiver\obj\Debug\netcoreapp2.2\Jalasoft.DotNet.RabbitNQ.Receiver.dll
+C:\git\jala-new\jalasoft\Jalasoft.DotNet.RabbitNQ\alasoft.DotNet.RabbitNQ.Receiver\obj\Debug\netcoreapp2.2\Jalasoft.DotNet.RabbitNQ.Receiver.pdb
+C:\git\jala-new\jalasoft\Jalasoft.DotNet.RabbitNQ\alasoft.DotNet.RabbitNQ.Receiver\bin\Debug\netcoreapp2.2\Jalasoft.DotNet.RabbitNQ.Receiver.deps.json
+C:\git\jala-new\jalasoft\Jalasoft.DotNet.RabbitNQ\alasoft.DotNet.RabbitNQ.Receiver\bin\Debug\netcoreapp2.2\Jalasoft.DotNet.RabbitNQ.Receiver.runtimeconfig.json
+C:\git\jala-new\jalasoft\Jalasoft.DotNet.RabbitNQ\alasoft.DotNet.RabbitNQ.Receiver\bin\Debug\netcoreapp2.2\Jalasoft.DotNet.RabbitNQ.Receiver.runtimeconfig.dev.json
+C:\git\jala-new\jalasoft\Jalasoft.DotNet.RabbitNQ\alasoft.DotNet.RabbitNQ.Receiver\bin\Debug\netcoreapp2.2\Jalasoft.DotNet.RabbitNQ.Receiver.dll
+C:\git\jala-new\jalasoft\Jalasoft.DotNet.RabbitNQ\alasoft.DotNet.RabbitNQ.Receiver\bin\Debug\netcoreapp2.2\Jalasoft.DotNet.RabbitNQ.Receiver.pdb

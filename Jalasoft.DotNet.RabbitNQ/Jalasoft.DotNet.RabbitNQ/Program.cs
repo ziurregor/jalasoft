@@ -48,9 +48,7 @@ class EmitLogTopic
 
             var routingKey = (args.Length > 0) ? args[0] : "Oriente.Beni.New";
 
-            //var message = (args.Length > 1)
-                          //? string.Join(" ", args.Skip(1).ToArray())
-                          //: "Hello World!";
+        
 
             var message = new Product();
             message.ProductName = "TV 14'";

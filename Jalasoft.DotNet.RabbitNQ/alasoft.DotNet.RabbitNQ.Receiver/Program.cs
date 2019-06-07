@@ -48,9 +48,9 @@ class ReceiveLogsTopic
             };
 
             channel.BasicConsume(queue: queueName,
-                                 autoAck: true,
+                                 autoAck: false,
                                  consumer: consumer);
-            
+            //channel.BasicAck()
             Console.WriteLine(" Press [enter] to exit.");
             Console.ReadLine();
         }
