@@ -1,0 +1,8 @@
+/Users/rogerruizescobar/Projects/Jalasoft.Chat/src/Jalasoft.Chat.User.Cassandra.Dao/Jalasoft.Chat.User.Dao/bin/Debug/netcoreapp2.2/Jalasoft.Chat.User.Dao.deps.json
+/Users/rogerruizescobar/Projects/Jalasoft.Chat/src/Jalasoft.Chat.User.Cassandra.Dao/Jalasoft.Chat.User.Dao/bin/Debug/netcoreapp2.2/Jalasoft.Chat.User.Dao.dll
+/Users/rogerruizescobar/Projects/Jalasoft.Chat/src/Jalasoft.Chat.User.Cassandra.Dao/Jalasoft.Chat.User.Dao/bin/Debug/netcoreapp2.2/Jalasoft.Chat.User.Dao.pdb
+/Users/rogerruizescobar/Projects/Jalasoft.Chat/src/Jalasoft.Chat.User.Cassandra.Dao/Jalasoft.Chat.User.Dao/obj/Debug/netcoreapp2.2/Jalasoft.Chat.User.Dao.csproj.CoreCompileInputs.cache
+/Users/rogerruizescobar/Projects/Jalasoft.Chat/src/Jalasoft.Chat.User.Cassandra.Dao/Jalasoft.Chat.User.Dao/obj/Debug/netcoreapp2.2/Jalasoft.Chat.User.Dao.AssemblyInfoInputs.cache
+/Users/rogerruizescobar/Projects/Jalasoft.Chat/src/Jalasoft.Chat.User.Cassandra.Dao/Jalasoft.Chat.User.Dao/obj/Debug/netcoreapp2.2/Jalasoft.Chat.User.Dao.AssemblyInfo.cs
+/Users/rogerruizescobar/Projects/Jalasoft.Chat/src/Jalasoft.Chat.User.Cassandra.Dao/Jalasoft.Chat.User.Dao/obj/Debug/netcoreapp2.2/Jalasoft.Chat.User.Dao.dll
+/Users/rogerruizescobar/Projects/Jalasoft.Chat/src/Jalasoft.Chat.User.Cassandra.Dao/Jalasoft.Chat.User.Dao/obj/Debug/netcoreapp2.2/Jalasoft.Chat.User.Dao.pdb

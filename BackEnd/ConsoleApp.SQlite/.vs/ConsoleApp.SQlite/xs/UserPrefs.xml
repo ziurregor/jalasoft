@@ -1,0 +1,40 @@
+﻿<Properties StartupConfiguration="{AF9080E7-7A7D-4ACE-9070-054F4665AF7C}|Default">
+  <MonoDevelop.Ide.ItemProperties.ConsoleApp.SQlite PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="UsersCassandraDao.cs">
+    <Files>
+      <File FileName="UsersCassandraDao.cs" Line="85" Column="18" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ConsoleApp.SQlite" expanded="True">
+            <Node name="ConsoleApp.SQlite" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Migrations" expanded="True" />
+              <Node name="UsersCassandraDao.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>Map</Value>
+          <Value>MappingConfiguration</Value>
+          <Value>users.ToString()</Value>
+          <Value>user.Name[1]</Value>
+          <Value>users</Value>
+          <Value>user.Name[0].firstName</Value>
+          <Value>user.Name</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

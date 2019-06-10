@@ -1,0 +1,3 @@
+/Users/rogerruizescobar/Projects/Jalasoft.Chat/src/Jalasoft.Chat.User.Cassandra.Dao/obj/Debug/netcoreapp2.2/Jalasoft.Chat.User.Dao.Cassandra.csproj.CoreCompileInputs.cache
+/Users/rogerruizescobar/Projects/Jalasoft.Chat/src/Jalasoft.Chat.User.Cassandra.Dao/obj/Debug/netcoreapp2.2/Jalasoft.Chat.User.Dao.Cassandra.AssemblyInfoInputs.cache
+/Users/rogerruizescobar/Projects/Jalasoft.Chat/src/Jalasoft.Chat.User.Cassandra.Dao/obj/Debug/netcoreapp2.2/Jalasoft.Chat.User.Dao.Cassandra.AssemblyInfo.cs

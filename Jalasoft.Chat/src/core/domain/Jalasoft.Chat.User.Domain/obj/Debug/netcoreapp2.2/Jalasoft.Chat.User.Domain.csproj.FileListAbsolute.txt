@@ -1,0 +1,8 @@
+/Users/rogerruizescobar/Projects/Jalasoft.Chat/src/core/domain/Jalasoft.Chat.User.Domain/bin/Debug/netcoreapp2.2/Jalasoft.Chat.User.Domain.deps.json
+/Users/rogerruizescobar/Projects/Jalasoft.Chat/src/core/domain/Jalasoft.Chat.User.Domain/bin/Debug/netcoreapp2.2/Jalasoft.Chat.User.Domain.dll
+/Users/rogerruizescobar/Projects/Jalasoft.Chat/src/core/domain/Jalasoft.Chat.User.Domain/bin/Debug/netcoreapp2.2/Jalasoft.Chat.User.Domain.pdb
+/Users/rogerruizescobar/Projects/Jalasoft.Chat/src/core/domain/Jalasoft.Chat.User.Domain/obj/Debug/netcoreapp2.2/Jalasoft.Chat.User.Domain.csproj.CoreCompileInputs.cache
+/Users/rogerruizescobar/Projects/Jalasoft.Chat/src/core/domain/Jalasoft.Chat.User.Domain/obj/Debug/netcoreapp2.2/Jalasoft.Chat.User.Domain.AssemblyInfoInputs.cache
+/Users/rogerruizescobar/Projects/Jalasoft.Chat/src/core/domain/Jalasoft.Chat.User.Domain/obj/Debug/netcoreapp2.2/Jalasoft.Chat.User.Domain.AssemblyInfo.cs
+/Users/rogerruizescobar/Projects/Jalasoft.Chat/src/core/domain/Jalasoft.Chat.User.Domain/obj/Debug/netcoreapp2.2/Jalasoft.Chat.User.Domain.dll
+/Users/rogerruizescobar/Projects/Jalasoft.Chat/src/core/domain/Jalasoft.Chat.User.Domain/obj/Debug/netcoreapp2.2/Jalasoft.Chat.User.Domain.pdb

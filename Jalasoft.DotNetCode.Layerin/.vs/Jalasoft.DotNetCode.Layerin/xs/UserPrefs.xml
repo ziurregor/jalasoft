@@ -12,7 +12,7 @@
           <Node name="Jalasoft.DotNetCode.Layerin" expanded="True">
             <Node name="BusinesLayer" expanded="True" />
             <Node name="DataAccessLayer" expanded="True">
-              <Node name="Todos.cs" selected="True" />
+              <Node name="ITodos.cs" selected="True" />
             </Node>
             <Node name="Jalasoft.DotNetCode.Layerin" expanded="True">
               <Node name="Controllers" expanded="True" />

@@ -1,0 +1,45 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/Jalasoft.Chat.User.Cassandra.Dao/Jalasoft.Chat.User.Dao.SQLLite/BloggingContext.cs">
+    <Files>
+      <File FileName="src/core/domain/Jalasoft.Chat.User.Domain/Class1.cs" Line="6" Column="6" />
+      <File FileName="src/Jalasoft.Chat.User.Cassandra.Dao/obj/Debug/netcoreapp2.2/Jalasoft.Chat.User.Dao.Cassandra.AssemblyInfo.cs" Line="15" Column="12" />
+      <File FileName="src/Jalasoft.Chat.User.Cassandra.Dao/Jalasoft.Chat.User.Dao.SQLLite/BloggingContext.cs" Line="1" Column="17" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Jalasoft.Chat" expanded="True">
+            <Node name="src" expanded="True">
+              <Node name="core" expanded="True">
+                <Node name="domain" expanded="True">
+                  <Node name="Jalasoft.Chat.User.Domain" expanded="True">
+                    <Node name="Blogs" expanded="True" />
+                    <Node name="Users" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="dao" expanded="True">
+                <Node name="Jalasoft.Chat.User.Dao.Cassandra" expanded="True">
+                  <Node name="Jalasoft.Chat.User.Dao.SQLLite" expanded="True">
+                    <Node name="BloggingContext.cs" selected="True" />
+                  </Node>
+                </Node>
+                <Node name="Jalasoft.Chat.User.Dao.SQLLite" expanded="True">
+                  <Node name="Dependencies" expanded="True">
+                    <Node name="ProjectDependencies" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
