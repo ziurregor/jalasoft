@@ -1,0 +1,16 @@
+C:\Jalasoft\Git\jalasoft\BackEnd-Orlando\Jalasoft.BackEnd\Jalasoft.BackEnd.Console\bin\Debug\netcoreapp2.2\Jalasoft.BackEnd.Console.deps.json
+C:\Jalasoft\Git\jalasoft\BackEnd-Orlando\Jalasoft.BackEnd\Jalasoft.BackEnd.Console\bin\Debug\netcoreapp2.2\Jalasoft.BackEnd.Console.runtimeconfig.json
+C:\Jalasoft\Git\jalasoft\BackEnd-Orlando\Jalasoft.BackEnd\Jalasoft.BackEnd.Console\bin\Debug\netcoreapp2.2\Jalasoft.BackEnd.Console.runtimeconfig.dev.json
+C:\Jalasoft\Git\jalasoft\BackEnd-Orlando\Jalasoft.BackEnd\Jalasoft.BackEnd.Console\bin\Debug\netcoreapp2.2\Jalasoft.BackEnd.Console.dll
+C:\Jalasoft\Git\jalasoft\BackEnd-Orlando\Jalasoft.BackEnd\Jalasoft.BackEnd.Console\bin\Debug\netcoreapp2.2\Jalasoft.BackEnd.Console.pdb
+C:\Jalasoft\Git\jalasoft\BackEnd-Orlando\Jalasoft.BackEnd\Jalasoft.BackEnd.Console\obj\Debug\netcoreapp2.2\Jalasoft.BackEnd.Console.csproj.CoreCompileInputs.cache
+C:\Jalasoft\Git\jalasoft\BackEnd-Orlando\Jalasoft.BackEnd\Jalasoft.BackEnd.Console\obj\Debug\netcoreapp2.2\Jalasoft.BackEnd.Console.AssemblyInfoInputs.cache
+C:\Jalasoft\Git\jalasoft\BackEnd-Orlando\Jalasoft.BackEnd\Jalasoft.BackEnd.Console\obj\Debug\netcoreapp2.2\Jalasoft.BackEnd.Console.AssemblyInfo.cs
+C:\Jalasoft\Git\jalasoft\BackEnd-Orlando\Jalasoft.BackEnd\Jalasoft.BackEnd.Console\obj\Debug\netcoreapp2.2\Jalasoft.BackEnd.Console.dll
+C:\Jalasoft\Git\jalasoft\BackEnd-Orlando\Jalasoft.BackEnd\Jalasoft.BackEnd.Console\obj\Debug\netcoreapp2.2\Jalasoft.BackEnd.Console.pdb
+C:\Jalasoft\Git\jalasoft\BackEnd-Orlando\Jalasoft.BackEnd\Jalasoft.BackEnd.Console\obj\Debug\netcoreapp2.2\Jalasoft.BackEnd.Console.csprojAssemblyReference.cache
+C:\Jalasoft\Git\jalasoft\BackEnd-Orlando\Jalasoft.BackEnd\Jalasoft.BackEnd.Console\bin\Debug\netcoreapp2.2\Jalasoft.BackEnd.Dao.SqlLite.dll
+C:\Jalasoft\Git\jalasoft\BackEnd-Orlando\Jalasoft.BackEnd\Jalasoft.BackEnd.Console\bin\Debug\netcoreapp2.2\Jalasoft.BackEnd.Model.dll
+C:\Jalasoft\Git\jalasoft\BackEnd-Orlando\Jalasoft.BackEnd\Jalasoft.BackEnd.Console\bin\Debug\netcoreapp2.2\Jalasoft.BackEnd.Dao.SqlLite.pdb
+C:\Jalasoft\Git\jalasoft\BackEnd-Orlando\Jalasoft.BackEnd\Jalasoft.BackEnd.Console\bin\Debug\netcoreapp2.2\Jalasoft.BackEnd.Model.pdb
+C:\Jalasoft\Git\jalasoft\BackEnd-Orlando\Jalasoft.BackEnd\Jalasoft.BackEnd.Console\obj\Debug\netcoreapp2.2\Jalasoft.BackEnd.Console.csproj.CopyComplete
