@@ -36,7 +36,7 @@ namespace Jalasoft.BackEnd.Dao.SqlLite.Migrations
                     b.ToTable("Message");
                 });
 
-            modelBuilder.Entity("Jalasoft.BackEnd.Model.ChatUser", b =>
+            modelBuilder.Entity("Jalasoft.BackEnd.Model.chatUser", b =>
                 {
                     b.Property<int>("id")
                         .ValueGeneratedOnAdd();
@@ -50,7 +50,7 @@ namespace Jalasoft.BackEnd.Dao.SqlLite.Migrations
 
             modelBuilder.Entity("Jalasoft.BackEnd.Model.ChatMessage", b =>
                 {
-                    b.HasOne("Jalasoft.BackEnd.Model.ChatUser")
+                    b.HasOne("Jalasoft.BackEnd.Model.chatUser")
                         .WithMany("messages")
                         .HasForeignKey("ChatUserid");
                 });

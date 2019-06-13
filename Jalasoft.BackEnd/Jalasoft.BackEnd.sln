@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28803.202
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jalasoft.BackEnd.Console", "Jalasoft.BackEnd.Console\Jalasoft.BackEnd.Console.csproj", "{933CAB14-EBBC-43CD-8DB9-93195FE210A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jalasoft.BackEnd.Console", "Jalasoft.BackEnd.Console\Jalasoft.BackEnd.Console.csproj", "{933CAB14-EBBC-43CD-8DB9-93195FE210A8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5FE94682-54F6-4637-984D-0549B27092C0}"
 EndProject
@@ -21,9 +21,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{4505368C-9
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dao", "dao", "{FA9A1C1C-FCE0-48EE-94DE-3503AA85512B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jalasoft.BackEnd.Dao.SqlLite", "src\dao\Jalasoft.BackEnd.Dao.SqlLite\Jalasoft.BackEnd.Dao.SqlLite.csproj", "{CA239371-CD29-4F26-9819-EEEDFF82B603}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jalasoft.BackEnd.Dao.SqlLite", "src\dao\Jalasoft.BackEnd.Dao.SqlLite\Jalasoft.BackEnd.Dao.SqlLite.csproj", "{CA239371-CD29-4F26-9819-EEEDFF82B603}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jalasoft.BackEnd.Model", "src\core\domain\Jalasoft.BackEnd.Model\Jalasoft.BackEnd.Model.csproj", "{CC4A3BBD-1FB0-42FD-9666-0E19A785BE6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jalasoft.BackEnd.Model", "src\core\domain\Jalasoft.BackEnd.Model\Jalasoft.BackEnd.Model.csproj", "{CC4A3BBD-1FB0-42FD-9666-0E19A785BE6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jalasoft.BackEnd.Dao", "src\dao\Jalasoft.BackEnd.Dao\Jalasoft.BackEnd.Dao.csproj", "{92489DD4-866F-474C-9CCB-07FA141684AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +45,10 @@ Global
 		{CC4A3BBD-1FB0-42FD-9666-0E19A785BE6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC4A3BBD-1FB0-42FD-9666-0E19A785BE6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC4A3BBD-1FB0-42FD-9666-0E19A785BE6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92489DD4-866F-474C-9CCB-07FA141684AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92489DD4-866F-474C-9CCB-07FA141684AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92489DD4-866F-474C-9CCB-07FA141684AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92489DD4-866F-474C-9CCB-07FA141684AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,6 +63,7 @@ Global
 		{FA9A1C1C-FCE0-48EE-94DE-3503AA85512B} = {4B22B4E1-8DEC-4F71-9906-24D671074622}
 		{CA239371-CD29-4F26-9819-EEEDFF82B603} = {593DE330-C8CE-46A1-BE23-E32F4C52479D}
 		{CC4A3BBD-1FB0-42FD-9666-0E19A785BE6B} = {FFBEAC6B-A499-4224-B5E0-173ECCC4A4F7}
+		{92489DD4-866F-474C-9CCB-07FA141684AF} = {593DE330-C8CE-46A1-BE23-E32F4C52479D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1B70512F-1B82-445A-8A1B-39E64D370D6B}

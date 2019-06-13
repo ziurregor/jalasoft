@@ -10,14 +10,14 @@
         "projectUniqueName": "C:\\Jalasoft\\GitLab\\BackEnd\\practices\\Jalasoft.BackEnd\\src\\core\\domain\\Jalasoft.BackEnd.Model\\Jalasoft.BackEnd.Model.csproj",
         "projectName": "Jalasoft.BackEnd.Model",
         "projectPath": "C:\\Jalasoft\\GitLab\\BackEnd\\practices\\Jalasoft.BackEnd\\src\\core\\domain\\Jalasoft.BackEnd.Model\\Jalasoft.BackEnd.Model.csproj",
-        "packagesPath": "C:\\Users\\RogerRuizEscobar\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
         "outputPath": "C:\\Jalasoft\\GitLab\\BackEnd\\practices\\Jalasoft.BackEnd\\src\\core\\domain\\Jalasoft.BackEnd.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\RogerRuizEscobar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -62,14 +62,14 @@
         "projectUniqueName": "C:\\Jalasoft\\GitLab\\BackEnd\\practices\\Jalasoft.BackEnd\\src\\dao\\Jalasoft.BackEnd.Dao.SqlLite\\Jalasoft.BackEnd.Dao.SqlLite.csproj",
         "projectName": "Jalasoft.BackEnd.Dao.SqlLite",
         "projectPath": "C:\\Jalasoft\\GitLab\\BackEnd\\practices\\Jalasoft.BackEnd\\src\\dao\\Jalasoft.BackEnd.Dao.SqlLite\\Jalasoft.BackEnd.Dao.SqlLite.csproj",
-        "packagesPath": "C:\\Users\\RogerRuizEscobar\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
         "outputPath": "C:\\Jalasoft\\GitLab\\BackEnd\\practices\\Jalasoft.BackEnd\\src\\dao\\Jalasoft.BackEnd.Dao.SqlLite\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\RogerRuizEscobar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

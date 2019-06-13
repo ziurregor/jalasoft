@@ -5245,7 +5245,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\RogerRuizEscobar\\.nuget\\packages\\": {},
+    "C:\\Users\\user\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -5254,14 +5254,14 @@
       "projectUniqueName": "C:\\Jalasoft\\GitLab\\BackEnd\\practices\\Jalasoft.BackEnd\\Jalasoft.BackEnd.Console\\Jalasoft.BackEnd.Console.csproj",
       "projectName": "Jalasoft.BackEnd.Console",
       "projectPath": "C:\\Jalasoft\\GitLab\\BackEnd\\practices\\Jalasoft.BackEnd\\Jalasoft.BackEnd.Console\\Jalasoft.BackEnd.Console.csproj",
-      "packagesPath": "C:\\Users\\RogerRuizEscobar\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
       "outputPath": "C:\\Jalasoft\\GitLab\\BackEnd\\practices\\Jalasoft.BackEnd\\Jalasoft.BackEnd.Console\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\RogerRuizEscobar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

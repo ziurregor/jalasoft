@@ -4629,7 +4629,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\RogerRuizEscobar\\.nuget\\packages\\": {},
+    "C:\\Users\\user\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -4638,14 +4638,14 @@
       "projectUniqueName": "C:\\Jalasoft\\GitLab\\BackEnd\\practices\\Jalasoft.BackEnd\\src\\dao\\Jalasoft.BackEnd.Dao.SqlLite\\Jalasoft.BackEnd.Dao.SqlLite.csproj",
       "projectName": "Jalasoft.BackEnd.Dao.SqlLite",
       "projectPath": "C:\\Jalasoft\\GitLab\\BackEnd\\practices\\Jalasoft.BackEnd\\src\\dao\\Jalasoft.BackEnd.Dao.SqlLite\\Jalasoft.BackEnd.Dao.SqlLite.csproj",
-      "packagesPath": "C:\\Users\\RogerRuizEscobar\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
       "outputPath": "C:\\Jalasoft\\GitLab\\BackEnd\\practices\\Jalasoft.BackEnd\\src\\dao\\Jalasoft.BackEnd.Dao.SqlLite\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\RogerRuizEscobar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
