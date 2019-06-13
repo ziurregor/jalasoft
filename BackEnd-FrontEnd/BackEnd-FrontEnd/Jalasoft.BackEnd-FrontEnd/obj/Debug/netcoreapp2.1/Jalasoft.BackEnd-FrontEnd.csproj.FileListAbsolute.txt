@@ -1,0 +1,8 @@
+C:\Jalasoft\GitLab\BackEnd\BackEnd-FrontEnd\BackEnd-FrontEnd\Jalasoft.BackEnd-FrontEnd\bin\Debug\netcoreapp2.1\Jalasoft.BackEnd-FrontEnd.deps.json
+C:\Jalasoft\GitLab\BackEnd\BackEnd-FrontEnd\BackEnd-FrontEnd\Jalasoft.BackEnd-FrontEnd\bin\Debug\netcoreapp2.1\Jalasoft.BackEnd-FrontEnd.dll
+C:\Jalasoft\GitLab\BackEnd\BackEnd-FrontEnd\BackEnd-FrontEnd\Jalasoft.BackEnd-FrontEnd\bin\Debug\netcoreapp2.1\Jalasoft.BackEnd-FrontEnd.pdb
+C:\Jalasoft\GitLab\BackEnd\BackEnd-FrontEnd\BackEnd-FrontEnd\Jalasoft.BackEnd-FrontEnd\obj\Debug\netcoreapp2.1\Jalasoft.BackEnd-FrontEnd.csproj.CoreCompileInputs.cache
+C:\Jalasoft\GitLab\BackEnd\BackEnd-FrontEnd\BackEnd-FrontEnd\Jalasoft.BackEnd-FrontEnd\obj\Debug\netcoreapp2.1\Jalasoft.BackEnd-FrontEnd.AssemblyInfoInputs.cache
+C:\Jalasoft\GitLab\BackEnd\BackEnd-FrontEnd\BackEnd-FrontEnd\Jalasoft.BackEnd-FrontEnd\obj\Debug\netcoreapp2.1\Jalasoft.BackEnd-FrontEnd.AssemblyInfo.cs
+C:\Jalasoft\GitLab\BackEnd\BackEnd-FrontEnd\BackEnd-FrontEnd\Jalasoft.BackEnd-FrontEnd\obj\Debug\netcoreapp2.1\Jalasoft.BackEnd-FrontEnd.dll
+C:\Jalasoft\GitLab\BackEnd\BackEnd-FrontEnd\BackEnd-FrontEnd\Jalasoft.BackEnd-FrontEnd\obj\Debug\netcoreapp2.1\Jalasoft.BackEnd-FrontEnd.pdb

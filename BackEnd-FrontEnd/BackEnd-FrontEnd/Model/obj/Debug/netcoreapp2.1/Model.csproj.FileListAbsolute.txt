@@ -1,0 +1,8 @@
+C:\Jalasoft\GitLab\BackEnd\BackEnd-FrontEnd\BackEnd-FrontEnd\Model\bin\Debug\netcoreapp2.1\Model.deps.json
+C:\Jalasoft\GitLab\BackEnd\BackEnd-FrontEnd\BackEnd-FrontEnd\Model\bin\Debug\netcoreapp2.1\Model.dll
+C:\Jalasoft\GitLab\BackEnd\BackEnd-FrontEnd\BackEnd-FrontEnd\Model\bin\Debug\netcoreapp2.1\Model.pdb
+C:\Jalasoft\GitLab\BackEnd\BackEnd-FrontEnd\BackEnd-FrontEnd\Model\obj\Debug\netcoreapp2.1\Model.csproj.CoreCompileInputs.cache
+C:\Jalasoft\GitLab\BackEnd\BackEnd-FrontEnd\BackEnd-FrontEnd\Model\obj\Debug\netcoreapp2.1\Model.AssemblyInfoInputs.cache
+C:\Jalasoft\GitLab\BackEnd\BackEnd-FrontEnd\BackEnd-FrontEnd\Model\obj\Debug\netcoreapp2.1\Model.AssemblyInfo.cs
+C:\Jalasoft\GitLab\BackEnd\BackEnd-FrontEnd\BackEnd-FrontEnd\Model\obj\Debug\netcoreapp2.1\Model.dll
+C:\Jalasoft\GitLab\BackEnd\BackEnd-FrontEnd\BackEnd-FrontEnd\Model\obj\Debug\netcoreapp2.1\Model.pdb

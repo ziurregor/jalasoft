@@ -1,0 +1,16 @@
+C:\Jalasoft\GitLab\BackEnd\BackEnd-FrontEnd\BackEnd-FrontEnd\Jalasoft.Chat.Users.Busines\obj\Debug\netcoreapp2.1\Jalasoft.Chat.Users.Busines.csproj.CoreCompileInputs.cache
+C:\Jalasoft\GitLab\BackEnd\BackEnd-FrontEnd\BackEnd-FrontEnd\Jalasoft.Chat.Users.Busines\obj\Debug\netcoreapp2.1\Jalasoft.Chat.Users.Busines.AssemblyInfoInputs.cache
+C:\Jalasoft\GitLab\BackEnd\BackEnd-FrontEnd\BackEnd-FrontEnd\Jalasoft.Chat.Users.Busines\obj\Debug\netcoreapp2.1\Jalasoft.Chat.Users.Busines.AssemblyInfo.cs
+C:\Jalasoft\GitLab\BackEnd\BackEnd-FrontEnd\BackEnd-FrontEnd\Jalasoft.Chat.Users.Busines\obj\Debug\netcoreapp2.1\Jalasoft.Chat.Users.Busines.csprojAssemblyReference.cache
+C:\Jalasoft\GitLab\BackEnd\BackEnd-FrontEnd\BackEnd-FrontEnd\Jalasoft.Chat.Users.Busines\bin\Debug\netcoreapp2.1\Jalasoft.Chat.Users.Busines.deps.json
+C:\Jalasoft\GitLab\BackEnd\BackEnd-FrontEnd\BackEnd-FrontEnd\Jalasoft.Chat.Users.Busines\bin\Debug\netcoreapp2.1\Jalasoft.Chat.Users.Busines.runtimeconfig.json
+C:\Jalasoft\GitLab\BackEnd\BackEnd-FrontEnd\BackEnd-FrontEnd\Jalasoft.Chat.Users.Busines\bin\Debug\netcoreapp2.1\Jalasoft.Chat.Users.Busines.runtimeconfig.dev.json
+C:\Jalasoft\GitLab\BackEnd\BackEnd-FrontEnd\BackEnd-FrontEnd\Jalasoft.Chat.Users.Busines\bin\Debug\netcoreapp2.1\Jalasoft.Chat.Users.Busines.dll
+C:\Jalasoft\GitLab\BackEnd\BackEnd-FrontEnd\BackEnd-FrontEnd\Jalasoft.Chat.Users.Busines\bin\Debug\netcoreapp2.1\Jalasoft.Chat.Users.Busines.pdb
+C:\Jalasoft\GitLab\BackEnd\BackEnd-FrontEnd\BackEnd-FrontEnd\Jalasoft.Chat.Users.Busines\bin\Debug\netcoreapp2.1\DataAccess.dll
+C:\Jalasoft\GitLab\BackEnd\BackEnd-FrontEnd\BackEnd-FrontEnd\Jalasoft.Chat.Users.Busines\bin\Debug\netcoreapp2.1\Model.dll
+C:\Jalasoft\GitLab\BackEnd\BackEnd-FrontEnd\BackEnd-FrontEnd\Jalasoft.Chat.Users.Busines\bin\Debug\netcoreapp2.1\DataAccess.pdb
+C:\Jalasoft\GitLab\BackEnd\BackEnd-FrontEnd\BackEnd-FrontEnd\Jalasoft.Chat.Users.Busines\bin\Debug\netcoreapp2.1\Model.pdb
+C:\Jalasoft\GitLab\BackEnd\BackEnd-FrontEnd\BackEnd-FrontEnd\Jalasoft.Chat.Users.Busines\obj\Debug\netcoreapp2.1\Jalasoft.Chat.Users.Busines.csproj.CopyComplete
+C:\Jalasoft\GitLab\BackEnd\BackEnd-FrontEnd\BackEnd-FrontEnd\Jalasoft.Chat.Users.Busines\obj\Debug\netcoreapp2.1\Jalasoft.Chat.Users.Busines.dll
+C:\Jalasoft\GitLab\BackEnd\BackEnd-FrontEnd\BackEnd-FrontEnd\Jalasoft.Chat.Users.Busines\obj\Debug\netcoreapp2.1\Jalasoft.Chat.Users.Busines.pdb

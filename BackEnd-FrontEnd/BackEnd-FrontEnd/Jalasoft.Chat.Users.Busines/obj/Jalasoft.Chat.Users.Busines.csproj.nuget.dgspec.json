@@ -1,0 +1,182 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Jalasoft\\GitLab\\BackEnd\\BackEnd-FrontEnd\\BackEnd-FrontEnd\\Jalasoft.Chat.Users.Busines\\Jalasoft.Chat.Users.Busines.csproj": {}
+  },
+  "projects": {
+    "C:\\Jalasoft\\GitLab\\BackEnd\\BackEnd-FrontEnd\\BackEnd-FrontEnd\\DataAccess\\DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Jalasoft\\GitLab\\BackEnd\\BackEnd-FrontEnd\\BackEnd-FrontEnd\\DataAccess\\DataAccess.csproj",
+        "projectName": "DataAccess",
+        "projectPath": "C:\\Jalasoft\\GitLab\\BackEnd\\BackEnd-FrontEnd\\BackEnd-FrontEnd\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\RogerRuizEscobar\\.nuget\\packages\\",
+        "outputPath": "C:\\Jalasoft\\GitLab\\BackEnd\\BackEnd-FrontEnd\\BackEnd-FrontEnd\\DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\RogerRuizEscobar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Jalasoft\\GitLab\\BackEnd\\BackEnd-FrontEnd\\BackEnd-FrontEnd\\Model\\Model.csproj": {
+                "projectPath": "C:\\Jalasoft\\GitLab\\BackEnd\\BackEnd-FrontEnd\\BackEnd-FrontEnd\\Model\\Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Jalasoft\\GitLab\\BackEnd\\BackEnd-FrontEnd\\BackEnd-FrontEnd\\Jalasoft.Chat.Users.Busines\\Jalasoft.Chat.Users.Busines.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Jalasoft\\GitLab\\BackEnd\\BackEnd-FrontEnd\\BackEnd-FrontEnd\\Jalasoft.Chat.Users.Busines\\Jalasoft.Chat.Users.Busines.csproj",
+        "projectName": "Jalasoft.Chat.Users.Busines",
+        "projectPath": "C:\\Jalasoft\\GitLab\\BackEnd\\BackEnd-FrontEnd\\BackEnd-FrontEnd\\Jalasoft.Chat.Users.Busines\\Jalasoft.Chat.Users.Busines.csproj",
+        "packagesPath": "C:\\Users\\RogerRuizEscobar\\.nuget\\packages\\",
+        "outputPath": "C:\\Jalasoft\\GitLab\\BackEnd\\BackEnd-FrontEnd\\BackEnd-FrontEnd\\Jalasoft.Chat.Users.Busines\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\RogerRuizEscobar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Jalasoft\\GitLab\\BackEnd\\BackEnd-FrontEnd\\BackEnd-FrontEnd\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Jalasoft\\GitLab\\BackEnd\\BackEnd-FrontEnd\\BackEnd-FrontEnd\\DataAccess\\DataAccess.csproj"
+              },
+              "C:\\Jalasoft\\GitLab\\BackEnd\\BackEnd-FrontEnd\\BackEnd-FrontEnd\\Model\\Model.csproj": {
+                "projectPath": "C:\\Jalasoft\\GitLab\\BackEnd\\BackEnd-FrontEnd\\BackEnd-FrontEnd\\Model\\Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Jalasoft\\GitLab\\BackEnd\\BackEnd-FrontEnd\\BackEnd-FrontEnd\\Model\\Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Jalasoft\\GitLab\\BackEnd\\BackEnd-FrontEnd\\BackEnd-FrontEnd\\Model\\Model.csproj",
+        "projectName": "Model",
+        "projectPath": "C:\\Jalasoft\\GitLab\\BackEnd\\BackEnd-FrontEnd\\BackEnd-FrontEnd\\Model\\Model.csproj",
+        "packagesPath": "C:\\Users\\RogerRuizEscobar\\.nuget\\packages\\",
+        "outputPath": "C:\\Jalasoft\\GitLab\\BackEnd\\BackEnd-FrontEnd\\BackEnd-FrontEnd\\Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\RogerRuizEscobar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

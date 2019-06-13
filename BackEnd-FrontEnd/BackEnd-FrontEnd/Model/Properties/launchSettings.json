@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Model": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\Jalasoft\\GitLab\\BackEnd\\BackEnd-FrontEnd\\BackEnd-FrontEnd"
+    }
+  }
+}
