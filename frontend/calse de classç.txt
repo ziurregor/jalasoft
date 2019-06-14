@@ -1,0 +1,8 @@
+front end
+class
+https://stackblitz.com/edit/angular-ngclass?file=app%2Fapp.component.html
+
+ngstyle
+https://stackblitz.com/edit/ngstyle-examples
+Directive
+https://stackblitz.com/angular/ynpvgqvnqeb

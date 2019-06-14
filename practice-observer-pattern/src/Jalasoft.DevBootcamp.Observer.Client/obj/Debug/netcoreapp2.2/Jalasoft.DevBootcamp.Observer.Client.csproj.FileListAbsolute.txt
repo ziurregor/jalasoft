@@ -1,0 +1,10 @@
+D:\git\gitlab\backend\practices\practice-observer-pattern\src\Jalasoft.DevBootcamp.Observer.Client\bin\Debug\netcoreapp2.2\Jalasoft.DevBootcamp.Observer.Client.deps.json
+D:\git\gitlab\backend\practices\practice-observer-pattern\src\Jalasoft.DevBootcamp.Observer.Client\bin\Debug\netcoreapp2.2\Jalasoft.DevBootcamp.Observer.Client.runtimeconfig.json
+D:\git\gitlab\backend\practices\practice-observer-pattern\src\Jalasoft.DevBootcamp.Observer.Client\bin\Debug\netcoreapp2.2\Jalasoft.DevBootcamp.Observer.Client.runtimeconfig.dev.json
+D:\git\gitlab\backend\practices\practice-observer-pattern\src\Jalasoft.DevBootcamp.Observer.Client\bin\Debug\netcoreapp2.2\Jalasoft.DevBootcamp.Observer.Client.dll
+D:\git\gitlab\backend\practices\practice-observer-pattern\src\Jalasoft.DevBootcamp.Observer.Client\bin\Debug\netcoreapp2.2\Jalasoft.DevBootcamp.Observer.Client.pdb
+D:\git\gitlab\backend\practices\practice-observer-pattern\src\Jalasoft.DevBootcamp.Observer.Client\obj\Debug\netcoreapp2.2\Jalasoft.DevBootcamp.Observer.Client.csproj.CoreCompileInputs.cache
+D:\git\gitlab\backend\practices\practice-observer-pattern\src\Jalasoft.DevBootcamp.Observer.Client\obj\Debug\netcoreapp2.2\Jalasoft.DevBootcamp.Observer.Client.AssemblyInfoInputs.cache
+D:\git\gitlab\backend\practices\practice-observer-pattern\src\Jalasoft.DevBootcamp.Observer.Client\obj\Debug\netcoreapp2.2\Jalasoft.DevBootcamp.Observer.Client.AssemblyInfo.cs
+D:\git\gitlab\backend\practices\practice-observer-pattern\src\Jalasoft.DevBootcamp.Observer.Client\obj\Debug\netcoreapp2.2\Jalasoft.DevBootcamp.Observer.Client.dll
+D:\git\gitlab\backend\practices\practice-observer-pattern\src\Jalasoft.DevBootcamp.Observer.Client\obj\Debug\netcoreapp2.2\Jalasoft.DevBootcamp.Observer.Client.pdb

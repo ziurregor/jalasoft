@@ -1,0 +1,12 @@
+D:\git\gitlab\backend\practices\practice-observer-pattern\src\Jalasoft.DevBootcamp.Observer.Viewers\bin\Debug\netcoreapp2.2\Jalasoft.DevBootcamp.Observer.Viewers.deps.json
+D:\git\gitlab\backend\practices\practice-observer-pattern\src\Jalasoft.DevBootcamp.Observer.Viewers\bin\Debug\netcoreapp2.2\Jalasoft.DevBootcamp.Observer.Viewers.dll
+D:\git\gitlab\backend\practices\practice-observer-pattern\src\Jalasoft.DevBootcamp.Observer.Viewers\bin\Debug\netcoreapp2.2\Jalasoft.DevBootcamp.Observer.Viewers.pdb
+D:\git\gitlab\backend\practices\practice-observer-pattern\src\Jalasoft.DevBootcamp.Observer.Viewers\bin\Debug\netcoreapp2.2\Jalasoft.DevBootcamp.Observer.Pattern.dll
+D:\git\gitlab\backend\practices\practice-observer-pattern\src\Jalasoft.DevBootcamp.Observer.Viewers\bin\Debug\netcoreapp2.2\Jalasoft.DevBootcamp.Observer.Pattern.pdb
+D:\git\gitlab\backend\practices\practice-observer-pattern\src\Jalasoft.DevBootcamp.Observer.Viewers\obj\Debug\netcoreapp2.2\Jalasoft.DevBootcamp.Observer.Viewers.csprojAssemblyReference.cache
+D:\git\gitlab\backend\practices\practice-observer-pattern\src\Jalasoft.DevBootcamp.Observer.Viewers\obj\Debug\netcoreapp2.2\Jalasoft.DevBootcamp.Observer.Viewers.csproj.CoreCompileInputs.cache
+D:\git\gitlab\backend\practices\practice-observer-pattern\src\Jalasoft.DevBootcamp.Observer.Viewers\obj\Debug\netcoreapp2.2\Jalasoft.DevBootcamp.Observer.Viewers.AssemblyInfoInputs.cache
+D:\git\gitlab\backend\practices\practice-observer-pattern\src\Jalasoft.DevBootcamp.Observer.Viewers\obj\Debug\netcoreapp2.2\Jalasoft.DevBootcamp.Observer.Viewers.AssemblyInfo.cs
+D:\git\gitlab\backend\practices\practice-observer-pattern\src\Jalasoft.DevBootcamp.Observer.Viewers\obj\Debug\netcoreapp2.2\Jalasoft.DevBootcamp.Observer.Viewers.csproj.CopyComplete
+D:\git\gitlab\backend\practices\practice-observer-pattern\src\Jalasoft.DevBootcamp.Observer.Viewers\obj\Debug\netcoreapp2.2\Jalasoft.DevBootcamp.Observer.Viewers.dll
+D:\git\gitlab\backend\practices\practice-observer-pattern\src\Jalasoft.DevBootcamp.Observer.Viewers\obj\Debug\netcoreapp2.2\Jalasoft.DevBootcamp.Observer.Viewers.pdb

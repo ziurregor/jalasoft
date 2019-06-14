@@ -1,0 +1,13 @@
+D:\git\gitlab\backend\practices\practice-observer-pattern\test\Jalasoft.DevBootcamp.Observer.Pattern.Tests\bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+D:\git\gitlab\backend\practices\practice-observer-pattern\test\Jalasoft.DevBootcamp.Observer.Pattern.Tests\bin\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+D:\git\gitlab\backend\practices\practice-observer-pattern\test\Jalasoft.DevBootcamp.Observer.Pattern.Tests\bin\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+D:\git\gitlab\backend\practices\practice-observer-pattern\test\Jalasoft.DevBootcamp.Observer.Pattern.Tests\bin\Debug\netcoreapp2.2\Jalasoft.DevBootcamp.Observer.Pattern.Tests.deps.json
+D:\git\gitlab\backend\practices\practice-observer-pattern\test\Jalasoft.DevBootcamp.Observer.Pattern.Tests\bin\Debug\netcoreapp2.2\Jalasoft.DevBootcamp.Observer.Pattern.Tests.runtimeconfig.json
+D:\git\gitlab\backend\practices\practice-observer-pattern\test\Jalasoft.DevBootcamp.Observer.Pattern.Tests\bin\Debug\netcoreapp2.2\Jalasoft.DevBootcamp.Observer.Pattern.Tests.runtimeconfig.dev.json
+D:\git\gitlab\backend\practices\practice-observer-pattern\test\Jalasoft.DevBootcamp.Observer.Pattern.Tests\bin\Debug\netcoreapp2.2\Jalasoft.DevBootcamp.Observer.Pattern.Tests.dll
+D:\git\gitlab\backend\practices\practice-observer-pattern\test\Jalasoft.DevBootcamp.Observer.Pattern.Tests\bin\Debug\netcoreapp2.2\Jalasoft.DevBootcamp.Observer.Pattern.Tests.pdb
+D:\git\gitlab\backend\practices\practice-observer-pattern\test\Jalasoft.DevBootcamp.Observer.Pattern.Tests\obj\Debug\netcoreapp2.2\Jalasoft.DevBootcamp.Observer.Pattern.Tests.csproj.CoreCompileInputs.cache
+D:\git\gitlab\backend\practices\practice-observer-pattern\test\Jalasoft.DevBootcamp.Observer.Pattern.Tests\obj\Debug\netcoreapp2.2\Jalasoft.DevBootcamp.Observer.Pattern.Tests.AssemblyInfoInputs.cache
+D:\git\gitlab\backend\practices\practice-observer-pattern\test\Jalasoft.DevBootcamp.Observer.Pattern.Tests\obj\Debug\netcoreapp2.2\Jalasoft.DevBootcamp.Observer.Pattern.Tests.AssemblyInfo.cs
+D:\git\gitlab\backend\practices\practice-observer-pattern\test\Jalasoft.DevBootcamp.Observer.Pattern.Tests\obj\Debug\netcoreapp2.2\Jalasoft.DevBootcamp.Observer.Pattern.Tests.dll
+D:\git\gitlab\backend\practices\practice-observer-pattern\test\Jalasoft.DevBootcamp.Observer.Pattern.Tests\obj\Debug\netcoreapp2.2\Jalasoft.DevBootcamp.Observer.Pattern.Tests.pdb
