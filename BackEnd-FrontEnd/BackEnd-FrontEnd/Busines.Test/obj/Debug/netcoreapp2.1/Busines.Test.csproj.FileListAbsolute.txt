@@ -1,0 +1,13 @@
+C:\Jalasoft\GitLab\BackEnd\BackEnd-FrontEnd\BackEnd-FrontEnd\Busines.Test\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Jalasoft\GitLab\BackEnd\BackEnd-FrontEnd\BackEnd-FrontEnd\Busines.Test\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Jalasoft\GitLab\BackEnd\BackEnd-FrontEnd\BackEnd-FrontEnd\Busines.Test\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\Jalasoft\GitLab\BackEnd\BackEnd-FrontEnd\BackEnd-FrontEnd\Busines.Test\bin\Debug\netcoreapp2.1\Busines.Test.deps.json
+C:\Jalasoft\GitLab\BackEnd\BackEnd-FrontEnd\BackEnd-FrontEnd\Busines.Test\bin\Debug\netcoreapp2.1\Busines.Test.runtimeconfig.json
+C:\Jalasoft\GitLab\BackEnd\BackEnd-FrontEnd\BackEnd-FrontEnd\Busines.Test\bin\Debug\netcoreapp2.1\Busines.Test.runtimeconfig.dev.json
+C:\Jalasoft\GitLab\BackEnd\BackEnd-FrontEnd\BackEnd-FrontEnd\Busines.Test\bin\Debug\netcoreapp2.1\Busines.Test.dll
+C:\Jalasoft\GitLab\BackEnd\BackEnd-FrontEnd\BackEnd-FrontEnd\Busines.Test\bin\Debug\netcoreapp2.1\Busines.Test.pdb
+C:\Jalasoft\GitLab\BackEnd\BackEnd-FrontEnd\BackEnd-FrontEnd\Busines.Test\obj\Debug\netcoreapp2.1\Busines.Test.csproj.CoreCompileInputs.cache
+C:\Jalasoft\GitLab\BackEnd\BackEnd-FrontEnd\BackEnd-FrontEnd\Busines.Test\obj\Debug\netcoreapp2.1\Busines.Test.AssemblyInfoInputs.cache
+C:\Jalasoft\GitLab\BackEnd\BackEnd-FrontEnd\BackEnd-FrontEnd\Busines.Test\obj\Debug\netcoreapp2.1\Busines.Test.AssemblyInfo.cs
+C:\Jalasoft\GitLab\BackEnd\BackEnd-FrontEnd\BackEnd-FrontEnd\Busines.Test\obj\Debug\netcoreapp2.1\Busines.Test.dll
+C:\Jalasoft\GitLab\BackEnd\BackEnd-FrontEnd\BackEnd-FrontEnd\Busines.Test\obj\Debug\netcoreapp2.1\Busines.Test.pdb

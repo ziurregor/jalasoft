@@ -1,0 +1,17 @@
+D:/git/gitlab/backend/practices/practice-observer-pattern/src/Jalasoft.DevBootcamp.Observer.Pattern/bin/Debug/netcoreapp2.2/Jalasoft.DevBootcamp.Observer.Pattern.deps.json
+D:/git/gitlab/backend/practices/practice-observer-pattern/src/Jalasoft.DevBootcamp.Observer.Pattern/bin/Debug/netcoreapp2.2/Jalasoft.DevBootcamp.Observer.Pattern.dll
+D:/git/gitlab/backend/practices/practice-observer-pattern/src/Jalasoft.DevBootcamp.Observer.Pattern/bin/Debug/netcoreapp2.2/Jalasoft.DevBootcamp.Observer.Pattern.pdb
+D:/git/gitlab/backend/practices/practice-observer-pattern/src/Jalasoft.DevBootcamp.Observer.Pattern/obj/Debug/netcoreapp2.2/Jalasoft.DevBootcamp.Observer.Pattern.csproj.CoreCompileInputs.cache
+D:/git/gitlab/backend/practices/practice-observer-pattern/src/Jalasoft.DevBootcamp.Observer.Pattern/obj/Debug/netcoreapp2.2/Jalasoft.DevBootcamp.Observer.Pattern.AssemblyInfoInputs.cache
+D:/git/gitlab/backend/practices/practice-observer-pattern/src/Jalasoft.DevBootcamp.Observer.Pattern/obj/Debug/netcoreapp2.2/Jalasoft.DevBootcamp.Observer.Pattern.AssemblyInfo.cs
+D:/git/gitlab/backend/practices/practice-observer-pattern/src/Jalasoft.DevBootcamp.Observer.Pattern/obj/Debug/netcoreapp2.2/Jalasoft.DevBootcamp.Observer.Pattern.dll
+D:/git/gitlab/backend/practices/practice-observer-pattern/src/Jalasoft.DevBootcamp.Observer.Pattern/obj/Debug/netcoreapp2.2/Jalasoft.DevBootcamp.Observer.Pattern.pdb
+/Users/rogerruizescobar/Projects/practice-observer-pattern/src/Jalasoft.DevBootcamp.Observer.Pattern/bin/Debug/netcoreapp2.2/Jalasoft.DevBootcamp.Observer.Pattern.deps.json
+/Users/rogerruizescobar/Projects/practice-observer-pattern/src/Jalasoft.DevBootcamp.Observer.Pattern/bin/Debug/netcoreapp2.2/Jalasoft.DevBootcamp.Observer.Pattern.dll
+/Users/rogerruizescobar/Projects/practice-observer-pattern/src/Jalasoft.DevBootcamp.Observer.Pattern/bin/Debug/netcoreapp2.2/Jalasoft.DevBootcamp.Observer.Pattern.pdb
+/Users/rogerruizescobar/Projects/practice-observer-pattern/src/Jalasoft.DevBootcamp.Observer.Pattern/obj/Debug/netcoreapp2.2/Jalasoft.DevBootcamp.Observer.Pattern.csprojAssemblyReference.cache
+/Users/rogerruizescobar/Projects/practice-observer-pattern/src/Jalasoft.DevBootcamp.Observer.Pattern/obj/Debug/netcoreapp2.2/Jalasoft.DevBootcamp.Observer.Pattern.csproj.CoreCompileInputs.cache
+/Users/rogerruizescobar/Projects/practice-observer-pattern/src/Jalasoft.DevBootcamp.Observer.Pattern/obj/Debug/netcoreapp2.2/Jalasoft.DevBootcamp.Observer.Pattern.AssemblyInfoInputs.cache
+/Users/rogerruizescobar/Projects/practice-observer-pattern/src/Jalasoft.DevBootcamp.Observer.Pattern/obj/Debug/netcoreapp2.2/Jalasoft.DevBootcamp.Observer.Pattern.AssemblyInfo.cs
+/Users/rogerruizescobar/Projects/practice-observer-pattern/src/Jalasoft.DevBootcamp.Observer.Pattern/obj/Debug/netcoreapp2.2/Jalasoft.DevBootcamp.Observer.Pattern.dll
+/Users/rogerruizescobar/Projects/practice-observer-pattern/src/Jalasoft.DevBootcamp.Observer.Pattern/obj/Debug/netcoreapp2.2/Jalasoft.DevBootcamp.Observer.Pattern.pdb

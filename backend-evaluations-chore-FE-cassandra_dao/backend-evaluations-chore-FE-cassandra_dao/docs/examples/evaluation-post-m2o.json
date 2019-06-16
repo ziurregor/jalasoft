@@ -1,0 +1,44 @@
+{
+  "Name": "M2O EVA",
+  "IdTemplate": "11111111-1111-1111-1111-111111111113",
+  "QualificationRanges": [],
+  "Headers": [
+    {
+      "idTemplateDataField": "36004a67-4c36-4457-a30f-617ca9e0c838",
+      "value": "M2O Evaluation"
+    }
+  ],
+  "Body": [
+    {
+      "id": "68f31a7b-c48-300d-7714-835cf346b927",
+      "sequence": 1,
+      "name": "Best practices",
+      "questions": [
+        {
+          "Sequence": 1,
+          "IdTemplateQuestionField": "5f4df704-8201-4e4f-94c2-4409da82bdb9",
+          "Options": [
+            {
+              "Sequence": 1,
+              "Text": "very well",
+              "Weight": 3
+            },
+            {
+              "Sequence": 2,
+              "Text": "so so",
+              "Weight": 2
+            },
+            {
+              "Sequence": 3,
+              "Text": "nothing at all",
+              "Weight": 1
+            }
+          ],
+          "Text": "How well do you know crum?",
+          "Weight": 3,
+          "Weighted": false
+        }
+      ]
+    }
+  ]
+}

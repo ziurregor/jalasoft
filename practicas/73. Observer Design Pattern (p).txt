@@ -1,0 +1,6 @@
+A person has an account in a bank.
+A person registers his cellphone to receive notifications from the bank.
+The bank system sends a notification once a person account has received a money credit.
+A person can unregister his cellphone for stop receiving notifications.
+
+Create unit tests to cover all possible cases.

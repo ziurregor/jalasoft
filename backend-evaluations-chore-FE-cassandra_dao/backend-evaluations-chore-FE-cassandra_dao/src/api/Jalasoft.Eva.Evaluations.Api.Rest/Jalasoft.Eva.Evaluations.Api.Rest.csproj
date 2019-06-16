@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <CodeAnalysisRuleSet>../../../Jalasoft.Eva.StyleCopRuleset.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+
+  <ItemGroup>
+	<PackageReference Include="Jalasoft.Eva.Core.Logger" Version="0.1.0" />
+	<PackageReference Include="StyleCop.Analyzers" Version="1.0.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Jalasoft.Eva.Core.ExceptionHandler" Version="0.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Cors" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Formatters.Json" Version="2.2.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\core\domain\Jalasoft.Eva.Evaluations.Domain\Jalasoft.Eva.Evaluations.Domain.csproj" />
+    <ProjectReference Include="..\..\core\services\Jalasoft.Eva.Evaluations.Services.Facade\Jalasoft.Eva.Evaluations.Services.Facade.csproj" />
+  </ItemGroup>
+
+</Project>

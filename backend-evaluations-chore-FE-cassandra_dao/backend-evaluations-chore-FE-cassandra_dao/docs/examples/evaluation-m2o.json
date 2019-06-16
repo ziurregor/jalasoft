@@ -1,0 +1,47 @@
+{
+  "name": "M2O test",
+  "creationDate": "2019-05-03T21:22:19.400992Z",
+  "editDate": "2019-05-03T21:22:19.4274931Z",
+  "idTemplate": "11111111-1111-1111-1111-111111111113",
+  "qualificationRanges": [],
+  "headers": [
+    {
+      "idTemplateDataField": "36004a67-4c36-4457-a30f-617ca9e0c838",
+      "value": "M2O Evaluation"
+    }
+  ],
+  "body": [
+    {
+      "id": "68f31a7b-c48-300d-7714-835cf346b927",
+      "sequence": 1,
+      "name": "Best practices",
+      "questions": [
+        {
+          "sequence": 1,
+          "idTemplateQuestionField": "5f4df704-8201-4e4f-94c2-4409da82bdb9",
+          "options": [
+            {
+              "sequence": 1,
+              "text": "very well",
+              "weight": 3
+            },
+            {
+              "sequence": 2,
+              "text": "so so",
+              "weight": 2
+            },
+            {
+              "sequence": 3,
+              "text": "nothing at all",
+              "weight": 1
+            }
+          ],
+          "text": "How well do you apply TDD?",
+          "weight": 3,
+          "weighted": false
+        }
+      ]
+    }
+  ],
+  "id": "e467db0b-eb16-489d-a183-552a0721d2a1"
+}

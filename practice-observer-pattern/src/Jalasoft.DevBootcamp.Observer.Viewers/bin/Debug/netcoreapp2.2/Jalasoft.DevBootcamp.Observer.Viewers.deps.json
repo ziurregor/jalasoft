@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.2",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "Jalasoft.DevBootcamp.Observer.Viewers/1.0.0": {
+        "dependencies": {
+          "Jalasoft.DevBootcamp.Observer.Pattern": "1.0.0"
+        },
+        "runtime": {
+          "Jalasoft.DevBootcamp.Observer.Viewers.dll": {}
+        }
+      },
+      "Jalasoft.DevBootcamp.Observer.Pattern/1.0.0": {
+        "runtime": {
+          "Jalasoft.DevBootcamp.Observer.Pattern.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Jalasoft.DevBootcamp.Observer.Viewers/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Jalasoft.DevBootcamp.Observer.Pattern/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

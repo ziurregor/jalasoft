@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <CodeAnalysisRuleSet>../../../Jalasoft.Eva.StyleCopRuleset.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>../../../build</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+	<PackageReference Include="Jalasoft.Eva.Core.Logger" Version="0.1.0" />
+	<PackageReference Include="StyleCop.Analyzers" Version="1.0.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.AspNetCore.Server.Kestrel" Version="2.2.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\core\services\Jalasoft.Eva.Evaluations.Services.Impl\Jalasoft.Eva.Evaluations.Services.Impl.csproj" />
+    <ProjectReference Include="..\Jalasoft.Eva.Evaluations.Api.Rest\Jalasoft.Eva.Evaluations.Api.Rest.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="ApplicationInfo.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

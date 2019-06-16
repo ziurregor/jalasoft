@@ -85,9 +85,7 @@ class EmitLogTopic
 
             //var routingKey = (args.Length > 0) ? args[0] : "Oriente.Beni.New.Electrodomestics";
 
-            //var message = (args.Length > 1)
-                          //? string.Join(" ", args.Skip(1).ToArray())
-                          //: "Hello World!";
+        
 
             
         }

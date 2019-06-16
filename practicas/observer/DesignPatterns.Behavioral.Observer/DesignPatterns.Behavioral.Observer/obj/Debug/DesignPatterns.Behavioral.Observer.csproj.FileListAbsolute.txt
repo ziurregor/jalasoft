@@ -1,0 +1,13 @@
+E:/ws/jalaf/gitlab/examples/design-patterns/behavioral/observer/DesignPatterns.Behavioral.Observer/DesignPatterns.Behavioral.Observer/bin/Debug/DesignPatterns.Behavioral.Observer.exe.config
+E:/ws/jalaf/gitlab/examples/design-patterns/behavioral/observer/DesignPatterns.Behavioral.Observer/DesignPatterns.Behavioral.Observer/bin/Debug/DesignPatterns.Behavioral.Observer.exe
+E:/ws/jalaf/gitlab/examples/design-patterns/behavioral/observer/DesignPatterns.Behavioral.Observer/DesignPatterns.Behavioral.Observer/bin/Debug/DesignPatterns.Behavioral.Observer.pdb
+E:/ws/jalaf/gitlab/examples/design-patterns/behavioral/observer/DesignPatterns.Behavioral.Observer/DesignPatterns.Behavioral.Observer/obj/Debug/DesignPatterns.Behavioral.Observer.csprojResolveAssemblyReference.cache
+E:/ws/jalaf/gitlab/examples/design-patterns/behavioral/observer/DesignPatterns.Behavioral.Observer/DesignPatterns.Behavioral.Observer/obj/Debug/DesignPatterns.Behavioral.Observer.exe
+E:/ws/jalaf/gitlab/examples/design-patterns/behavioral/observer/DesignPatterns.Behavioral.Observer/DesignPatterns.Behavioral.Observer/obj/Debug/DesignPatterns.Behavioral.Observer.pdb
+/Users/rogerruizescobar/Projects/practicas/observer/DesignPatterns.Behavioral.Observer/DesignPatterns.Behavioral.Observer/bin/Debug/DesignPatterns.Behavioral.Observer.exe.config
+/Users/rogerruizescobar/Projects/practicas/observer/DesignPatterns.Behavioral.Observer/DesignPatterns.Behavioral.Observer/bin/Debug/DesignPatterns.Behavioral.Observer.exe
+/Users/rogerruizescobar/Projects/practicas/observer/DesignPatterns.Behavioral.Observer/DesignPatterns.Behavioral.Observer/bin/Debug/DesignPatterns.Behavioral.Observer.pdb
+/Users/rogerruizescobar/Projects/practicas/observer/DesignPatterns.Behavioral.Observer/DesignPatterns.Behavioral.Observer/obj/Debug/DesignPatterns.Behavioral.Observer.csproj.CoreCompileInputs.cache
+/Users/rogerruizescobar/Projects/practicas/observer/DesignPatterns.Behavioral.Observer/DesignPatterns.Behavioral.Observer/obj/Debug/DesignPatterns.Behavioral.Observer.exe
+/Users/rogerruizescobar/Projects/practicas/observer/DesignPatterns.Behavioral.Observer/DesignPatterns.Behavioral.Observer/obj/Debug/DesignPatterns.Behavioral.Observer.pdb
+/Users/rogerruizescobar/Projects/practicas/observer/DesignPatterns.Behavioral.Observer/DesignPatterns.Behavioral.Observer/obj/Debug/DesignPatterns.Behavioral.Observer.csprojAssemblyReference.cache

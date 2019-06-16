@@ -1,0 +1,398 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/root.json",
+  "type": "object",
+  "title": "The Root Schema",
+  "required": [
+    "totalLenght",
+    "pageLength",
+    "data"
+  ],
+  "properties": {
+    "totalLenght": {
+      "$id": "#/properties/totalLenght",
+      "type": "integer",
+      "title": "The Totallenght Schema",
+      "default": 0,
+      "examples": [
+        2
+      ]
+    },
+    "pageLength": {
+      "$id": "#/properties/pageLength",
+      "type": "integer",
+      "title": "The Pagelength Schema",
+      "default": 0,
+      "examples": [
+        2
+      ]
+    },
+    "data": {
+      "$id": "#/properties/data",
+      "type": "array",
+      "title": "The Data Schema",
+      "items": {
+        "$id": "#/properties/data/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "required": [
+          "name",
+          "creationDate",
+          "editDate",
+          "idTemplate",
+          "qualificationRanges",
+          "headers",
+          "body",
+          "id"
+        ],
+        "properties": {
+          "name": {
+            "$id": "#/properties/data/items/properties/name",
+            "type": "string",
+            "title": "The Name Schema",
+            "default": "",
+            "examples": [
+              "Claudia Evaluation"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "creationDate": {
+            "$id": "#/properties/data/items/properties/creationDate",
+            "type": "string",
+            "title": "The Creationdate Schema",
+            "default": "",
+            "examples": [
+              "2019-04-26T15:12:49.826Z"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "editDate": {
+            "$id": "#/properties/data/items/properties/editDate",
+            "type": "string",
+            "title": "The Editdate Schema",
+            "default": "",
+            "examples": [
+              "2019-04-26T15:12:49.826Z"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "idTemplate": {
+            "$id": "#/properties/data/items/properties/idTemplate",
+            "type": "string",
+            "title": "The Idtemplate Schema",
+            "default": "",
+            "examples": [
+              "11111111-1111-1111-1111-111111111112"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "qualificationRanges": {
+            "$id": "#/properties/data/items/properties/qualificationRanges",
+            "type": "array",
+            "title": "The Qualificationranges Schema",
+            "items": {
+              "$id": "#/properties/data/items/properties/qualificationRanges/items",
+              "type": "object",
+              "title": "The Items Schema",
+              "required": [
+                "start",
+                "end",
+                "qualification",
+                "id"
+              ],
+              "properties": {
+                "start": {
+                  "$id": "#/properties/data/items/properties/qualificationRanges/items/properties/start",
+                  "type": "integer",
+                  "title": "The Start Schema",
+                  "default": 0,
+                  "examples": [
+                    0
+                  ]
+                },
+                "end": {
+                  "$id": "#/properties/data/items/properties/qualificationRanges/items/properties/end",
+                  "type": "integer",
+                  "title": "The End Schema",
+                  "default": 0,
+                  "examples": [
+                    50
+                  ]
+                },
+                "qualification": {
+                  "$id": "#/properties/data/items/properties/qualificationRanges/items/properties/qualification",
+                  "type": "string",
+                  "title": "The Qualification Schema",
+                  "default": "",
+                  "examples": [
+                    "Approved"
+                  ],
+                  "pattern": "^(.*)$"
+                },
+                "id": {
+                  "$id": "#/properties/data/items/properties/qualificationRanges/items/properties/id",
+                  "type": "string",
+                  "title": "The Id Schema",
+                  "default": "",
+                  "examples": [
+                    "d98d23e8-0fed-4927-b4c2-18a8dbd829ec"
+                  ],
+                  "pattern": "^(.*)$"
+                }
+              }
+            }
+          },
+          "headers": {
+            "$id": "#/properties/data/items/properties/headers",
+            "type": "array",
+            "title": "The Headers Schema",
+            "items": {
+              "$id": "#/properties/data/items/properties/headers/items",
+              "type": "object",
+              "title": "The Items Schema",
+              "required": [
+                "idTemplateDataField",
+                "value"
+              ],
+              "properties": {
+                "idTemplateDataField": {
+                  "$id": "#/properties/data/items/properties/headers/items/properties/idTemplateDataField",
+                  "type": "string",
+                  "title": "The Idtemplatedatafield Schema",
+                  "default": "",
+                  "examples": [
+                    "36004a67-4c36-4457-a30f-617ca9e0c838"
+                  ],
+                  "pattern": "^(.*)$"
+                },
+                "value": {
+                  "$id": "#/properties/data/items/properties/headers/items/properties/value",
+                  "type": "string",
+                  "title": "The Value Schema",
+                  "default": "",
+                  "examples": [
+                    "Please answer the question carefully"
+                  ],
+                  "pattern": "^(.*)$"
+                }
+              }
+            }
+          },
+          "body": {
+            "$id": "#/properties/data/items/properties/body",
+            "type": "array",
+            "title": "The Body Schema",
+            "items": {
+              "$id": "#/properties/data/items/properties/body/items",
+              "type": "object",
+              "title": "The Items Schema",
+              "required": [
+                "id",
+                "sequence",
+                "name",
+                "questions"
+              ],
+              "properties": {
+                "id": {
+                  "$id": "#/properties/data/items/properties/body/items/properties/id",
+                  "type": "string",
+                  "title": "The Id Schema",
+                  "default": "",
+                  "examples": [
+                    "68f31a7b-c48-300d-7714-835cf346b927"
+                  ],
+                  "pattern": "^(.*)$"
+                },
+                "sequence": {
+                  "$id": "#/properties/data/items/properties/body/items/properties/sequence",
+                  "type": "integer",
+                  "title": "The Sequence Schema",
+                  "default": 0,
+                  "examples": [
+                    1
+                  ]
+                },
+                "name": {
+                  "$id": "#/properties/data/items/properties/body/items/properties/name",
+                  "type": "string",
+                  "title": "The Name Schema",
+                  "default": "",
+                  "examples": [
+                    "Best practices I"
+                  ],
+                  "pattern": "^(.*)$"
+                },
+                "questions": {
+                  "$id": "#/properties/data/items/properties/body/items/properties/questions",
+                  "type": "array",
+                  "title": "The Questions Schema",
+                  "items": {
+                    "$id": "#/properties/data/items/properties/body/items/properties/questions/items",
+                    "type": "object",
+                    "title": "The Items Schema",
+                    "required": [
+                      "id",
+                      "text",
+                      "options",
+                      "weight",
+                      "idTemplateQuestionField",
+                      "weighted",
+                      "sequence"
+                    ],
+                    "properties": {
+                      "id": {
+                        "$id": "#/properties/data/items/properties/body/items/properties/questions/items/properties/id",
+                        "type": "string",
+                        "title": "The Id Schema",
+                        "default": "",
+                        "examples": [
+                          "c1b8056c-85f7-4c4a-937b-155941be58d0"
+                        ],
+                        "pattern": "^(.*)$"
+                      },
+                      "text": {
+                        "$id": "#/properties/data/items/properties/body/items/properties/questions/items/properties/text",
+                        "type": "string",
+                        "title": "The Text Schema",
+                        "default": "",
+                        "examples": [
+                          "Does the candidate Apply TDD?"
+                        ],
+                        "pattern": "^(.*)$"
+                      },
+                      "options": {
+                        "$id": "#/properties/data/items/properties/body/items/properties/questions/items/properties/options",
+                        "type": "array",
+                        "title": "The Options Schema",
+                        "items": {
+                          "$id": "#/properties/data/items/properties/body/items/properties/questions/items/properties/options/items",
+                          "type": "object",
+                          "title": "The Items Schema",
+                          "required": [
+                            "id",
+                            "sequence",
+                            "detailOption",
+                            "weight"
+                          ],
+                          "properties": {
+                            "id": {
+                              "$id": "#/properties/data/items/properties/body/items/properties/questions/items/properties/options/items/properties/id",
+                              "type": "string",
+                              "title": "The Id Schema",
+                              "default": "",
+                              "examples": [
+                                "42916264-3dbe-4ffd-8f19-312663436889"
+                              ],
+                              "pattern": "^(.*)$"
+                            },
+                            "sequence": {
+                              "$id": "#/properties/data/items/properties/body/items/properties/questions/items/properties/options/items/properties/sequence",
+                              "type": "integer",
+                              "title": "The Sequence Schema",
+                              "default": 0,
+                              "examples": [
+                                1
+                              ]
+                            },
+                            "detailOption": {
+                              "$id": "#/properties/data/items/properties/body/items/properties/questions/items/properties/options/items/properties/detailOption",
+                              "type": "object",
+                              "title": "The Detailoption Schema",
+                              "required": [
+                                "type",
+                                "body"
+                              ],
+                              "properties": {
+                                "type": {
+                                  "$id": "#/properties/data/items/properties/body/items/properties/questions/items/properties/options/items/properties/detailOption/properties/type",
+                                  "type": "string",
+                                  "title": "The Type Schema",
+                                  "default": "",
+                                  "examples": [
+                                    "Text"
+                                  ],
+                                  "pattern": "^(.*)$"
+                                },
+                                "body": {
+                                  "$id": "#/properties/data/items/properties/body/items/properties/questions/items/properties/options/items/properties/detailOption/properties/body",
+                                  "type": "string",
+                                  "title": "The Body Schema",
+                                  "default": "",
+                                  "examples": [
+                                    "Often"
+                                  ],
+                                  "pattern": "^(.*)$"
+                                }
+                              }
+                            },
+                            "weight": {
+                              "$id": "#/properties/data/items/properties/body/items/properties/questions/items/properties/options/items/properties/weight",
+                              "type": "integer",
+                              "title": "The Weight Schema",
+                              "default": 0,
+                              "examples": [
+                                3
+                              ]
+                            }
+                          }
+                        }
+                      },
+                      "weight": {
+                        "$id": "#/properties/data/items/properties/body/items/properties/questions/items/properties/weight",
+                        "type": "integer",
+                        "title": "The Weight Schema",
+                        "default": 0,
+                        "examples": [
+                          3
+                        ]
+                      },
+                      "idTemplateQuestionField": {
+                        "$id": "#/properties/data/items/properties/body/items/properties/questions/items/properties/idTemplateQuestionField",
+                        "type": "string",
+                        "title": "The Idtemplatequestionfield Schema",
+                        "default": "",
+                        "examples": [
+                          "bb457d6c-2422-4adf-8517-46d95fc962e6"
+                        ],
+                        "pattern": "^(.*)$"
+                      },
+                      "weighted": {
+                        "$id": "#/properties/data/items/properties/body/items/properties/questions/items/properties/weighted",
+                        "type": "boolean",
+                        "title": "The Weighted Schema",
+                        "default": false,
+                        "examples": [
+                          false
+                        ]
+                      },
+                      "sequence": {
+                        "$id": "#/properties/data/items/properties/body/items/properties/questions/items/properties/sequence",
+                        "type": "integer",
+                        "title": "The Sequence Schema",
+                        "default": 0,
+                        "examples": [
+                          0
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "id": {
+            "$id": "#/properties/data/items/properties/id",
+            "type": "string",
+            "title": "The Id Schema",
+            "default": "",
+            "examples": [
+              "4458381e-531b-44b1-94bf-030a49868c20"
+            ],
+            "pattern": "^(.*)$"
+          }
+        }
+      }
+    }
+  }
+}

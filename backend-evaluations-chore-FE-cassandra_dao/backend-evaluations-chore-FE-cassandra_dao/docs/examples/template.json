@@ -1,0 +1,91 @@
+{
+    "name": "One to Many",
+    "evalNameMaxChars": 150,
+    "allowedCharsRule": "^(\\s*[\\w&!¡+\\-\\(\\),.´*@\\\\/%#?¿'\"_áéíóúÁÉÍÓÚÄËÏÖÜäëïöü]\\s*)*$",
+    "allowsAddingQuestions": true,
+    "valueRequired": true,
+    "scoreFormula": "sum(i, 0, questionsLength, questionResult(i))",
+    "qualificationRules": {
+        "Min": 0,
+        "MinRanges": 1
+    },
+    "headers": [
+        {
+            "allowedCharsRule": "^(\\s*[\\w&!¡+\\-\\(\\),.´*@\\\\/%#?¿'\"_áéíóúÁÉÍÓÚÄËÏÖÜäëïöü]\\s*)*$",
+            "valueRequired": true,
+            "input": false,
+            "minChar": 0,
+            "maxChar": 150,
+            "type": "Text",
+            "id": "36004a67-4c36-4457-a30f-617ca9e0c838",
+            "label": "Description"
+        }
+    ],
+    "body": [
+        {
+            "optionRules": {
+                "minOptions": 2,
+                "maxOptions": 7,
+                "optionType": "Radio",
+                "allowedCharsRule": "^(\\s*[\\w&!¡+\\-\\(\\),.´*@\\\\/%#?¿'\"_áéíóúÁÉÍÓÚÄËÏÖÜäëïöü]\\s*)*$",
+                "valueRequired": true
+            },
+            "scoreFormula": "(correctAnswers / correctOptions) * questionScore",
+            "allowedCharsRule": "^(\\s*[\\w&!¡+\\-\\(\\),.´*@\\\\/%#?¿'\"_áéíóúÁÉÍÓÚÄËÏÖÜäëïöü]\\s*)*$",
+            "valueRequired": true,
+            "weighted": false,
+            "format": "Plain",
+            "id": "bdccdc7c-f397-4998-9efb-2ac2c9d40413",
+            "label": "Single Choice"
+        },
+        {
+            "optionRules": {
+                "minOptions": 2,
+                "maxOptions": 7,
+                "optionType": "RadioWeight",
+                "allowedCharsRule": "^(\\s*[\\w&!¡+\\-\\(\\),.´*@\\\\/%#?¿'\"_áéíóúÁÉÍÓÚÄËÏÖÜäëïöü]\\s*)*$",
+                "valueRequired": true
+            },
+            "scoreFormula": "sum(i, 0, correctAnswersLength, correctAnswer(i))",
+            "allowedCharsRule": "^(\\s*[\\w&!¡+\\-\\(\\),.´*@\\\\/%#?¿'\"_áéíóúÁÉÍÓÚÄËÏÖÜäëïöü]\\s*)*$",
+            "valueRequired": true,
+            "weighted": true,
+            "format": "Plain",
+            "id": "5f4df704-8201-4e4f-94c2-4409da82bdb9",
+            "label": "Single Choice With Weight"
+        },
+        {
+            "optionRules": {
+                "minOptions": 2,
+                "maxOptions": 5,
+                "optionType": "Check",
+                "allowedCharsRule": "^(\\s*[\\w&!¡+\\-\\(\\),.´*@\\\\/%#?¿'\"_áéíóúÁÉÍÓÚÄËÏÖÜäëïöü]\\s*)*$",
+                "valueRequired": true
+            },
+            "scoreFormula": "(correctAnswers / correctOptions) * questionScore",
+            "allowedCharsRule": "^(\\s*[\\w&!¡+\\-\\(\\),.´*@\\\\/%#?¿'\"_áéíóúÁÉÍÓÚÄËÏÖÜäëïöü]\\s*)*$",
+            "valueRequired": true,
+            "weighted": false,
+            "format": "Plain",
+            "id": "e2c7f8a4-a349-4381-bba7-ece43a4d3e7f",
+            "label": "Multiple Choice"
+        },
+        {
+            "optionRules": {
+                "minOptions": 2,
+                "maxOptions": 5,
+                "optionType": "CheckWeight",
+                "allowedCharsRule": "^(\\s*[\\w&!¡+\\-\\(\\),.´*@\\\\/%#?¿'\"_áéíóúÁÉÍÓÚÄËÏÖÜäëïöü]\\s*)*$",
+                "valueRequired": true
+            },
+            "scoreFormula": "sum(i, 0, correctAnswersLength, correctAnswer(i))",
+            "allowedCharsRule": "^(\\s*[\\w&!¡+\\-\\(\\),.´*@\\\\/%#?¿'\"_áéíóúÁÉÍÓÚÄËÏÖÜäëïöü]\\s*)*$",
+            "valueRequired": true,
+            "weighted": true,
+            "format": "Plain",
+            "id": "eafdbb82-53b9-42b2-8bce-78af45106b8c",
+            "label": "Multiple Choice With Weight"
+        }
+    ],
+    "id": "11111111-1111-1111-1111-111111111112"
+}

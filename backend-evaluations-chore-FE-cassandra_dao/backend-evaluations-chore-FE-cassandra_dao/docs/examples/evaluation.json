@@ -1,0 +1,132 @@
+{
+  "name": "Claudia Evaluation",
+  "creationDate": "2019-04-26T15:12:49.826Z",
+  "editDate": "2019-04-26T15:12:49.826Z",
+  "idTemplate": "11111111-1111-1111-1111-111111111112",
+  "qualificationRanges": [
+    {
+      "start": 0,
+      "end": 50,
+      "qualification": "Approved",
+      "id": "d98d23e8-0fed-4927-b4c2-18a8dbd829ec"
+    },
+    {
+      "start": 51,
+      "end": 100,
+      "qualification": "Reproved",
+      "id": "36a46d3a-e63e-440e-9013-994fc377f570"
+    }
+  ],
+  "headers": [
+    {
+      "idTemplateDataField": "36004a67-4c36-4457-a30f-617ca9e0c838",
+      "value": "Please answer the question carefully"
+    },
+    {
+      "idTemplateDataField": "36004a67-4c36-4457-a30f-617ca9e0c838",
+      "value": "Evaluation 360"
+    }
+  ],
+  "body": [
+    {
+      "id": "68f31a7b-c48-300d-7714-835cf346b927",
+      "sequence": 1,
+      "name": "Best practices",
+      "questions": [
+        {
+          "id": "c1b8056c-85f7-4c4a-937b-155941be58d0",
+          "text": "Does the candidate Apply TDD?",
+          "options": [
+            {
+              "id": "42916264-3dbe-4ffd-8f19-312663436889",
+              "sequence": 1,
+              "detailOption": {
+                "type": "Text",
+                "body": "Often"
+              },
+              "weight": 3
+            },
+            {
+              "id": "465222cf-8ac0-4484-9e6e-dc960a262981",
+              "sequence": 2,
+              "detailOption": {
+                "type": "Text",
+                "body": "Sometimes"
+              },
+              "weight": 2
+            },
+            {
+              "id": "082d87b6-9283-4bb0-9eec-7fb9a2a61eb5",
+              "sequence": 3,
+              "detailOption": {
+                "type": "Text",
+                "body": "Rarely"
+              },
+              "weight": 1
+            },
+            {
+              "id": "ecea2f6b-5495-4608-b6d4-b30aad9388a6",
+              "sequence": 4,
+              "detailOption": {
+                "type": "Text",
+                "body": "Never"
+              },
+              "weight": 0
+            }
+          ],
+          "weight": 3,
+          "idTemplateQuestionField": "bb457d6c-2422-4adf-8517-46d95fc962e6",
+          "weighted": false,
+          "sequence": 0
+        },
+        {
+          "id": "35d0542e-1aa1-412e-ba31-b016e7fbf799",
+          "text": "Which of the following practices does the candidate follow?",
+          "options": [
+            {
+              "id": "cb21f21c-5c65-4e99-a184-e382f93c6fd5",
+              "sequence": 1,
+              "detailOption": {
+                "type": "Text",
+                "body": "TDD"
+              },
+              "weight": 1
+            },
+            {
+              "id": "34b1831e-c025-406d-8203-8499641e419e",
+              "sequence": 2,
+              "detailOption": {
+                "type": "Text",
+                "body": "Code Styling"
+              },
+              "weight": 1
+            },
+            {
+              "id": "2ce5766a-7dee-41d6-b5f2-5de100625e71",
+              "sequence": 3,
+              "detailOption": {
+                "type": "Text",
+                "body": "DDD"
+              },
+              "weight": 1
+            },
+            {
+              "id": "468bc5cc-0ede-4729-9d3d-ccfd8a00b032",
+              "sequence": 4,
+              "detailOption": {
+                "type": "Text",
+                "body": "MVV"
+              },
+              "weight": 1
+            }
+          ],
+          "weight": 4,
+          "idTemplateQuestionField": "5f4df704-8201-4e4f-94c2-4409da82bdb9",
+          "weighted": false,
+          "sequence": 0
+        }
+      ]
+    }
+  ],
+  "id": "4458381e-531b-44b1-94bf-030a49868c20"
+}

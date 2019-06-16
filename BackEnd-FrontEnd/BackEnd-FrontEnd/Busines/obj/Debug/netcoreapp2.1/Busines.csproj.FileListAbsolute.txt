@@ -1,0 +1,14 @@
+C:\Jalasoft\GitLab\BackEnd\BackEnd-FrontEnd\BackEnd-FrontEnd\Busines\bin\Debug\netcoreapp2.1\Busines.deps.json
+C:\Jalasoft\GitLab\BackEnd\BackEnd-FrontEnd\BackEnd-FrontEnd\Busines\bin\Debug\netcoreapp2.1\Busines.dll
+C:\Jalasoft\GitLab\BackEnd\BackEnd-FrontEnd\BackEnd-FrontEnd\Busines\bin\Debug\netcoreapp2.1\Busines.pdb
+C:\Jalasoft\GitLab\BackEnd\BackEnd-FrontEnd\BackEnd-FrontEnd\Busines\bin\Debug\netcoreapp2.1\DataAccess.dll
+C:\Jalasoft\GitLab\BackEnd\BackEnd-FrontEnd\BackEnd-FrontEnd\Busines\bin\Debug\netcoreapp2.1\Model.dll
+C:\Jalasoft\GitLab\BackEnd\BackEnd-FrontEnd\BackEnd-FrontEnd\Busines\bin\Debug\netcoreapp2.1\DataAccess.pdb
+C:\Jalasoft\GitLab\BackEnd\BackEnd-FrontEnd\BackEnd-FrontEnd\Busines\bin\Debug\netcoreapp2.1\Model.pdb
+C:\Jalasoft\GitLab\BackEnd\BackEnd-FrontEnd\BackEnd-FrontEnd\Busines\obj\Debug\netcoreapp2.1\Busines.csprojAssemblyReference.cache
+C:\Jalasoft\GitLab\BackEnd\BackEnd-FrontEnd\BackEnd-FrontEnd\Busines\obj\Debug\netcoreapp2.1\Busines.csproj.CoreCompileInputs.cache
+C:\Jalasoft\GitLab\BackEnd\BackEnd-FrontEnd\BackEnd-FrontEnd\Busines\obj\Debug\netcoreapp2.1\Busines.AssemblyInfoInputs.cache
+C:\Jalasoft\GitLab\BackEnd\BackEnd-FrontEnd\BackEnd-FrontEnd\Busines\obj\Debug\netcoreapp2.1\Busines.AssemblyInfo.cs
+C:\Jalasoft\GitLab\BackEnd\BackEnd-FrontEnd\BackEnd-FrontEnd\Busines\obj\Debug\netcoreapp2.1\Busines.csproj.CopyComplete
+C:\Jalasoft\GitLab\BackEnd\BackEnd-FrontEnd\BackEnd-FrontEnd\Busines\obj\Debug\netcoreapp2.1\Busines.dll
+C:\Jalasoft\GitLab\BackEnd\BackEnd-FrontEnd\BackEnd-FrontEnd\Busines\obj\Debug\netcoreapp2.1\Busines.pdb

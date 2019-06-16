@@ -1,0 +1,1 @@
+E:\ws\jalaf\gitlab\examples\design-patterns\behavioral\observer\DesignPatterns.Behavioral.Observer2\DesignPatterns.Behavioral.Observer2\obj\Debug\DesignPatterns.Behavioral.Observer2.csprojResolveAssemblyReference.cache

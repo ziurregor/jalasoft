@@ -8,3 +8,13 @@
 /Users/rogerruizescobar/Projects/Jalasoft.DotNet.RabbitNQ/Jalasoft.DotNet.RabbitNQ/obj/Debug/netcoreapp2.2/Jalasoft.DotNet.RabbitNQ.AssemblyInfo.cs
 /Users/rogerruizescobar/Projects/Jalasoft.DotNet.RabbitNQ/Jalasoft.DotNet.RabbitNQ/obj/Debug/netcoreapp2.2/Jalasoft.DotNet.RabbitNQ.dll
 /Users/rogerruizescobar/Projects/Jalasoft.DotNet.RabbitNQ/Jalasoft.DotNet.RabbitNQ/obj/Debug/netcoreapp2.2/Jalasoft.DotNet.RabbitNQ.pdb
+C:\git\jala-new\jalasoft\Jalasoft.DotNet.RabbitNQ\Jalasoft.DotNet.RabbitNQ\bin\Debug\netcoreapp2.2\Jalasoft.DotNet.RabbitNQ.deps.json
+C:\git\jala-new\jalasoft\Jalasoft.DotNet.RabbitNQ\Jalasoft.DotNet.RabbitNQ\bin\Debug\netcoreapp2.2\Jalasoft.DotNet.RabbitNQ.runtimeconfig.json
+C:\git\jala-new\jalasoft\Jalasoft.DotNet.RabbitNQ\Jalasoft.DotNet.RabbitNQ\bin\Debug\netcoreapp2.2\Jalasoft.DotNet.RabbitNQ.runtimeconfig.dev.json
+C:\git\jala-new\jalasoft\Jalasoft.DotNet.RabbitNQ\Jalasoft.DotNet.RabbitNQ\bin\Debug\netcoreapp2.2\Jalasoft.DotNet.RabbitNQ.dll
+C:\git\jala-new\jalasoft\Jalasoft.DotNet.RabbitNQ\Jalasoft.DotNet.RabbitNQ\bin\Debug\netcoreapp2.2\Jalasoft.DotNet.RabbitNQ.pdb
+C:\git\jala-new\jalasoft\Jalasoft.DotNet.RabbitNQ\Jalasoft.DotNet.RabbitNQ\obj\Debug\netcoreapp2.2\Jalasoft.DotNet.RabbitNQ.csproj.CoreCompileInputs.cache
+C:\git\jala-new\jalasoft\Jalasoft.DotNet.RabbitNQ\Jalasoft.DotNet.RabbitNQ\obj\Debug\netcoreapp2.2\Jalasoft.DotNet.RabbitNQ.AssemblyInfoInputs.cache
+C:\git\jala-new\jalasoft\Jalasoft.DotNet.RabbitNQ\Jalasoft.DotNet.RabbitNQ\obj\Debug\netcoreapp2.2\Jalasoft.DotNet.RabbitNQ.AssemblyInfo.cs
+C:\git\jala-new\jalasoft\Jalasoft.DotNet.RabbitNQ\Jalasoft.DotNet.RabbitNQ\obj\Debug\netcoreapp2.2\Jalasoft.DotNet.RabbitNQ.dll
+C:\git\jala-new\jalasoft\Jalasoft.DotNet.RabbitNQ\Jalasoft.DotNet.RabbitNQ\obj\Debug\netcoreapp2.2\Jalasoft.DotNet.RabbitNQ.pdb

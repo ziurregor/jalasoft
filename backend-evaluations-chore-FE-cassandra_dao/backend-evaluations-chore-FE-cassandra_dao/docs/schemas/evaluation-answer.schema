@@ -1,0 +1,90 @@
+{
+ 2   "definitions": {},
+ 3   "$schema": "http://json-schema.org/draft-07/schema#",
+ 4   "$id": "http://example.com/root.json",
+ 5   "type": "object",
+ 6   "title": "The Root Schema",
+ 7   "required": [
+ 8     "IdEvaluation",
+ 9     "Owner",
+10     "Sections"
+11   ],
+12   "properties": {
+13     "IdEvaluation": {
+14       "$id": "#/properties/IdEvaluation",
+15       "type": "string",
+16       "title": "The Idevaluation Schema",
+17       "default": "",
+18       "examples": [
+19         "442f0d2b-03ab-4016-afa0-ac1201a2f59f"
+20       ],
+21       "pattern": "^(.*)$"
+22     },
+23     "Owner": {
+24       "$id": "#/properties/Owner",
+25       "type": "string",
+26       "title": "The Owner Schema",
+27       "default": "",
+28       "examples": [
+29         "monicas"
+30       ],
+31       "pattern": "^(.*)$"
+32     },
+33     "Sections": {
+34       "$id": "#/properties/Sections",
+35       "type": "array",
+36       "title": "The Sections Schema",
+37       "items": {
+38         "$id": "#/properties/Sections/items",
+39         "type": "object",
+40         "title": "The Items Schema",
+41         "required": [
+42           "QuestionAnswers"
+43         ],
+44         "properties": {
+45           "QuestionAnswers": {
+46             "$id": "#/properties/Sections/items/properties/QuestionAnswers",
+47             "type": "array",
+48             "title": "The Questionanswers Schema",
+49             "items": {
+50               "$id": "#/properties/Sections/items/properties/QuestionAnswers/items",
+51               "type": "object",
+52               "title": "The Items Schema",
+53               "required": [
+54                 "IdQuestion",
+55                 "SelectedAnswersIds"
+56               ],
+57               "properties": {
+58                 "IdQuestion": {
+59                   "$id": "#/properties/Sections/items/properties/QuestionAnswers/items/properties/IdQuestion",
+60                   "type": "string",
+61                   "title": "The Idquestion Schema",
+62                   "default": "",
+63                   "examples": [
+64                     "adcbdf2b-6d7a-4361-af3e-21178e173bc2"
+65                   ],
+66                   "pattern": "^(.*)$"
+67                 },
+68                 "SelectedAnswersIds": {
+69                   "$id": "#/properties/Sections/items/properties/QuestionAnswers/items/properties/SelectedAnswersIds",
+70                   "type": "array",
+71                   "title": "The Selectedanswersids Schema",
+72                   "items": {
+73                     "$id": "#/properties/Sections/items/properties/QuestionAnswers/items/properties/SelectedAnswersIds/items",
+74                     "type": "string",
+75                     "title": "The Items Schema",
+76                     "default": "",
+77                     "examples": [
+78                       "af5aec07-b0ea-4cc3-b5fd-8f3fd7716d2c"
+79                     ],
+80                     "pattern": "^(.*)$"
+81                   }
+82                 }
+83               }
+84             }
+85           }
+86         }
+87       }
+88     }
+89   }
+90 }

@@ -1,0 +1,192 @@
+variables:
+  CI_USER: bootcamp03
+  UAT_ENVIRONMENT: /home/$CI_USER/$CI_PROJECT_NAME
+  DEV_BRANCH: dev
+  RELEASE_BRANCH: Release
+  IMAGE_NAME: jalasoft/eva-backend-evaluations
+  SOLUTION_NAME: RestApi.sln
+  BUILD_DIR: /app/build
+  DOCS_DIR: /app/docs
+  DOCS_FILE_NAME: index.html
+  DLL_MAIN: Jalasoft.Eva.Evaluations.Api.Server.dll
+  MONGO_DB_NAME: mongo-eva
+  MONGO_DB_DATA: /home/$CI_USER/$MONGO_DB_NAME/data/db
+  VIRTUAL_NETWORK: eva-network
+
+before_script:
+  - docker info
+  - echo -e "****** ENVIRONMENT VARIABLES ****** \n
+      CI_JOB_ID = $CI_JOB_ID \n
+      CI_JOB_NAME = $CI_JOB_NAME \n
+      CI_JOB_STAGE = $CI_JOB_STAGE \n
+      CI_PIPELINE_ID = $CI_PIPELINE_ID \n
+      CI_COMMIT_REF_NAME = $CI_COMMIT_REF_NAME \n
+      CI_RUNNER_ID = $CI_RUNNER_ID \n
+      CI_RUNNER_DESCRIPTION = $CI_RUNNER_DESCRIPTION \n
+      CI_RUNNER_TAGS = $CI_RUNNER_TAGS \n
+      CI_PROJECT_DIR = $CI_PROJECT_DIR \n
+      CI_PROJECT_NAME = $CI_PROJECT_NAME \n
+      CI_PROJECT_NAMESPACE = $CI_PROJECT_NAMESPACE \n
+      CI_PROJECT_PATH = $CI_PROJECT_PATH \n
+      GITLAB_USER_ID = $GITLAB_USER_ID \n
+      GITLAB_USER_EMAIL = $GITLAB_USER_EMAIL \n
+      CI_USER = $CI_USER \n
+      UAT_ENVIRONMENT = $UAT_ENVIRONMENT \n
+      DEV_BRANCH = $DEV_BRANCH \n
+      IMAGE_NAME = $IMAGE_NAME"
+
+after_script:
+  - sudo chown -R bootcamp03:bootcamp03 $CI_PROJECT_DIR/build >/dev/null 2>&1 || true
+
+stages:
+  - pre_build
+  - tests
+  - build
+  - post_build
+
+docker_build:feature_chore:
+  stage: pre_build
+  tags:
+    - bootcamp03
+  script:
+    - docker build -t $IMAGE_NAME:pipeline$CI_PIPELINE_ID -f BackendEvaluations.Dockerfile .
+  only:
+    - /^((feature|chore)\/[a-zA-Z_-]+)$/
+
+docker_build:dev:
+  stage: pre_build
+  tags:
+    - bootcamp03
+  script:
+    - docker build -t $IMAGE_NAME:$DEV_BRANCH -f BackendEvaluations.Dockerfile .
+  only:
+    - dev
+
+linting:feature_chore:
+  stage: tests
+  tags:
+    - bootcamp03
+  script:
+    - docker run --rm $IMAGE_NAME:pipeline$CI_PIPELINE_ID /bin/bash -c \
+      "dotnet clean -p:Configuration=$RELEASE_BRANCH $SOLUTION_NAME &&
+      dotnet build -p:Configuration=$RELEASE_BRANCH -p:TreatWarningsAsErrors=true $SOLUTION_NAME -target:rebuild"
+  only:
+    - /^((feature|chore)\/[a-zA-Z_-]+)$/
+
+linting:dev:
+  stage: tests
+  tags:
+    - bootcamp03
+  script:
+    - docker run --rm $IMAGE_NAME:$DEV_BRANCH /bin/bash -c \
+      "
+        dotnet clean -p:Configuration=$RELEASE_BRANCH $SOLUTION_NAME &&
+        dotnet build -p:Configuration=$RELEASE_BRANCH -p:TreatWarningsAsErrors=true $SOLUTION_NAME -target:rebuild
+      "
+  only:
+    - dev
+
+unit_tests:feature_chore:
+  stage: tests
+  tags:
+    - bootcamp03
+  script:
+    - docker run --rm $IMAGE_NAME:pipeline$CI_PIPELINE_ID dotnet test
+  only:
+    - /^((feature|chore)\/[a-zA-Z_-]+)$/
+
+unit_tests:dev:
+  stage: tests
+  tags:
+    - bootcamp03
+  script:
+    - docker run --rm $IMAGE_NAME:$DEV_BRANCH dotnet test
+  only:
+    - dev
+
+build:feature_chore:
+  stage: build
+  tags:
+    - bootcamp03
+  script:
+    - docker run --rm -v $CI_PROJECT_DIR/build/:$BUILD_DIR $IMAGE_NAME:pipeline$CI_PIPELINE_ID dotnet build -p:Configuration=$RELEASE_BRANCH -p:TreatWarningsAsErrors=false $SOLUTION_NAME
+    - sudo zip -r $CI_PROJECT_NAME.zip build
+  artifacts:
+    paths:
+    - $CI_PROJECT_DIR/$CI_PROJECT_NAME.zip
+    expire_in: 1 day
+  only:
+    - /^((feature|chore)\/[a-zA-Z_-]+)$/
+
+build:dev:
+  stage: build
+  tags:
+    - bootcamp03
+  script:
+    - docker run --rm -v $CI_PROJECT_DIR/build/:$BUILD_DIR $IMAGE_NAME:$DEV_BRANCH dotnet build -p:Configuration=$RELEASE_BRANCH -p:TreatWarningsAsErrors=false $SOLUTION_NAME
+    - sudo zip -r $CI_PROJECT_NAME.zip build
+  artifacts:
+    paths:
+    - $CI_PROJECT_DIR/$CI_PROJECT_NAME.zip
+    expire_in: 1 week
+  only:
+    - dev
+
+documentation:feature_chore:
+  stage: build
+  tags:
+    - bootcamp03
+  script:
+    - docker run --rm -v $CI_PROJECT_DIR/docs/:$DOCS_DIR $IMAGE_NAME:pipeline$CI_PIPELINE_ID raml2html docs/rest-docs.raml > docs/$DOCS_FILE_NAME
+  artifacts:
+    paths:
+    - $CI_PROJECT_DIR/docs/$DOCS_FILE_NAME
+    expire_in: 1 day
+  only:
+    - /^((feature|chore)\/[a-zA-Z_-]+)$/
+
+documentation:dev:
+  stage: build
+  tags:
+    - bootcamp03
+  script:
+    - docker run --rm -v $CI_PROJECT_DIR/docs/:$DOCS_DIR $IMAGE_NAME:$DEV_BRANCH raml2html docs/rest-docs.raml > docs/$DOCS_FILE_NAME
+  artifacts:
+    paths:
+    - $CI_PROJECT_DIR/docs/$DOCS_FILE_NAME
+    expire_in: 1 week
+  only:
+    - dev
+
+clean_image:feature_chore:
+  stage: post_build
+  tags:
+    - bootcamp03
+  script:
+    - docker rmi $IMAGE_NAME:pipeline$CI_PIPELINE_ID >/dev/null 2>&1 || true
+  only:
+    - /^((feature|chore)\/[a-zA-Z_-]+)$/
+  
+deploy:dev:
+  stage: post_build
+  tags:
+    - bootcamp03
+  script:
+    - docker stop $MONGO_DB_NAME >/dev/null 2>&1 || true
+    - docker stop $CI_PROJECT_NAME >/dev/null 2>&1 || true
+    - docker stop $CI_PROJECT_NAME-docs >/dev/null 2>&1 || true
+    - mkdir $UAT_ENVIRONMENT >/dev/null 2>&1 || true
+    - sudo rm -rf $UAT_ENVIRONMENT/*
+    - mkdir $UAT_ENVIRONMENT/docs >/dev/null 2>&1 || true
+    - mv $CI_PROJECT_NAME.zip $UAT_ENVIRONMENT
+    - mv docs/$DOCS_FILE_NAME $UAT_ENVIRONMENT/docs/$DOCS_FILE_NAME
+    - cd $UAT_ENVIRONMENT
+    - sudo unzip $CI_PROJECT_NAME.zip
+    - docker run --rm --name $MONGO_DB_NAME -v $MONGO_DB_DATA:/data/db -p 27017:27017 -d mongo
+    - docker run --rm --name $CI_PROJECT_NAME -v $UAT_ENVIRONMENT/build:$BUILD_DIR -p 8087:8087 -d $IMAGE_NAME:$DEV_BRANCH dotnet $BUILD_DIR/netcoreapp2.1/$DLL_MAIN 
+    - docker run --rm --name $CI_PROJECT_NAME-docs -v $UAT_ENVIRONMENT/docs:/usr/share/nginx/html -p 8088:80 -d nginx
+  dependencies:
+    - build:dev
+    - documentation:dev
+  only:
+    - dev

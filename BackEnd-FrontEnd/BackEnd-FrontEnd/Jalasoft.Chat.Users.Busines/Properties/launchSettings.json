@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Jalasoft.Chat.Users.Busines": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\Jalasoft\\GitLab\\BackEnd\\BackEnd-FrontEnd\\BackEnd-FrontEnd"
+    }
+  }
+}

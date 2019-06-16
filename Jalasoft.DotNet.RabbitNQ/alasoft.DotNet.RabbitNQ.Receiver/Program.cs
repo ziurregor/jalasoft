@@ -2,9 +2,14 @@
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 using System.Text;
+<<<<<<< HEAD
 using Newtonsoft.Json;
 using System.Threading.Tasks;
 
+=======
+using Newtonsoft.Json;
+
+>>>>>>> 60c8fc4a856d468b344c8909e0cc2c9fd2e0f558
 class ReceiveLogsTopic
 {
     public static void Main(string[] args)
@@ -55,7 +60,7 @@ class ReceiveLogsTopic
             channel.BasicConsume(queue: queueName,
                                  autoAck: false,
                                  consumer: consumer);
-            
+            //channel.BasicAck()
             Console.WriteLine(" Press [enter] to exit.");
             Console.ReadLine();
         }
