@@ -1,27 +1,51 @@
 ﻿namespace Jalasoft.DevBootcamp.Observer.Pattern
 {
+    using System;
     using System.Collections.Generic;
+    using System.Linq;
 
     public class Account
     {
         private int balance;
 
-        private List<Person> persons;
+        private List<Device> mobiles;
 
         public Account()
         {
-            this.persons = new List<Person>();
+            this.mobiles = new List<Device>();
         }
 
-        public void RegisterClient(Person person)
+        public void RegisterDevice(Device device)
         {
-            this.persons.Add(person);
+            this.mobiles.Add(device);
+        }
+
+        public int CountMobiles()
+        {
+            return this.mobiles.Count();
         }
 
         public void Deposit(int amount)
         {
-            this.balance = this.balance + amount;
-            this.Inform();
+            if (amount > 0)
+            {
+                this.balance = this.balance + amount;
+                this.Inform();
+            }
+            else
+            {
+                Console.WriteLine($"The amount [{amount}] should be major to 0.");
+            }
+        }
+
+        public void UnregsiterMobile(Device mobile)
+        {
+            this.mobiles.Remove(mobile);
+        }
+
+        public Device GetMobile(string name)
+        {
+            return this.mobiles.FirstOrDefault(p => p.Name == name);
         }
 
         public int GetAccountBalance()
@@ -31,7 +55,7 @@
 
         private void Inform()
         {
-            foreach (var person in this.persons)
+            foreach (var person in this.mobiles)
             {
                 person.CurrentBalance();
             }

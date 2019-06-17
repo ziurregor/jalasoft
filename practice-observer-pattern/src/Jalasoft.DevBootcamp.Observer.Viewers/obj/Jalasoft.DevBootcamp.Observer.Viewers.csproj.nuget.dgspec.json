@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Jalasoft\\GitLab\\de backend\\practice-observer-pattern\\src\\Jalasoft.DevBootcamp.Observer.Viewers\\Jalasoft.DevBootcamp.Observer.Viewers.csproj": {}
+    "D:\\git\\gitlab\\backend\\practices\\practice-observer-pattern\\src\\Jalasoft.DevBootcamp.Observer.Viewers\\Jalasoft.DevBootcamp.Observer.Viewers.csproj": {}
   },
   "projects": {
-    "C:\\Jalasoft\\GitLab\\de backend\\practice-observer-pattern\\src\\Jalasoft.DevBootcamp.Observer.Pattern\\Jalasoft.DevBootcamp.Observer.Pattern.csproj": {
+    "D:\\git\\gitlab\\backend\\practices\\practice-observer-pattern\\src\\Jalasoft.DevBootcamp.Observer.Pattern\\Jalasoft.DevBootcamp.Observer.Pattern.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Jalasoft\\GitLab\\de backend\\practice-observer-pattern\\src\\Jalasoft.DevBootcamp.Observer.Pattern\\Jalasoft.DevBootcamp.Observer.Pattern.csproj",
+        "projectUniqueName": "D:\\git\\gitlab\\backend\\practices\\practice-observer-pattern\\src\\Jalasoft.DevBootcamp.Observer.Pattern\\Jalasoft.DevBootcamp.Observer.Pattern.csproj",
         "projectName": "Jalasoft.DevBootcamp.Observer.Pattern",
-        "projectPath": "C:\\Jalasoft\\GitLab\\de backend\\practice-observer-pattern\\src\\Jalasoft.DevBootcamp.Observer.Pattern\\Jalasoft.DevBootcamp.Observer.Pattern.csproj",
-        "packagesPath": "C:\\Users\\RogerRuizEscobar\\.nuget\\packages\\",
-        "outputPath": "C:\\Jalasoft\\GitLab\\de backend\\practice-observer-pattern\\src\\Jalasoft.DevBootcamp.Observer.Pattern\\obj\\",
+        "projectPath": "D:\\git\\gitlab\\backend\\practices\\practice-observer-pattern\\src\\Jalasoft.DevBootcamp.Observer.Pattern\\Jalasoft.DevBootcamp.Observer.Pattern.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\git\\gitlab\\backend\\practices\\practice-observer-pattern\\src\\Jalasoft.DevBootcamp.Observer.Pattern\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\RogerRuizEscobar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -56,20 +56,20 @@
         }
       }
     },
-    "C:\\Jalasoft\\GitLab\\de backend\\practice-observer-pattern\\src\\Jalasoft.DevBootcamp.Observer.Viewers\\Jalasoft.DevBootcamp.Observer.Viewers.csproj": {
+    "D:\\git\\gitlab\\backend\\practices\\practice-observer-pattern\\src\\Jalasoft.DevBootcamp.Observer.Viewers\\Jalasoft.DevBootcamp.Observer.Viewers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Jalasoft\\GitLab\\de backend\\practice-observer-pattern\\src\\Jalasoft.DevBootcamp.Observer.Viewers\\Jalasoft.DevBootcamp.Observer.Viewers.csproj",
+        "projectUniqueName": "D:\\git\\gitlab\\backend\\practices\\practice-observer-pattern\\src\\Jalasoft.DevBootcamp.Observer.Viewers\\Jalasoft.DevBootcamp.Observer.Viewers.csproj",
         "projectName": "Jalasoft.DevBootcamp.Observer.Viewers",
-        "projectPath": "C:\\Jalasoft\\GitLab\\de backend\\practice-observer-pattern\\src\\Jalasoft.DevBootcamp.Observer.Viewers\\Jalasoft.DevBootcamp.Observer.Viewers.csproj",
-        "packagesPath": "C:\\Users\\RogerRuizEscobar\\.nuget\\packages\\",
-        "outputPath": "C:\\Jalasoft\\GitLab\\de backend\\practice-observer-pattern\\src\\Jalasoft.DevBootcamp.Observer.Viewers\\obj\\",
+        "projectPath": "D:\\git\\gitlab\\backend\\practices\\practice-observer-pattern\\src\\Jalasoft.DevBootcamp.Observer.Viewers\\Jalasoft.DevBootcamp.Observer.Viewers.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\git\\gitlab\\backend\\practices\\practice-observer-pattern\\src\\Jalasoft.DevBootcamp.Observer.Viewers\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\RogerRuizEscobar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -82,8 +82,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Jalasoft\\GitLab\\de backend\\practice-observer-pattern\\src\\Jalasoft.DevBootcamp.Observer.Pattern\\Jalasoft.DevBootcamp.Observer.Pattern.csproj": {
-                "projectPath": "C:\\Jalasoft\\GitLab\\de backend\\practice-observer-pattern\\src\\Jalasoft.DevBootcamp.Observer.Pattern\\Jalasoft.DevBootcamp.Observer.Pattern.csproj"
+              "D:\\git\\gitlab\\backend\\practices\\practice-observer-pattern\\src\\Jalasoft.DevBootcamp.Observer.Pattern\\Jalasoft.DevBootcamp.Observer.Pattern.csproj": {
+                "projectPath": "D:\\git\\gitlab\\backend\\practices\\practice-observer-pattern\\src\\Jalasoft.DevBootcamp.Observer.Pattern\\Jalasoft.DevBootcamp.Observer.Pattern.csproj"
               }
             }
           }
