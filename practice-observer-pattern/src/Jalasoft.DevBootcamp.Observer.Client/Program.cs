@@ -13,7 +13,7 @@
             new Wife(account);
             for (int i = 0; i < 3; i++)
             {
-                Console.WriteLine($"Changing subject state to: {i}");
+                Console.WriteLine($"Changing account balance state to: {i}");
                 account.Deposit(2088)
 ;            }
         }

@@ -1,12 +1,13 @@
 ﻿<Properties StartupConfiguration="{8AA3F528-178D-42E7-A7E2-8B9B0A4FDF9B}|Default">
   <MonoDevelop.Ide.ItemProperties.src.client.Jalasoft.DevBootcamp.Observer.Client PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="src/Jalasoft.DevBootcamp.Observer.Client/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="test/Jalasoft.DevBootcamp.Observer.Pattern.Tests/PersonTest.cs">
     <Files>
-      <File FileName="src/Jalasoft.DevBootcamp.Observer.Pattern/Account.cs" Line="1" Column="1" />
+      <File FileName="src/Jalasoft.DevBootcamp.Observer.Pattern/Account.cs" Line="27" Column="39" />
       <File FileName="src/Jalasoft.DevBootcamp.Observer.Pattern/Person.cs" Line="15" Column="2" />
-      <File FileName="src/Jalasoft.DevBootcamp.Observer.Viewers/Husband.cs" Line="8" Column="47" />
-      <File FileName="src/Jalasoft.DevBootcamp.Observer.Client/Program.cs" Line="12" Column="34" />
+      <File FileName="src/Jalasoft.DevBootcamp.Observer.Viewers/Husband.cs" Line="14" Column="13" />
+      <File FileName="src/Jalasoft.DevBootcamp.Observer.Client/Program.cs" Line="22" Column="1" />
       <File FileName="src/Jalasoft.DevBootcamp.Observer.Viewers/Wife.cs" Line="14" Column="35" />
+      <File FileName="test/Jalasoft.DevBootcamp.Observer.Pattern.Tests/PersonTest.cs" Line="14" Column="41" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,9 +15,7 @@
           <Node name="practice-observer-pattern" expanded="True">
             <Node name="src" expanded="True">
               <Node name="client" expanded="True">
-                <Node name="Jalasoft.DevBootcamp.Observer.Client" expanded="True">
-                  <Node name="Program.cs" selected="True" />
-                </Node>
+                <Node name="Jalasoft.DevBootcamp.Observer.Client" expanded="True" />
               </Node>
               <Node name="subject-observer" expanded="True">
                 <Node name="Jalasoft.DevBootcamp.Observer.Pattern" expanded="True" />
@@ -27,7 +26,12 @@
             </Node>
             <Node name="test" expanded="True">
               <Node name="subject-observer" expanded="True">
-                <Node name="Jalasoft.DevBootcamp.Observer.Pattern.Tests" expanded="True" />
+                <Node name="Jalasoft.DevBootcamp.Observer.Pattern.Tests" expanded="True">
+                  <Node name="Dependencies" expanded="True">
+                    <Node name="ProjectDependencies" expanded="True" />
+                  </Node>
+                  <Node name="PersonTest.cs" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
@@ -38,9 +42,17 @@
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="practice-observer-pattern" expanded="True" selected="True">
+          <Node name="practice-observer-pattern" expanded="True">
             <Node name="test" expanded="True">
-              <Node name="subject-observer" expanded="True" />
+              <Node name="subject-observer" expanded="True">
+                <Node name="Jalasoft.DevBootcamp.Observer.Pattern.Tests" expanded="True">
+                  <Node name="TestPerson" expanded="True">
+                    <Node name="PersonTest" expanded="True">
+                      <Node name="CurrentBalance" selected="True" />
+                    </Node>
+                  </Node>
+                </Node>
+              </Node>
             </Node>
           </Node>
         </State>
@@ -51,7 +63,7 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/rogerruizescobar/Projects/practice-observer-pattern/test/Jalasoft.DevBootcamp.Observer.Pattern.Tests/PersonTest.cs" relfile="test/Jalasoft.DevBootcamp.Observer.Pattern.Tests/PersonTest.cs" line="18" column="1" />
+      <Breakpoint file="/Users/rogerruizescobar/Projects/practice-observer-pattern/test/Jalasoft.DevBootcamp.Observer.Pattern.Tests/PersonTest.cs" relfile="test/Jalasoft.DevBootcamp.Observer.Pattern.Tests/PersonTest.cs" line="14" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />

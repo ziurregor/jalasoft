@@ -14,5 +14,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\Jalasoft.DevBootcamp.Observer.Pattern\Jalasoft.DevBootcamp.Observer.Pattern.csproj" />
+    <ProjectReference Include="..\..\src\Jalasoft.DevBootcamp.Observer.Viewers\Jalasoft.DevBootcamp.Observer.Viewers.csproj" />
   </ItemGroup>
 </Project>

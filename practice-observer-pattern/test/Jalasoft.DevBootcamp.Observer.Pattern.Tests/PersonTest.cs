@@ -1,22 +1,24 @@
 ﻿using System;
 using Jalasoft.DevBootcamp.Observer.Pattern;
+using Jalasoft.DevBootcamp.Observer.Viewers;
 using Xunit;
 
 namespace TestPerson
 {
-    public class PersonTest : Person
+    public class PersonTest
     {
 
-        public PersonTest(Account account) : base(account)
-        {
-
-        }
-
         [Fact]
-        public override void CurrentBalance()
+        public  void TestCurrentBalance()
         {
-            var balance = Savings.GetAccountBalance();
-            Assert.IsType<Int32>(balance);
+            var account = new Account();
+            new Husband(account);
+            new Wife(account);
+            account.Deposit(2088);
+            Console.WriteLine(account.GetAccountBalance());
+
+            Assert.Equal(2088, account.GetAccountBalance());
+
         }
 
 

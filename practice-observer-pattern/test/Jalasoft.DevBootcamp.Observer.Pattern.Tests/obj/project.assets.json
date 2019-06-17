@@ -1685,6 +1685,19 @@
         "runtime": {
           "bin/placeholder/Jalasoft.DevBootcamp.Observer.Pattern.dll": {}
         }
+      },
+      "Jalasoft.DevBootcamp.Observer.Viewers/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "Jalasoft.DevBootcamp.Observer.Pattern": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Jalasoft.DevBootcamp.Observer.Viewers.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Jalasoft.DevBootcamp.Observer.Viewers.dll": {}
+        }
       }
     }
   },
@@ -5826,11 +5839,17 @@
       "type": "project",
       "path": "../../src/Jalasoft.DevBootcamp.Observer.Pattern/Jalasoft.DevBootcamp.Observer.Pattern.csproj",
       "msbuildProject": "../../src/Jalasoft.DevBootcamp.Observer.Pattern/Jalasoft.DevBootcamp.Observer.Pattern.csproj"
+    },
+    "Jalasoft.DevBootcamp.Observer.Viewers/1.0.0": {
+      "type": "project",
+      "path": "../../src/Jalasoft.DevBootcamp.Observer.Viewers/Jalasoft.DevBootcamp.Observer.Viewers.csproj",
+      "msbuildProject": "../../src/Jalasoft.DevBootcamp.Observer.Viewers/Jalasoft.DevBootcamp.Observer.Viewers.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
       "Jalasoft.DevBootcamp.Observer.Pattern >= 1.0.0",
+      "Jalasoft.DevBootcamp.Observer.Viewers >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.0.1",
       "Microsoft.NETCore.App >= 2.2.0",
       "xunit >= 2.4.0",
@@ -5867,6 +5886,9 @@
           "projectReferences": {
             "/Users/rogerruizescobar/Projects/practice-observer-pattern/src/Jalasoft.DevBootcamp.Observer.Pattern/Jalasoft.DevBootcamp.Observer.Pattern.csproj": {
               "projectPath": "/Users/rogerruizescobar/Projects/practice-observer-pattern/src/Jalasoft.DevBootcamp.Observer.Pattern/Jalasoft.DevBootcamp.Observer.Pattern.csproj"
+            },
+            "/Users/rogerruizescobar/Projects/practice-observer-pattern/src/Jalasoft.DevBootcamp.Observer.Viewers/Jalasoft.DevBootcamp.Observer.Viewers.csproj": {
+              "projectPath": "/Users/rogerruizescobar/Projects/practice-observer-pattern/src/Jalasoft.DevBootcamp.Observer.Viewers/Jalasoft.DevBootcamp.Observer.Viewers.csproj"
             }
           }
         }
