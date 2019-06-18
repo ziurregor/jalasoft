@@ -2,12 +2,12 @@
   <MonoDevelop.Ide.ItemProperties.src.client.Jalasoft.DevBootcamp.Observer.Client PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="test/Jalasoft.DevBootcamp.Observer.Pattern.Tests/PersonTest.cs">
     <Files>
-      <File FileName="src/Jalasoft.DevBootcamp.Observer.Pattern/Account.cs" Line="27" Column="39" />
-      <File FileName="src/Jalasoft.DevBootcamp.Observer.Pattern/Person.cs" Line="15" Column="2" />
-      <File FileName="src/Jalasoft.DevBootcamp.Observer.Viewers/Husband.cs" Line="14" Column="13" />
-      <File FileName="src/Jalasoft.DevBootcamp.Observer.Client/Program.cs" Line="22" Column="1" />
-      <File FileName="src/Jalasoft.DevBootcamp.Observer.Viewers/Wife.cs" Line="14" Column="35" />
-      <File FileName="test/Jalasoft.DevBootcamp.Observer.Pattern.Tests/PersonTest.cs" Line="14" Column="41" />
+      <File FileName="src/Jalasoft.DevBootcamp.Observer.Pattern/Account.cs" Line="28" Column="38" />
+      <File FileName="src/Jalasoft.DevBootcamp.Observer.Pattern/Person.cs" />
+      <File FileName="src/Jalasoft.DevBootcamp.Observer.Viewers/Husband.cs" />
+      <File FileName="src/Jalasoft.DevBootcamp.Observer.Client/Program.cs" />
+      <File FileName="src/Jalasoft.DevBootcamp.Observer.Viewers/Wife.cs" />
+      <File FileName="test/Jalasoft.DevBootcamp.Observer.Pattern.Tests/PersonTest.cs" Line="15" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -37,24 +37,9 @@
           </Node>
         </State>
       </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="practice-observer-pattern" expanded="True">
-            <Node name="test" expanded="True">
-              <Node name="subject-observer" expanded="True">
-                <Node name="Jalasoft.DevBootcamp.Observer.Pattern.Tests" expanded="True">
-                  <Node name="TestPerson" expanded="True">
-                    <Node name="PersonTest" expanded="True">
-                      <Node name="CurrentBalance" selected="True" />
-                    </Node>
-                  </Node>
-                </Node>
-              </Node>
-            </Node>
-          </Node>
+          <Node name="practice-observer-pattern" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
@@ -62,9 +47,7 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/rogerruizescobar/Projects/practice-observer-pattern/test/Jalasoft.DevBootcamp.Observer.Pattern.Tests/PersonTest.cs" relfile="test/Jalasoft.DevBootcamp.Observer.Pattern.Tests/PersonTest.cs" line="14" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

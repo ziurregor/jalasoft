@@ -5,14 +5,14 @@
 
     public class Wife : Person
     {
-        public Wife(Account account) : base(account)
-        {
-        }
+        //public Wife(Account account) : base(account)
+        //{
+        //}
 
-        public override void CurrentBalance()
-        {
-            var balance = Savings.GetAccountBalance();
-            Console.WriteLine($"Savings account balance: [{balance}] and received by Wife.");
-        }
+        //public override void CurrentBalance()
+        //{
+        //    var balance = Savings.GetAccountBalance();
+        //    Console.WriteLine($"Savings account balance: [{balance}] and received by Wife.");
+        //}
     }
 }

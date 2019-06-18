@@ -12,8 +12,7 @@ namespace TestPerson
         public  void TestCurrentBalance()
         {
             var account = new Account();
-            new Husband(account);
-            new Wife(account);
+
             account.Deposit(2088);
             Console.WriteLine(account.GetAccountBalance());
 
