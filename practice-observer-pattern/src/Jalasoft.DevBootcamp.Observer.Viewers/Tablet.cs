@@ -8,6 +8,8 @@
         public Tablet(Account account, string name) : base(account)
         {
             this.Name = name;
+
+            Console.WriteLine($"Tablet: [{this.Name}] registered sucessfully!");
         }
 
         public override void CurrentBalance()

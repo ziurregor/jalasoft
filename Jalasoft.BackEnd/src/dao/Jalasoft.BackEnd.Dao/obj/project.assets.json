@@ -207,6 +207,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "Jalasoft.BackEnd.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "compile": {
+          "bin/placeholder/Jalasoft.BackEnd.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Jalasoft.BackEnd.Model.dll": {}
+        }
       }
     }
   },
@@ -678,10 +688,16 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "Jalasoft.BackEnd.Model/1.0.0": {
+      "type": "project",
+      "path": "../../core/domain/Jalasoft.BackEnd.Model/Jalasoft.BackEnd.Model.csproj",
+      "msbuildProject": "../../core/domain/Jalasoft.BackEnd.Model/Jalasoft.BackEnd.Model.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
+      "Jalasoft.BackEnd.Model >= 1.0.0",
       "Microsoft.NETCore.App >= 2.2.0"
     ]
   },
@@ -714,7 +730,11 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Jalasoft\\GitLab\\BackEnd\\practices\\Jalasoft.BackEnd\\src\\core\\domain\\Jalasoft.BackEnd.Model\\Jalasoft.BackEnd.Model.csproj": {
+              "projectPath": "C:\\Jalasoft\\GitLab\\BackEnd\\practices\\Jalasoft.BackEnd\\src\\core\\domain\\Jalasoft.BackEnd.Model\\Jalasoft.BackEnd.Model.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

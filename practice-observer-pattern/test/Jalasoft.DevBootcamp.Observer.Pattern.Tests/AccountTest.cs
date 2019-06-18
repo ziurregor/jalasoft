@@ -7,16 +7,16 @@
     public class AccountTest
     {
         [Fact]
-        public void Unregister_Account_UnregisteredHusbandMobile()
+        public void Unregister_Account_UnregisteredMobile()
         {
             var account = new Account();
-            var registeredMobiles = account.CountMobiles();
+            var registeredMobiles = account.CountDevices();
 
-            var husbandMobile = new Mobile(account, "iphone");
-            Assert.Equal(registeredMobiles + 1, account.CountMobiles());
+            var iphoneMobile = new Mobile(account, "iphone");
+            Assert.Equal(registeredMobiles + 1, account.CountDevices());
 
-            account.UnregsiterMobile(husbandMobile);
-            Assert.Equal(registeredMobiles, account.CountMobiles());
+            account.UnregsiterDevice(iphoneMobile);
+            Assert.Equal(registeredMobiles, account.CountDevices());
         }
     }
 }

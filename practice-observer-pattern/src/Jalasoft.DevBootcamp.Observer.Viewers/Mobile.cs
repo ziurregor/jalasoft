@@ -7,7 +7,9 @@
     {
         public Mobile(Account account, string name) : base(account)
         {
-           this.Name = name;
+            this.Name = name;
+
+            Console.WriteLine($"Mobile: [{this.Name}] registered sucessfully!");
         }
 
         public override void CurrentBalance()

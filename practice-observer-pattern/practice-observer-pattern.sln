@@ -11,21 +11,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "client", "client", "{DFB4EC
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "viewers", "viewers", "{9822CCC8-ACB8-4F6F-A490-5C01FD2ABAB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jalasoft.DevBootcamp.Observer.Client", "src\Jalasoft.DevBootcamp.Observer.Client\Jalasoft.DevBootcamp.Observer.Client.csproj", "{8AA3F528-178D-42E7-A7E2-8B9B0A4FDF9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jalasoft.DevBootcamp.Observer.Client", "src\Jalasoft.DevBootcamp.Observer.Client\Jalasoft.DevBootcamp.Observer.Client.csproj", "{8AA3F528-178D-42E7-A7E2-8B9B0A4FDF9B}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "client", "client", "{3D88329A-E03F-4AD3-88D3-D7AF7F44F02C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jalasoft.DevBootcamp.Observer.Viewers", "src\Jalasoft.DevBootcamp.Observer.Viewers\Jalasoft.DevBootcamp.Observer.Viewers.csproj", "{34B1AC7E-A694-495F-B667-67B3062CD74A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jalasoft.DevBootcamp.Observer.Viewers", "src\Jalasoft.DevBootcamp.Observer.Viewers\Jalasoft.DevBootcamp.Observer.Viewers.csproj", "{34B1AC7E-A694-495F-B667-67B3062CD74A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "subject-observer", "subject-observer", "{FE947DFA-0D4E-4FFE-BE1B-59BEBB32F139}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jalasoft.DevBootcamp.Observer.Pattern", "src\Jalasoft.DevBootcamp.Observer.Pattern\Jalasoft.DevBootcamp.Observer.Pattern.csproj", "{3BC9D45F-E498-43B6-BC16-C2003D2F7640}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jalasoft.DevBootcamp.Observer.Pattern", "src\Jalasoft.DevBootcamp.Observer.Pattern\Jalasoft.DevBootcamp.Observer.Pattern.csproj", "{3BC9D45F-E498-43B6-BC16-C2003D2F7640}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "subject-observer", "subject-observer", "{12BBFFEE-DF4C-4ADF-9287-1D198AF729A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jalasoft.DevBootcamp.Observer.Pattern.Tests", "test\Jalasoft.DevBootcamp.Observer.Pattern.Tests\Jalasoft.DevBootcamp.Observer.Pattern.Tests.csproj", "{76F39BC9-6C1F-41CD-952E-90053E2C0322}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "viewers", "viewers", "{CAA65722-6516-4453-A937-81A5EDD1C259}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jalasoft.DevBootcamp.Observer.Pattern.Tests", "test\Jalasoft.DevBootcamp.Observer.Pattern.Tests\Jalasoft.DevBootcamp.Observer.Pattern.Tests.csproj", "{76F39BC9-6C1F-41CD-952E-90053E2C0322}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,13 +53,11 @@ Global
 		{DFB4EC2B-8D44-4785-9CDF-2DD433FA391A} = {C6558F70-9DB5-431A-B0EF-FEF423E4FF04}
 		{9822CCC8-ACB8-4F6F-A490-5C01FD2ABAB6} = {C6558F70-9DB5-431A-B0EF-FEF423E4FF04}
 		{8AA3F528-178D-42E7-A7E2-8B9B0A4FDF9B} = {DFB4EC2B-8D44-4785-9CDF-2DD433FA391A}
-		{3D88329A-E03F-4AD3-88D3-D7AF7F44F02C} = {CC5E448F-E308-46C6-93EC-15AAA43708CE}
 		{34B1AC7E-A694-495F-B667-67B3062CD74A} = {9822CCC8-ACB8-4F6F-A490-5C01FD2ABAB6}
 		{FE947DFA-0D4E-4FFE-BE1B-59BEBB32F139} = {C6558F70-9DB5-431A-B0EF-FEF423E4FF04}
 		{3BC9D45F-E498-43B6-BC16-C2003D2F7640} = {FE947DFA-0D4E-4FFE-BE1B-59BEBB32F139}
 		{12BBFFEE-DF4C-4ADF-9287-1D198AF729A8} = {CC5E448F-E308-46C6-93EC-15AAA43708CE}
 		{76F39BC9-6C1F-41CD-952E-90053E2C0322} = {12BBFFEE-DF4C-4ADF-9287-1D198AF729A8}
-		{CAA65722-6516-4453-A937-81A5EDD1C259} = {CC5E448F-E308-46C6-93EC-15AAA43708CE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {88D90060-93F2-44EE-B37E-35E9CEDFAE91}

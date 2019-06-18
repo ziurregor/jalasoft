@@ -8,21 +8,21 @@
     {
         private int balance;
 
-        private List<Device> mobiles;
+        private List<Device> devices;
 
         public Account()
         {
-            this.mobiles = new List<Device>();
+            this.devices = new List<Device>();
         }
 
         public void RegisterDevice(Device device)
         {
-            this.mobiles.Add(device);
+            this.devices.Add(device);
         }
 
-        public int CountMobiles()
+        public int CountDevices()
         {
-            return this.mobiles.Count();
+            return this.devices.Count();
         }
 
         public void Deposit(int amount)
@@ -38,14 +38,18 @@
             }
         }
 
-        public void UnregsiterMobile(Device mobile)
+        public void UnregsiterDevice(Device device)
         {
-            this.mobiles.Remove(mobile);
+            bool removed = this.devices.Remove(device);
+            if (removed)
+            {
+                Console.WriteLine($"Device: [{device.Name}], type: [{device.GetType().Name}] unregistered sucessfully!");
+            }
         }
 
-        public Device GetMobile(string name)
+        public Device GetDevice(string name)
         {
-            return this.mobiles.FirstOrDefault(p => p.Name == name);
+            return this.devices.FirstOrDefault(p => p.Name == name);
         }
 
         public int GetAccountBalance()
@@ -55,9 +59,17 @@
 
         private void Inform()
         {
-            foreach (var person in this.mobiles)
+            foreach (var person in this.devices)
             {
                 person.CurrentBalance();
+            }
+        }
+
+        public void ListDevices()
+        {
+            foreach (var device in this.devices)
+            {
+                Console.WriteLine($"Device's name: [{device.Name}], Device's type: [{device.GetType().Name}]");
             }
         }
     }
