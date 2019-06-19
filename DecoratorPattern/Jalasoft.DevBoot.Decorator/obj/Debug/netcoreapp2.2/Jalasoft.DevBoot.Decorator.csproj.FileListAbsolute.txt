@@ -1,0 +1,11 @@
+C:\Jalasoft\GitLab\BackEnd\practices\DecoratorPattern\Jalasoft.DevBoot.Decorator\obj\Debug\netcoreapp2.2\Jalasoft.DevBoot.Decorator.csprojAssemblyReference.cache
+C:\Jalasoft\GitLab\BackEnd\practices\DecoratorPattern\Jalasoft.DevBoot.Decorator\obj\Debug\netcoreapp2.2\Jalasoft.DevBoot.Decorator.csproj.CoreCompileInputs.cache
+C:\Jalasoft\GitLab\BackEnd\practices\DecoratorPattern\Jalasoft.DevBoot.Decorator\obj\Debug\netcoreapp2.2\Jalasoft.DevBoot.Decorator.AssemblyInfoInputs.cache
+C:\Jalasoft\GitLab\BackEnd\practices\DecoratorPattern\Jalasoft.DevBoot.Decorator\obj\Debug\netcoreapp2.2\Jalasoft.DevBoot.Decorator.AssemblyInfo.cs
+C:\Jalasoft\GitLab\BackEnd\practices\DecoratorPattern\Jalasoft.DevBoot.Decorator\bin\Debug\netcoreapp2.2\Jalasoft.DevBoot.Decorator.deps.json
+C:\Jalasoft\GitLab\BackEnd\practices\DecoratorPattern\Jalasoft.DevBoot.Decorator\bin\Debug\netcoreapp2.2\Jalasoft.DevBoot.Decorator.runtimeconfig.json
+C:\Jalasoft\GitLab\BackEnd\practices\DecoratorPattern\Jalasoft.DevBoot.Decorator\bin\Debug\netcoreapp2.2\Jalasoft.DevBoot.Decorator.runtimeconfig.dev.json
+C:\Jalasoft\GitLab\BackEnd\practices\DecoratorPattern\Jalasoft.DevBoot.Decorator\bin\Debug\netcoreapp2.2\Jalasoft.DevBoot.Decorator.dll
+C:\Jalasoft\GitLab\BackEnd\practices\DecoratorPattern\Jalasoft.DevBoot.Decorator\bin\Debug\netcoreapp2.2\Jalasoft.DevBoot.Decorator.pdb
+C:\Jalasoft\GitLab\BackEnd\practices\DecoratorPattern\Jalasoft.DevBoot.Decorator\obj\Debug\netcoreapp2.2\Jalasoft.DevBoot.Decorator.dll
+C:\Jalasoft\GitLab\BackEnd\practices\DecoratorPattern\Jalasoft.DevBoot.Decorator\obj\Debug\netcoreapp2.2\Jalasoft.DevBoot.Decorator.pdb

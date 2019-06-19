@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Jalasoft\\GitLab\\BackEnd\\practices\\Jalasoft.BackEnd\\src\\core\\api\\Jalasoft.BackEnd.Api\\Jalasoft.BackEnd.Api.csproj": {}
+    "C:\\Jalasoft\\Git\\jalasoft\\Jalasoft.BackEnd\\src\\core\\api\\Jalasoft.BackEnd.Api\\Jalasoft.BackEnd.Api.csproj": {}
   },
   "projects": {
-    "C:\\Jalasoft\\GitLab\\BackEnd\\practices\\Jalasoft.BackEnd\\src\\core\\api\\Jalasoft.BackEnd.Api\\Jalasoft.BackEnd.Api.csproj": {
+    "C:\\Jalasoft\\Git\\jalasoft\\Jalasoft.BackEnd\\src\\core\\api\\Jalasoft.BackEnd.Api\\Jalasoft.BackEnd.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Jalasoft\\GitLab\\BackEnd\\practices\\Jalasoft.BackEnd\\src\\core\\api\\Jalasoft.BackEnd.Api\\Jalasoft.BackEnd.Api.csproj",
+        "projectUniqueName": "C:\\Jalasoft\\Git\\jalasoft\\Jalasoft.BackEnd\\src\\core\\api\\Jalasoft.BackEnd.Api\\Jalasoft.BackEnd.Api.csproj",
         "projectName": "Jalasoft.BackEnd.Api",
-        "projectPath": "C:\\Jalasoft\\GitLab\\BackEnd\\practices\\Jalasoft.BackEnd\\src\\core\\api\\Jalasoft.BackEnd.Api\\Jalasoft.BackEnd.Api.csproj",
+        "projectPath": "C:\\Jalasoft\\Git\\jalasoft\\Jalasoft.BackEnd\\src\\core\\api\\Jalasoft.BackEnd.Api\\Jalasoft.BackEnd.Api.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Jalasoft\\GitLab\\BackEnd\\practices\\Jalasoft.BackEnd\\src\\core\\api\\Jalasoft.BackEnd.Api\\obj\\",
+        "outputPath": "C:\\Jalasoft\\Git\\jalasoft\\Jalasoft.BackEnd\\src\\core\\api\\Jalasoft.BackEnd.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

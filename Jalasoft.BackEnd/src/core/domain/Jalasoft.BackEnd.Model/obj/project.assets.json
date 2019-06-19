@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Jalasoft\\GitLab\\BackEnd\\practices\\Jalasoft.BackEnd\\src\\core\\domain\\Jalasoft.BackEnd.Model\\Jalasoft.BackEnd.Model.csproj",
+      "projectUniqueName": "C:\\Jalasoft\\Git\\jalasoft\\Jalasoft.BackEnd\\src\\core\\domain\\Jalasoft.BackEnd.Model\\Jalasoft.BackEnd.Model.csproj",
       "projectName": "Jalasoft.BackEnd.Model",
-      "projectPath": "C:\\Jalasoft\\GitLab\\BackEnd\\practices\\Jalasoft.BackEnd\\src\\core\\domain\\Jalasoft.BackEnd.Model\\Jalasoft.BackEnd.Model.csproj",
+      "projectPath": "C:\\Jalasoft\\Git\\jalasoft\\Jalasoft.BackEnd\\src\\core\\domain\\Jalasoft.BackEnd.Model\\Jalasoft.BackEnd.Model.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Jalasoft\\GitLab\\BackEnd\\practices\\Jalasoft.BackEnd\\src\\core\\domain\\Jalasoft.BackEnd.Model\\obj\\",
+      "outputPath": "C:\\Jalasoft\\Git\\jalasoft\\Jalasoft.BackEnd\\src\\core\\domain\\Jalasoft.BackEnd.Model\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

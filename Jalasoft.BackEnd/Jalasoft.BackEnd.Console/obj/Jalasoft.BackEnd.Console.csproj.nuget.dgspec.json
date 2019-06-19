@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Jalasoft\\GitLab\\BackEnd\\practices\\Jalasoft.BackEnd\\Jalasoft.BackEnd.Console\\Jalasoft.BackEnd.Console.csproj": {}
+    "C:\\Jalasoft\\Git\\jalasoft\\Jalasoft.BackEnd\\Jalasoft.BackEnd.Console\\Jalasoft.BackEnd.Console.csproj": {}
   },
   "projects": {
-    "C:\\Jalasoft\\GitLab\\BackEnd\\practices\\Jalasoft.BackEnd\\Jalasoft.BackEnd.Console\\Jalasoft.BackEnd.Console.csproj": {
+    "C:\\Jalasoft\\Git\\jalasoft\\Jalasoft.BackEnd\\Jalasoft.BackEnd.Console\\Jalasoft.BackEnd.Console.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Jalasoft\\GitLab\\BackEnd\\practices\\Jalasoft.BackEnd\\Jalasoft.BackEnd.Console\\Jalasoft.BackEnd.Console.csproj",
+        "projectUniqueName": "C:\\Jalasoft\\Git\\jalasoft\\Jalasoft.BackEnd\\Jalasoft.BackEnd.Console\\Jalasoft.BackEnd.Console.csproj",
         "projectName": "Jalasoft.BackEnd.Console",
-        "projectPath": "C:\\Jalasoft\\GitLab\\BackEnd\\practices\\Jalasoft.BackEnd\\Jalasoft.BackEnd.Console\\Jalasoft.BackEnd.Console.csproj",
+        "projectPath": "C:\\Jalasoft\\Git\\jalasoft\\Jalasoft.BackEnd\\Jalasoft.BackEnd.Console\\Jalasoft.BackEnd.Console.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Jalasoft\\GitLab\\BackEnd\\practices\\Jalasoft.BackEnd\\Jalasoft.BackEnd.Console\\obj\\",
+        "outputPath": "C:\\Jalasoft\\Git\\jalasoft\\Jalasoft.BackEnd\\Jalasoft.BackEnd.Console\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Jalasoft\\GitLab\\BackEnd\\practices\\Jalasoft.BackEnd\\src\\dao\\Jalasoft.BackEnd.Dao.SqlLite\\Jalasoft.BackEnd.Dao.SqlLite.csproj": {
-                "projectPath": "C:\\Jalasoft\\GitLab\\BackEnd\\practices\\Jalasoft.BackEnd\\src\\dao\\Jalasoft.BackEnd.Dao.SqlLite\\Jalasoft.BackEnd.Dao.SqlLite.csproj"
+              "C:\\Jalasoft\\Git\\jalasoft\\Jalasoft.BackEnd\\src\\dao\\Jalasoft.BackEnd.Dao.SqlLite\\Jalasoft.BackEnd.Dao.SqlLite.csproj": {
+                "projectPath": "C:\\Jalasoft\\Git\\jalasoft\\Jalasoft.BackEnd\\src\\dao\\Jalasoft.BackEnd.Dao.SqlLite\\Jalasoft.BackEnd.Dao.SqlLite.csproj"
               }
             }
           }
@@ -68,14 +68,14 @@
         }
       }
     },
-    "C:\\Jalasoft\\GitLab\\BackEnd\\practices\\Jalasoft.BackEnd\\src\\core\\domain\\Jalasoft.BackEnd.Model\\Jalasoft.BackEnd.Model.csproj": {
+    "C:\\Jalasoft\\Git\\jalasoft\\Jalasoft.BackEnd\\src\\core\\domain\\Jalasoft.BackEnd.Model\\Jalasoft.BackEnd.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Jalasoft\\GitLab\\BackEnd\\practices\\Jalasoft.BackEnd\\src\\core\\domain\\Jalasoft.BackEnd.Model\\Jalasoft.BackEnd.Model.csproj",
+        "projectUniqueName": "C:\\Jalasoft\\Git\\jalasoft\\Jalasoft.BackEnd\\src\\core\\domain\\Jalasoft.BackEnd.Model\\Jalasoft.BackEnd.Model.csproj",
         "projectName": "Jalasoft.BackEnd.Model",
-        "projectPath": "C:\\Jalasoft\\GitLab\\BackEnd\\practices\\Jalasoft.BackEnd\\src\\core\\domain\\Jalasoft.BackEnd.Model\\Jalasoft.BackEnd.Model.csproj",
+        "projectPath": "C:\\Jalasoft\\Git\\jalasoft\\Jalasoft.BackEnd\\src\\core\\domain\\Jalasoft.BackEnd.Model\\Jalasoft.BackEnd.Model.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Jalasoft\\GitLab\\BackEnd\\practices\\Jalasoft.BackEnd\\src\\core\\domain\\Jalasoft.BackEnd.Model\\obj\\",
+        "outputPath": "C:\\Jalasoft\\Git\\jalasoft\\Jalasoft.BackEnd\\src\\core\\domain\\Jalasoft.BackEnd.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -120,14 +120,14 @@
         }
       }
     },
-    "C:\\Jalasoft\\GitLab\\BackEnd\\practices\\Jalasoft.BackEnd\\src\\dao\\Jalasoft.BackEnd.Dao.SqlLite\\Jalasoft.BackEnd.Dao.SqlLite.csproj": {
+    "C:\\Jalasoft\\Git\\jalasoft\\Jalasoft.BackEnd\\src\\dao\\Jalasoft.BackEnd.Dao.SqlLite\\Jalasoft.BackEnd.Dao.SqlLite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Jalasoft\\GitLab\\BackEnd\\practices\\Jalasoft.BackEnd\\src\\dao\\Jalasoft.BackEnd.Dao.SqlLite\\Jalasoft.BackEnd.Dao.SqlLite.csproj",
+        "projectUniqueName": "C:\\Jalasoft\\Git\\jalasoft\\Jalasoft.BackEnd\\src\\dao\\Jalasoft.BackEnd.Dao.SqlLite\\Jalasoft.BackEnd.Dao.SqlLite.csproj",
         "projectName": "Jalasoft.BackEnd.Dao.SqlLite",
-        "projectPath": "C:\\Jalasoft\\GitLab\\BackEnd\\practices\\Jalasoft.BackEnd\\src\\dao\\Jalasoft.BackEnd.Dao.SqlLite\\Jalasoft.BackEnd.Dao.SqlLite.csproj",
+        "projectPath": "C:\\Jalasoft\\Git\\jalasoft\\Jalasoft.BackEnd\\src\\dao\\Jalasoft.BackEnd.Dao.SqlLite\\Jalasoft.BackEnd.Dao.SqlLite.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Jalasoft\\GitLab\\BackEnd\\practices\\Jalasoft.BackEnd\\src\\dao\\Jalasoft.BackEnd.Dao.SqlLite\\obj\\",
+        "outputPath": "C:\\Jalasoft\\Git\\jalasoft\\Jalasoft.BackEnd\\src\\dao\\Jalasoft.BackEnd.Dao.SqlLite\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -146,8 +146,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Jalasoft\\GitLab\\BackEnd\\practices\\Jalasoft.BackEnd\\src\\core\\domain\\Jalasoft.BackEnd.Model\\Jalasoft.BackEnd.Model.csproj": {
-                "projectPath": "C:\\Jalasoft\\GitLab\\BackEnd\\practices\\Jalasoft.BackEnd\\src\\core\\domain\\Jalasoft.BackEnd.Model\\Jalasoft.BackEnd.Model.csproj"
+              "C:\\Jalasoft\\Git\\jalasoft\\Jalasoft.BackEnd\\src\\core\\domain\\Jalasoft.BackEnd.Model\\Jalasoft.BackEnd.Model.csproj": {
+                "projectPath": "C:\\Jalasoft\\Git\\jalasoft\\Jalasoft.BackEnd\\src\\core\\domain\\Jalasoft.BackEnd.Model\\Jalasoft.BackEnd.Model.csproj"
               }
             }
           }

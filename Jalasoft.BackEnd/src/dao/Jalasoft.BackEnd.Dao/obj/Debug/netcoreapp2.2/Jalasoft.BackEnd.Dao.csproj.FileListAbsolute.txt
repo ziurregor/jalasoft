@@ -1,0 +1,13 @@
+/Users/rogerruizescobar/Projects/jalasoft/Jalasoft.BackEnd/src/dao/Jalasoft.BackEnd.Dao/obj/Debug/netcoreapp2.2/Jalasoft.BackEnd.Dao.csprojAssemblyReference.cache
+/Users/rogerruizescobar/Projects/jalasoft/Jalasoft.BackEnd/src/dao/Jalasoft.BackEnd.Dao/obj/Debug/netcoreapp2.2/Jalasoft.BackEnd.Dao.csproj.CoreCompileInputs.cache
+/Users/rogerruizescobar/Projects/jalasoft/Jalasoft.BackEnd/src/dao/Jalasoft.BackEnd.Dao/obj/Debug/netcoreapp2.2/Jalasoft.BackEnd.Dao.AssemblyInfoInputs.cache
+/Users/rogerruizescobar/Projects/jalasoft/Jalasoft.BackEnd/src/dao/Jalasoft.BackEnd.Dao/obj/Debug/netcoreapp2.2/Jalasoft.BackEnd.Dao.AssemblyInfo.cs
+C:\Jalasoft\Git\jalasoft\Jalasoft.BackEnd\src\dao\Jalasoft.BackEnd.Dao\bin\Debug\netcoreapp2.2\Jalasoft.BackEnd.Dao.deps.json
+C:\Jalasoft\Git\jalasoft\Jalasoft.BackEnd\src\dao\Jalasoft.BackEnd.Dao\bin\Debug\netcoreapp2.2\Jalasoft.BackEnd.Dao.dll
+C:\Jalasoft\Git\jalasoft\Jalasoft.BackEnd\src\dao\Jalasoft.BackEnd.Dao\bin\Debug\netcoreapp2.2\Jalasoft.BackEnd.Model.dll
+C:\Jalasoft\Git\jalasoft\Jalasoft.BackEnd\src\dao\Jalasoft.BackEnd.Dao\bin\Debug\netcoreapp2.2\Jalasoft.BackEnd.Model.pdb
+C:\Jalasoft\Git\jalasoft\Jalasoft.BackEnd\src\dao\Jalasoft.BackEnd.Dao\obj\Debug\netcoreapp2.2\Jalasoft.BackEnd.Dao.csprojAssemblyReference.cache
+C:\Jalasoft\Git\jalasoft\Jalasoft.BackEnd\src\dao\Jalasoft.BackEnd.Dao\obj\Debug\netcoreapp2.2\Jalasoft.BackEnd.Dao.csproj.CoreCompileInputs.cache
+C:\Jalasoft\Git\jalasoft\Jalasoft.BackEnd\src\dao\Jalasoft.BackEnd.Dao\obj\Debug\netcoreapp2.2\Jalasoft.BackEnd.Dao.AssemblyInfoInputs.cache
+C:\Jalasoft\Git\jalasoft\Jalasoft.BackEnd\src\dao\Jalasoft.BackEnd.Dao\obj\Debug\netcoreapp2.2\Jalasoft.BackEnd.Dao.AssemblyInfo.cs
+C:\Jalasoft\Git\jalasoft\Jalasoft.BackEnd\src\dao\Jalasoft.BackEnd.Dao\obj\Debug\netcoreapp2.2\Jalasoft.BackEnd.Dao.csproj.CopyComplete
