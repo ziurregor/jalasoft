@@ -1,0 +1,10 @@
+<div class="container">
+  <h1>Chat</h1>
+  <form class="form"  #formLogin="ngForm" (ngSubmit)="onSubmit()">
+    <input type="text"  name="userName" [(ngModel)]="userName">
+
+    <!-- <input type="password" placeholder="Password"> -->
+    <button  id="login-button" type="submit" >Login</button>
+  </form>
+  {{a|json}}
+</div>

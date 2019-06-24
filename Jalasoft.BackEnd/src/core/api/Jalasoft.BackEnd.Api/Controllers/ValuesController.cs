@@ -26,8 +26,9 @@ namespace Jalasoft.BackEnd.Api.Controllers
 
         // POST api/values
         [HttpPost]
-        public void Post([FromBody] string value)
+        public ActionResult<string> Post([FromBody] string value)
         {
+            return "roger  " + value;
         }
 
         // PUT api/values/5
