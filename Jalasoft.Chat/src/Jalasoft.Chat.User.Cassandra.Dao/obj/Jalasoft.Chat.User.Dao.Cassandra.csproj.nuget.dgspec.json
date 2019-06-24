@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Jalasoft\\Git\\jalasoft\\Jalasoft.Chat\\src\\Jalasoft.Chat.User.Cassandra.Dao\\Jalasoft.Chat.User.Dao.Cassandra.csproj": {}
+  },
+  "projects": {
+    "C:\\Jalasoft\\Git\\jalasoft\\Jalasoft.Chat\\src\\Jalasoft.Chat.User.Cassandra.Dao\\Jalasoft.Chat.User.Dao.Cassandra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Jalasoft\\Git\\jalasoft\\Jalasoft.Chat\\src\\Jalasoft.Chat.User.Cassandra.Dao\\Jalasoft.Chat.User.Dao.Cassandra.csproj",
+        "projectName": "Jalasoft.Chat.User.Dao.Cassandra",
+        "projectPath": "C:\\Jalasoft\\Git\\jalasoft\\Jalasoft.Chat\\src\\Jalasoft.Chat.User.Cassandra.Dao\\Jalasoft.Chat.User.Dao.Cassandra.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Jalasoft\\Git\\jalasoft\\Jalasoft.Chat\\src\\Jalasoft.Chat.User.Cassandra.Dao\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "CassandraCSharpDriver": {
+              "target": "Package",
+              "version": "[3.10.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
