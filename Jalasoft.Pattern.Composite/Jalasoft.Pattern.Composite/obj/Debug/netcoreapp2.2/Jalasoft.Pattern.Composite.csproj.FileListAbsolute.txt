@@ -1,0 +1,11 @@
+/Users/rogerruizescobar/Projects/Jalasoft.Pattern.Composite/Jalasoft.Pattern.Composite/bin/Debug/netcoreapp2.2/Jalasoft.Pattern.Composite.deps.json
+/Users/rogerruizescobar/Projects/Jalasoft.Pattern.Composite/Jalasoft.Pattern.Composite/bin/Debug/netcoreapp2.2/Jalasoft.Pattern.Composite.runtimeconfig.json
+/Users/rogerruizescobar/Projects/Jalasoft.Pattern.Composite/Jalasoft.Pattern.Composite/bin/Debug/netcoreapp2.2/Jalasoft.Pattern.Composite.runtimeconfig.dev.json
+/Users/rogerruizescobar/Projects/Jalasoft.Pattern.Composite/Jalasoft.Pattern.Composite/bin/Debug/netcoreapp2.2/Jalasoft.Pattern.Composite.dll
+/Users/rogerruizescobar/Projects/Jalasoft.Pattern.Composite/Jalasoft.Pattern.Composite/bin/Debug/netcoreapp2.2/Jalasoft.Pattern.Composite.pdb
+/Users/rogerruizescobar/Projects/Jalasoft.Pattern.Composite/Jalasoft.Pattern.Composite/obj/Debug/netcoreapp2.2/Jalasoft.Pattern.Composite.csprojAssemblyReference.cache
+/Users/rogerruizescobar/Projects/Jalasoft.Pattern.Composite/Jalasoft.Pattern.Composite/obj/Debug/netcoreapp2.2/Jalasoft.Pattern.Composite.csproj.CoreCompileInputs.cache
+/Users/rogerruizescobar/Projects/Jalasoft.Pattern.Composite/Jalasoft.Pattern.Composite/obj/Debug/netcoreapp2.2/Jalasoft.Pattern.Composite.AssemblyInfoInputs.cache
+/Users/rogerruizescobar/Projects/Jalasoft.Pattern.Composite/Jalasoft.Pattern.Composite/obj/Debug/netcoreapp2.2/Jalasoft.Pattern.Composite.AssemblyInfo.cs
+/Users/rogerruizescobar/Projects/Jalasoft.Pattern.Composite/Jalasoft.Pattern.Composite/obj/Debug/netcoreapp2.2/Jalasoft.Pattern.Composite.dll
+/Users/rogerruizescobar/Projects/Jalasoft.Pattern.Composite/Jalasoft.Pattern.Composite/obj/Debug/netcoreapp2.2/Jalasoft.Pattern.Composite.pdb

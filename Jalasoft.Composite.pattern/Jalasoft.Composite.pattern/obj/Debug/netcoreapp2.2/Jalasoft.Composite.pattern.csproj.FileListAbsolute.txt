@@ -1,0 +1,10 @@
+C:\Jalasoft\GitLab\BackEnd\practices\Jalasoft.Composite.pattern\Jalasoft.Composite.pattern\bin\Debug\netcoreapp2.2\Jalasoft.Composite.pattern.deps.json
+C:\Jalasoft\GitLab\BackEnd\practices\Jalasoft.Composite.pattern\Jalasoft.Composite.pattern\bin\Debug\netcoreapp2.2\Jalasoft.Composite.pattern.runtimeconfig.json
+C:\Jalasoft\GitLab\BackEnd\practices\Jalasoft.Composite.pattern\Jalasoft.Composite.pattern\bin\Debug\netcoreapp2.2\Jalasoft.Composite.pattern.runtimeconfig.dev.json
+C:\Jalasoft\GitLab\BackEnd\practices\Jalasoft.Composite.pattern\Jalasoft.Composite.pattern\bin\Debug\netcoreapp2.2\Jalasoft.Composite.pattern.dll
+C:\Jalasoft\GitLab\BackEnd\practices\Jalasoft.Composite.pattern\Jalasoft.Composite.pattern\bin\Debug\netcoreapp2.2\Jalasoft.Composite.pattern.pdb
+C:\Jalasoft\GitLab\BackEnd\practices\Jalasoft.Composite.pattern\Jalasoft.Composite.pattern\obj\Debug\netcoreapp2.2\Jalasoft.Composite.pattern.csproj.CoreCompileInputs.cache
+C:\Jalasoft\GitLab\BackEnd\practices\Jalasoft.Composite.pattern\Jalasoft.Composite.pattern\obj\Debug\netcoreapp2.2\Jalasoft.Composite.pattern.AssemblyInfoInputs.cache
+C:\Jalasoft\GitLab\BackEnd\practices\Jalasoft.Composite.pattern\Jalasoft.Composite.pattern\obj\Debug\netcoreapp2.2\Jalasoft.Composite.pattern.AssemblyInfo.cs
+C:\Jalasoft\GitLab\BackEnd\practices\Jalasoft.Composite.pattern\Jalasoft.Composite.pattern\obj\Debug\netcoreapp2.2\Jalasoft.Composite.pattern.dll
+C:\Jalasoft\GitLab\BackEnd\practices\Jalasoft.Composite.pattern\Jalasoft.Composite.pattern\obj\Debug\netcoreapp2.2\Jalasoft.Composite.pattern.pdb
