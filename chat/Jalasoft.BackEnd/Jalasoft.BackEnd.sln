@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jalasoft.BackEnd.Dao", "src
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jalasoft.BackEnd.Api", "src\core\api\Jalasoft.BackEnd.Api\Jalasoft.BackEnd.Api.csproj", "{D0B40F1F-A3B0-46D0-82D8-B774A5B67790}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jalasoft.BackEnd.Dao.Mongo", "Jalasoft.BackEnd.Dao.Mongo\Jalasoft.BackEnd.Dao.Mongo.csproj", "{54965445-C8EA-4FBA-B314-CEC064196FC3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,10 @@ Global
 		{D0B40F1F-A3B0-46D0-82D8-B774A5B67790}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0B40F1F-A3B0-46D0-82D8-B774A5B67790}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0B40F1F-A3B0-46D0-82D8-B774A5B67790}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54965445-C8EA-4FBA-B314-CEC064196FC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54965445-C8EA-4FBA-B314-CEC064196FC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54965445-C8EA-4FBA-B314-CEC064196FC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54965445-C8EA-4FBA-B314-CEC064196FC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -71,6 +77,7 @@ Global
 		{CC4A3BBD-1FB0-42FD-9666-0E19A785BE6B} = {FFBEAC6B-A499-4224-B5E0-173ECCC4A4F7}
 		{92489DD4-866F-474C-9CCB-07FA141684AF} = {593DE330-C8CE-46A1-BE23-E32F4C52479D}
 		{D0B40F1F-A3B0-46D0-82D8-B774A5B67790} = {FFBEAC6B-A499-4224-B5E0-173ECCC4A4F7}
+		{54965445-C8EA-4FBA-B314-CEC064196FC3} = {593DE330-C8CE-46A1-BE23-E32F4C52479D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1B70512F-1B82-445A-8A1B-39E64D370D6B}

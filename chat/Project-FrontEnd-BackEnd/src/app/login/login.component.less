@@ -1,43 +1,41 @@
-label {
-    display: block;
-    
-    input, textarea {
-        display: block;
-        width: 50%;
-        margin-bottom: 20px;
-        padding: 1em;
-    }
-
-    .error {
-        margin-top: -20px;
-        background: yellow;
-        padding: .5em;
-        display: inline-block;
-        font-size: .9em;
-        margin-bottom: 20px;
-    }
+body {
+	margin:0;
+    padding:0;
+    background-color: red;
+}
+.main-container {
+	height: 100%;
+	width: 100%;
+	background-color:black;
 }
 
-.cta {
-    background: #7700FF;
-    border: none;
-    color: white;
-
-    text-transform: uppercase;
-    border-radius: 4px;
-    padding: 1em;
-    cursor: pointer;
-    font-family: 'Montserrat';
+.main-container .body {
+	position:absolute;
+	width: calc(100%-150px);
+	height: calc(100% - 250px);
+	background-color:blue;
+	top: 150px;
+	left: 150px;
 }
 
-.results {
-    margin-top: 50px;
+.main-container .sidebar {
+	position: absolute;
+	width: 150px;
+	height: 100%;
+	background-color:purple;
+}
 
-    strong {
-        display: block;
-    }
-    span {
-        margin-bottom: 20px;
-        display: block;
-    }
+.main-container .header {
+	position:absolute;
+	width: 100%;
+	height: 150px;
+	background-color:red;
+}
+
+.main-container .footer {
+	position: fixed;
+	width: 100%;
+	height: 100px;
+	background-color:green;
+	bottom: 0;
 }

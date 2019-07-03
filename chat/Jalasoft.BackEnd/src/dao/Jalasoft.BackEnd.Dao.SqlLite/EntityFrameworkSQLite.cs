@@ -7,7 +7,7 @@
 
     public class EntityFrameworkSQLite : DbContext
     {
-        public DbSet<chatUser> User { get; set; }
+        public DbSet<ChatUser> User { get; set; }
         public DbSet<ChatMessage> Message { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

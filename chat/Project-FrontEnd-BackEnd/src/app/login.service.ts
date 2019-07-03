@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient, HttpRequest, HttpHeaders } from '@angular/common/http';
 // import { RequestOptions } from '@angular/http';
 import { Observable } from 'rxjs';
+import { User } from './user/user.model';
 // import { Observable } from 'rxjs/Observable';
 
 @Injectable()
@@ -10,10 +11,10 @@ export class LoginService {
   URL: string;
   httpOptions: any;
   headers: any;
-
+  Users :User[];
   constructor(private http: HttpClient) {
-
-    this.URL = 'http://localhost:9940/api/values';
+    
+    this.URL = 'http://localhost:23997/api/users';
     const httpOptions = {
       headers: new HttpHeaders({
         'Content-Type':  'application/json',
@@ -31,12 +32,11 @@ export class LoginService {
   }
 
 
-  PostData(username: any): Observable<any> {
-    return this.http.post<any>(this.URL,JSON.stringify(username), {
-        headers: {
-            'Content-Type': 'application/json'
-        }
-    });
+  PostData(username: any): Observable<User> {
+    return this.http.post<User>(this.URL,username); 
+  }
+  GetData(): Observable<any> {
+    return this.http.get<any>(this.URL); 
   }
 
 

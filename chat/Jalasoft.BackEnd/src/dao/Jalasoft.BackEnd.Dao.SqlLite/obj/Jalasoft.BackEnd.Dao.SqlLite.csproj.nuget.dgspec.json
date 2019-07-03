@@ -1,30 +1,89 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Jalasoft\\Git\\jalasoft\\Jalasoft.BackEnd\\src\\dao\\Jalasoft.BackEnd.Dao.SqlLite\\Jalasoft.BackEnd.Dao.SqlLite.csproj": {}
+    "/Users/rogerruizescobar/Projects/jalasoft/chat/Jalasoft.BackEnd/src/dao/Jalasoft.BackEnd.Dao.SqlLite/Jalasoft.BackEnd.Dao.SqlLite.csproj": {}
   },
   "projects": {
-    "C:\\Jalasoft\\Git\\jalasoft\\Jalasoft.BackEnd\\src\\core\\domain\\Jalasoft.BackEnd.Model\\Jalasoft.BackEnd.Model.csproj": {
+    "/Users/rogerruizescobar/Projects/jalasoft/chat/Jalasoft.BackEnd/Jalasoft.BackEnd.Dao.Mongo/Jalasoft.BackEnd.Dao.Mongo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Jalasoft\\Git\\jalasoft\\Jalasoft.BackEnd\\src\\core\\domain\\Jalasoft.BackEnd.Model\\Jalasoft.BackEnd.Model.csproj",
-        "projectName": "Jalasoft.BackEnd.Model",
-        "projectPath": "C:\\Jalasoft\\Git\\jalasoft\\Jalasoft.BackEnd\\src\\core\\domain\\Jalasoft.BackEnd.Model\\Jalasoft.BackEnd.Model.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Jalasoft\\Git\\jalasoft\\Jalasoft.BackEnd\\src\\core\\domain\\Jalasoft.BackEnd.Model\\obj\\",
+        "projectUniqueName": "/Users/rogerruizescobar/Projects/jalasoft/chat/Jalasoft.BackEnd/Jalasoft.BackEnd.Dao.Mongo/Jalasoft.BackEnd.Dao.Mongo.csproj",
+        "projectName": "Jalasoft.BackEnd.Dao.Mongo",
+        "projectPath": "/Users/rogerruizescobar/Projects/jalasoft/chat/Jalasoft.BackEnd/Jalasoft.BackEnd.Dao.Mongo/Jalasoft.BackEnd.Dao.Mongo.csproj",
+        "packagesPath": "/Users/rogerruizescobar/.nuget/packages/",
+        "outputPath": "/Users/rogerruizescobar/Projects/jalasoft/chat/Jalasoft.BackEnd/Jalasoft.BackEnd.Dao.Mongo/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/rogerruizescobar/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "/Users/rogerruizescobar/Projects/jalasoft/chat/Jalasoft.BackEnd/src/core/domain/Jalasoft.BackEnd.Model/Jalasoft.BackEnd.Model.csproj": {
+                "projectPath": "/Users/rogerruizescobar/Projects/jalasoft/chat/Jalasoft.BackEnd/src/core/domain/Jalasoft.BackEnd.Model/Jalasoft.BackEnd.Model.csproj"
+              },
+              "/Users/rogerruizescobar/Projects/jalasoft/chat/Jalasoft.BackEnd/src/dao/Jalasoft.BackEnd.Dao/Jalasoft.BackEnd.Dao.csproj": {
+                "projectPath": "/Users/rogerruizescobar/Projects/jalasoft/chat/Jalasoft.BackEnd/src/dao/Jalasoft.BackEnd.Dao/Jalasoft.BackEnd.Dao.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.8.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/Users/rogerruizescobar/Projects/jalasoft/chat/Jalasoft.BackEnd/src/core/domain/Jalasoft.BackEnd.Model/Jalasoft.BackEnd.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rogerruizescobar/Projects/jalasoft/chat/Jalasoft.BackEnd/src/core/domain/Jalasoft.BackEnd.Model/Jalasoft.BackEnd.Model.csproj",
+        "projectName": "Jalasoft.BackEnd.Model",
+        "projectPath": "/Users/rogerruizescobar/Projects/jalasoft/chat/Jalasoft.BackEnd/src/core/domain/Jalasoft.BackEnd.Model/Jalasoft.BackEnd.Model.csproj",
+        "packagesPath": "/Users/rogerruizescobar/.nuget/packages/",
+        "outputPath": "/Users/rogerruizescobar/Projects/jalasoft/chat/Jalasoft.BackEnd/src/core/domain/Jalasoft.BackEnd.Model/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/rogerruizescobar/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -46,6 +105,10 @@
               "target": "Package",
               "version": "[2.2.0, )",
               "autoReferenced": true
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.8.1, )"
             }
           },
           "imports": [
@@ -56,34 +119,35 @@
         }
       }
     },
-    "C:\\Jalasoft\\Git\\jalasoft\\Jalasoft.BackEnd\\src\\dao\\Jalasoft.BackEnd.Dao.SqlLite\\Jalasoft.BackEnd.Dao.SqlLite.csproj": {
+    "/Users/rogerruizescobar/Projects/jalasoft/chat/Jalasoft.BackEnd/src/dao/Jalasoft.BackEnd.Dao.SqlLite/Jalasoft.BackEnd.Dao.SqlLite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Jalasoft\\Git\\jalasoft\\Jalasoft.BackEnd\\src\\dao\\Jalasoft.BackEnd.Dao.SqlLite\\Jalasoft.BackEnd.Dao.SqlLite.csproj",
+        "projectUniqueName": "/Users/rogerruizescobar/Projects/jalasoft/chat/Jalasoft.BackEnd/src/dao/Jalasoft.BackEnd.Dao.SqlLite/Jalasoft.BackEnd.Dao.SqlLite.csproj",
         "projectName": "Jalasoft.BackEnd.Dao.SqlLite",
-        "projectPath": "C:\\Jalasoft\\Git\\jalasoft\\Jalasoft.BackEnd\\src\\dao\\Jalasoft.BackEnd.Dao.SqlLite\\Jalasoft.BackEnd.Dao.SqlLite.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Jalasoft\\Git\\jalasoft\\Jalasoft.BackEnd\\src\\dao\\Jalasoft.BackEnd.Dao.SqlLite\\obj\\",
+        "projectPath": "/Users/rogerruizescobar/Projects/jalasoft/chat/Jalasoft.BackEnd/src/dao/Jalasoft.BackEnd.Dao.SqlLite/Jalasoft.BackEnd.Dao.SqlLite.csproj",
+        "packagesPath": "/Users/rogerruizescobar/.nuget/packages/",
+        "outputPath": "/Users/rogerruizescobar/Projects/jalasoft/chat/Jalasoft.BackEnd/src/dao/Jalasoft.BackEnd.Dao.SqlLite/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/rogerruizescobar/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Jalasoft\\Git\\jalasoft\\Jalasoft.BackEnd\\src\\core\\domain\\Jalasoft.BackEnd.Model\\Jalasoft.BackEnd.Model.csproj": {
-                "projectPath": "C:\\Jalasoft\\Git\\jalasoft\\Jalasoft.BackEnd\\src\\core\\domain\\Jalasoft.BackEnd.Model\\Jalasoft.BackEnd.Model.csproj"
+              "/Users/rogerruizescobar/Projects/jalasoft/chat/Jalasoft.BackEnd/Jalasoft.BackEnd.Dao.Mongo/Jalasoft.BackEnd.Dao.Mongo.csproj": {
+                "projectPath": "/Users/rogerruizescobar/Projects/jalasoft/chat/Jalasoft.BackEnd/Jalasoft.BackEnd.Dao.Mongo/Jalasoft.BackEnd.Dao.Mongo.csproj"
+              },
+              "/Users/rogerruizescobar/Projects/jalasoft/chat/Jalasoft.BackEnd/src/dao/Jalasoft.BackEnd.Dao/Jalasoft.BackEnd.Dao.csproj": {
+                "projectPath": "/Users/rogerruizescobar/Projects/jalasoft/chat/Jalasoft.BackEnd/src/dao/Jalasoft.BackEnd.Dao/Jalasoft.BackEnd.Dao.csproj"
               }
             }
           }
@@ -102,6 +166,68 @@
               "version": "[2.2.4, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/Users/rogerruizescobar/Projects/jalasoft/chat/Jalasoft.BackEnd/src/dao/Jalasoft.BackEnd.Dao/Jalasoft.BackEnd.Dao.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rogerruizescobar/Projects/jalasoft/chat/Jalasoft.BackEnd/src/dao/Jalasoft.BackEnd.Dao/Jalasoft.BackEnd.Dao.csproj",
+        "projectName": "Jalasoft.BackEnd.Dao",
+        "projectPath": "/Users/rogerruizescobar/Projects/jalasoft/chat/Jalasoft.BackEnd/src/dao/Jalasoft.BackEnd.Dao/Jalasoft.BackEnd.Dao.csproj",
+        "packagesPath": "/Users/rogerruizescobar/.nuget/packages/",
+        "outputPath": "/Users/rogerruizescobar/Projects/jalasoft/chat/Jalasoft.BackEnd/src/dao/Jalasoft.BackEnd.Dao/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/rogerruizescobar/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "/Users/rogerruizescobar/Projects/jalasoft/chat/Jalasoft.BackEnd/src/core/domain/Jalasoft.BackEnd.Model/Jalasoft.BackEnd.Model.csproj": {
+                "projectPath": "/Users/rogerruizescobar/Projects/jalasoft/chat/Jalasoft.BackEnd/src/core/domain/Jalasoft.BackEnd.Model/Jalasoft.BackEnd.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
               "target": "Package",
               "version": "[2.2.4, )"
             },

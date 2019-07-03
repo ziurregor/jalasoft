@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Jalasoft.BackEnd.Dao.Mongo\Jalasoft.BackEnd.Dao.Mongo.csproj" />
     <ProjectReference Include="..\src\dao\Jalasoft.BackEnd.Dao.SqlLite\Jalasoft.BackEnd.Dao.SqlLite.csproj" />
   </ItemGroup>
 

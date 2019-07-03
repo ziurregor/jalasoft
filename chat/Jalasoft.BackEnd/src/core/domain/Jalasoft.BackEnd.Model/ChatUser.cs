@@ -1,14 +1,12 @@
-﻿using System;
+﻿using Jalasoft.BackEnd.Dao.entitys;
+using System;
 using System.Collections.Generic;
+using MongoDB.Bson;
 
 namespace Jalasoft.BackEnd.Model
 {
-    public class chatUser
+    public class ChatUser : EntityBase<int>
     {
-        public int id { get; set; }
         public string email { get; set; }
-
-
-        public ICollection<ChatMessage> messages { get; set; }
     }
 }

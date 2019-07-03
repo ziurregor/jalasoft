@@ -1,40 +1,50 @@
-﻿<Properties StartupConfiguration="{933CAB14-EBBC-43CD-8DB9-93195FE210A8}|Default">
-  <MonoDevelop.Ide.ItemProperties.src.api.Jalasoft.BackEnd.Api FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="src/core/api/Jalasoft.BackEnd.Api/Controllers/ValuesController.cs">
+﻿<Properties StartupConfiguration="{D0B40F1F-A3B0-46D0-82D8-B774A5B67790}|Default">
+  <MonoDevelop.Ide.ItemProperties.src.api.Jalasoft.BackEnd.Api PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../../../usr/local/share/dotnet/sdk/2.2.300/Sdks/Microsoft.NET.Sdk/targets/Microsoft.PackageDependencyResolution.targets">
     <Files>
-      <File FileName="Jalasoft.BackEnd.Console/Program.cs" Line="32" Column="1" />
-      <File FileName="src/core/api/Jalasoft.BackEnd.Api/Startup.cs" Line="1" Column="1" />
-      <File FileName="src/core/api/Jalasoft.BackEnd.Api/Program.cs" Line="1" Column="1" />
-      <File FileName="src/core/api/Jalasoft.BackEnd.Api/appsettings.Development.json" Line="1" Column="1" />
-      <File FileName="src/core/api/Jalasoft.BackEnd.Api/appsettings.json" Line="1" Column="1" />
-      <File FileName="src/core/api/Jalasoft.BackEnd.Api/Controllers/ValuesController.cs" Line="1" Column="1" />
+      <File FileName="Jalasoft.BackEnd.Console/Program.cs" Line="27" Column="1" />
+      <File FileName="src/core/api/Jalasoft.BackEnd.Api/Controllers/UsersController.cs" />
+      <File FileName="src/dao/Jalasoft.BackEnd.Dao.SqlLite/SqliteRepository.cs" Line="9" Column="18" />
+      <File FileName="src/core/api/Jalasoft.BackEnd.Api/Program.cs" />
+      <File FileName="src/dao/Jalasoft.BackEnd.Dao.SqlLite/ChatUserRepository.cs" Line="11" Column="30" />
+      <File FileName="../../../../../../usr/local/share/dotnet/sdk/2.2.300/Sdks/Microsoft.NET.Sdk/targets/Microsoft.PackageDependencyResolution.targets" Line="208" Column="5" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Jalasoft.BackEnd" expanded="True">
+          <Node name="Jalasoft.BackEnd" expanded="True" selected="True">
             <Node name="src" expanded="True">
               <Node name="api" expanded="True">
-                <Node name="Jalasoft.BackEnd.Api" expanded="True">
-                  <Node name="Controllers" expanded="True">
-                    <Node name="ValuesController.cs" selected="True" />
-                  </Node>
-                </Node>
                 <Node name="Jalasoft.BackEnd.Model" expanded="True" />
+              </Node>
+              <Node name="dao" expanded="True">
+                <Node name="Jalasoft.BackEnd.Dao.SqlLite" expanded="True" />
               </Node>
               <Node name="Jalasoft.BackEnd.Console" expanded="True" />
             </Node>
-            <Node name="test" expanded="True" />
           </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>db.User</Value>
+          <Value>a.List()</Value>
+          <Value>db</Value>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.src.Jalasoft.BackEnd.Console PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>Jalasoft.BackEnd.Dao.Mongo/Jalasoft.BackEnd.Dao.Mongo.csproj</String>
+  </DisabledProjects>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/rogerruizescobar/Projects/jalasoft/chat/Jalasoft.BackEnd/src/dao/Jalasoft.BackEnd.Dao.SqlLite/SqliteRepository.cs" relfile="src/dao/Jalasoft.BackEnd.Dao.SqlLite/SqliteRepository.cs" line="58" column="1" />
+      <Breakpoint file="/Users/rogerruizescobar/Projects/jalasoft/chat/Jalasoft.BackEnd/src/core/api/Jalasoft.BackEnd.Api/Controllers/UsersController.cs" relfile="src/core/api/Jalasoft.BackEnd.Api/Controllers/UsersController.cs" line="37" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

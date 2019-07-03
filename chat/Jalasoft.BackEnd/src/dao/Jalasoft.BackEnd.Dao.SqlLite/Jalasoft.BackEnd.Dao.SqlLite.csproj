@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
@@ -10,7 +10,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\core\domain\Jalasoft.BackEnd.Model\Jalasoft.BackEnd.Model.csproj" />
+    <ProjectReference Include="..\..\..\Jalasoft.BackEnd.Dao.Mongo\Jalasoft.BackEnd.Dao.Mongo.csproj" />
+    <ProjectReference Include="..\Jalasoft.BackEnd.Dao\Jalasoft.BackEnd.Dao.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="System.Runtime">
+      <HintPath>..\..\..\..\..\..\..\..\..\usr\local\share\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.2.0\ref\netcoreapp2.2\System.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
 </Project>

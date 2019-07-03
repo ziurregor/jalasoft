@@ -1,8 +1,10 @@
 ﻿namespace Jalasoft.BackEnd.Console
 {
     using Dapper;
+    using Jalasoft.BackEnd.Dao.Mongo;
     using Jalasoft.BackEnd.Dao.SqlLite;
     using Jalasoft.BackEnd.Model;
+    using Microsoft.EntityFrameworkCore;
     using System;
     using System.Collections.Generic;
     using System.Collections.ObjectModel;
@@ -14,32 +16,55 @@
     {
         public static void Main()
         {
-            using (var db = new EntityFrameworkSQLite())
+            var umongo = new MessagesMongoRepository("msg");
+            var a = new ChatMessage();
+            //a.id = Guid.NewGuid();
+            a.message = "Priemr mensaje";
+            umongo.Add(a);
+            var b = umongo.ReadUsersCollection();
+            foreach (var item in b)
             {
-                ICollection<ChatMessage> messages = new Collection<ChatMessage>();
-                var message = new ChatMessage();
-                message.id = 15;
-                message.idUser = 16;
-                message.message = "HI";
-                messages.Add(message);
-                message.id = 7;
-                message.idUser = 1;
-                message.message = "How r u";
-
-                messages.Add(message);
-                db.User.Add(new chatUser { id = 13, email = "rruiz_1@hotmail.com", messages = messages });
-
-                var count = db.SaveChanges();
-
-                Console.WriteLine("{0} records saved to database", count);
-
-                Console.WriteLine();
-                Console.WriteLine("All blogs in database:");
-                foreach (var blog in db.User)
-                {
-                    Console.WriteLine(" - {0}", blog.email);
-                }
+                Console.WriteLine(item.message);
             }
+            
+
+
+
+            //ChatUsersSqliteRepository a = new ChatUsersSqliteRepository();
+
+            //a.List();
+            //foreach (var item in a.List())
+            //{
+            //    Console.WriteLine(item.id + " " + item.email);
+
+            //}
+
+            //using (var db = new EntityFrameworkSQLite())
+            //{
+            //    ICollection<ChatMessage> messages = new Collection<ChatMessage>();
+            //    var message = new ChatMessage();
+            //    message.id = 15;
+            //    message.idUser = 16;
+            //    message.message = "HI";
+            //    messages.Add(message);
+            //    message.id = 7;
+            //    message.idUser = 1;
+            //    message.message = "How r u";
+
+            //    messages.Add(message);
+            //    db.User.Add(new chatUser { id = 13, email = "rruiz_1@hotmail.com", messages = messages });
+
+            //    var count = db.SaveChanges();
+
+            //    Console.WriteLine("{0} records saved to database", count);
+
+            //    Console.WriteLine();
+            //    Console.WriteLine("All blogs in database:");
+            //    foreach (var blog in db.User)
+            //    {
+            //        Console.WriteLine(" - {0}", blog.email);
+            //    }
+            //}
             ////try
             ////{
             ////    using (var db = new SQLiteConnection(@"Data Source=C:\Jalasoft\Git\jalasoft\BackEnd-Orlando\Jalasoft.BackEnd\Jalasoft.BackEnd.Console\bin\Debug\netcoreapp2.2\Chat.db"))

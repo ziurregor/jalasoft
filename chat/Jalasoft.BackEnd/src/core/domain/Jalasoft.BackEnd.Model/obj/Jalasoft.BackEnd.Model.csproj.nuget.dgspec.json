@@ -1,30 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Jalasoft\\Git\\jalasoft\\Jalasoft.BackEnd\\src\\core\\domain\\Jalasoft.BackEnd.Model\\Jalasoft.BackEnd.Model.csproj": {}
+    "/Users/rogerruizescobar/Projects/jalasoft/chat/Jalasoft.BackEnd/src/core/domain/Jalasoft.BackEnd.Model/Jalasoft.BackEnd.Model.csproj": {}
   },
   "projects": {
-    "C:\\Jalasoft\\Git\\jalasoft\\Jalasoft.BackEnd\\src\\core\\domain\\Jalasoft.BackEnd.Model\\Jalasoft.BackEnd.Model.csproj": {
+    "/Users/rogerruizescobar/Projects/jalasoft/chat/Jalasoft.BackEnd/src/core/domain/Jalasoft.BackEnd.Model/Jalasoft.BackEnd.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Jalasoft\\Git\\jalasoft\\Jalasoft.BackEnd\\src\\core\\domain\\Jalasoft.BackEnd.Model\\Jalasoft.BackEnd.Model.csproj",
+        "projectUniqueName": "/Users/rogerruizescobar/Projects/jalasoft/chat/Jalasoft.BackEnd/src/core/domain/Jalasoft.BackEnd.Model/Jalasoft.BackEnd.Model.csproj",
         "projectName": "Jalasoft.BackEnd.Model",
-        "projectPath": "C:\\Jalasoft\\Git\\jalasoft\\Jalasoft.BackEnd\\src\\core\\domain\\Jalasoft.BackEnd.Model\\Jalasoft.BackEnd.Model.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Jalasoft\\Git\\jalasoft\\Jalasoft.BackEnd\\src\\core\\domain\\Jalasoft.BackEnd.Model\\obj\\",
+        "projectPath": "/Users/rogerruizescobar/Projects/jalasoft/chat/Jalasoft.BackEnd/src/core/domain/Jalasoft.BackEnd.Model/Jalasoft.BackEnd.Model.csproj",
+        "packagesPath": "/Users/rogerruizescobar/.nuget/packages/",
+        "outputPath": "/Users/rogerruizescobar/Projects/jalasoft/chat/Jalasoft.BackEnd/src/core/domain/Jalasoft.BackEnd.Model/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/rogerruizescobar/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -46,6 +44,10 @@
               "target": "Package",
               "version": "[2.2.0, )",
               "autoReferenced": true
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.8.1, )"
             }
           },
           "imports": [

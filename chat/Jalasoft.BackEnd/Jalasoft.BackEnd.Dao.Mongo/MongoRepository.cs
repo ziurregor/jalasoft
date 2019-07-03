@@ -79,7 +79,17 @@ namespace Jalasoft.BackEnd.Dao.Mongo
 
         public void Add(T entity)
         {
-            throw new NotImplementedException();
+            JsonWriterSettings.Defaults.Indent = true;
+            //var newUser = new BsonDocument
+            //{
+            //    { "email", new BsonString("rr@rr.com")}
+            //};
+            //var u = new chatUser();
+            //u.email = "rr@rr.c";
+
+            collection.InsertOneAsync(entity);
+
+            //throw new NotImplementedException();
         }
 
         public void Delete(T entity)
@@ -88,6 +98,11 @@ namespace Jalasoft.BackEnd.Dao.Mongo
         }
 
         public void Edit(T entity)
+        {
+            throw new NotImplementedException();
+        }
+
+        public T GetById(ObjectId id)
         {
             throw new NotImplementedException();
         }

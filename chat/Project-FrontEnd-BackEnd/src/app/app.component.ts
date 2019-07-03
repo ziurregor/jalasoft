@@ -23,7 +23,7 @@ export class AppComponent implements OnInit {
   ngOnInit() {}
 
   onClick() {
-    return this.http.get("http://localhost:8080/resteasyexamples/rest/products");
+    //return this.http.get("http://localhost:8080/resteasyexamples/rest/products");
 
     // this.http.get('https://localhost:5001/api/values')
     //   .subscribe((res: Response) => {
