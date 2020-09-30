@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{0C1D196A-C561-4A29-935B-C6738D52DDA9}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="anagram/Program.cs">
+    <Files>
+      <File FileName="anagram/Program.cs" Line="56" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="anagram" expanded="True">
+            <Node name="anagram" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>cadenaOriginal</Value>
+          <Value>posFijas</Value>
+          <Value>totalCaracteres - posFijas</Value>
+          <Value>character</Value>
+          <Value>cadenaOriginal[posFijas]</Value>
+          <Value>cadenaOriginal[posFijas + i + 1]</Value>
+          <Value>cadena</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.anagram PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/rogerruizescobar/Projects/anagram/anagram/Program.cs" relfile="anagram/Program.cs" line="9" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

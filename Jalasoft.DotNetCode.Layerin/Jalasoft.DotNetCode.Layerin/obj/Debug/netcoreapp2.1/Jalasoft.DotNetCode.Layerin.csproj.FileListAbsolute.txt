@@ -1,0 +1,14 @@
+/Users/rogerruizescobar/Projects/Jalasoft.DotNetCode.Layerin/Jalasoft.DotNetCode.Layerin/bin/Debug/netcoreapp2.1/Jalasoft.DotNetCode.Layerin.deps.json
+/Users/rogerruizescobar/Projects/Jalasoft.DotNetCode.Layerin/Jalasoft.DotNetCode.Layerin/bin/Debug/netcoreapp2.1/Jalasoft.DotNetCode.Layerin.runtimeconfig.json
+/Users/rogerruizescobar/Projects/Jalasoft.DotNetCode.Layerin/Jalasoft.DotNetCode.Layerin/bin/Debug/netcoreapp2.1/Jalasoft.DotNetCode.Layerin.runtimeconfig.dev.json
+/Users/rogerruizescobar/Projects/Jalasoft.DotNetCode.Layerin/Jalasoft.DotNetCode.Layerin/bin/Debug/netcoreapp2.1/Jalasoft.DotNetCode.Layerin.dll
+/Users/rogerruizescobar/Projects/Jalasoft.DotNetCode.Layerin/Jalasoft.DotNetCode.Layerin/bin/Debug/netcoreapp2.1/Jalasoft.DotNetCode.Layerin.pdb
+/Users/rogerruizescobar/Projects/Jalasoft.DotNetCode.Layerin/Jalasoft.DotNetCode.Layerin/obj/Debug/netcoreapp2.1/Jalasoft.DotNetCode.Layerin.csprojAssemblyReference.cache
+/Users/rogerruizescobar/Projects/Jalasoft.DotNetCode.Layerin/Jalasoft.DotNetCode.Layerin/obj/Debug/netcoreapp2.1/Jalasoft.DotNetCode.Layerin.csproj.CoreCompileInputs.cache
+/Users/rogerruizescobar/Projects/Jalasoft.DotNetCode.Layerin/Jalasoft.DotNetCode.Layerin/obj/Debug/netcoreapp2.1/Jalasoft.DotNetCode.Layerin.RazorAssemblyInfo.cache
+/Users/rogerruizescobar/Projects/Jalasoft.DotNetCode.Layerin/Jalasoft.DotNetCode.Layerin/obj/Debug/netcoreapp2.1/Jalasoft.DotNetCode.Layerin.RazorAssemblyInfo.cs
+/Users/rogerruizescobar/Projects/Jalasoft.DotNetCode.Layerin/Jalasoft.DotNetCode.Layerin/obj/Debug/netcoreapp2.1/Jalasoft.DotNetCode.Layerin.AssemblyInfoInputs.cache
+/Users/rogerruizescobar/Projects/Jalasoft.DotNetCode.Layerin/Jalasoft.DotNetCode.Layerin/obj/Debug/netcoreapp2.1/Jalasoft.DotNetCode.Layerin.AssemblyInfo.cs
+/Users/rogerruizescobar/Projects/Jalasoft.DotNetCode.Layerin/Jalasoft.DotNetCode.Layerin/obj/Debug/netcoreapp2.1/Jalasoft.DotNetCode.Layerin.RazorTargetAssemblyInfo.cache
+/Users/rogerruizescobar/Projects/Jalasoft.DotNetCode.Layerin/Jalasoft.DotNetCode.Layerin/obj/Debug/netcoreapp2.1/Jalasoft.DotNetCode.Layerin.dll
+/Users/rogerruizescobar/Projects/Jalasoft.DotNetCode.Layerin/Jalasoft.DotNetCode.Layerin/obj/Debug/netcoreapp2.1/Jalasoft.DotNetCode.Layerin.pdb

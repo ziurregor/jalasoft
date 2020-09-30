@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{55CD3E2A-7066-4AD5-9F8E-0E0EE23FA16E}|Default">
+  <MonoDevelop.Ide.ItemProperties.UDABOL-ADOO FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="UDABOL-ADOO/Program.cs">
+    <Files>
+      <File FileName="UDABOL-ADOO/Program.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="UDABOL-ADOO" expanded="True">
+            <Node name="UDABOL-ADOO" expanded="True">
+              <Node name="Dependencies" expanded="True" selected="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

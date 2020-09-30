@@ -1,0 +1,12 @@
+/Users/rogerruizescobar/Projects/2020Consola/2020Consola/bin/Debug/netcoreapp3.1/2020Consola.deps.json
+/Users/rogerruizescobar/Projects/2020Consola/2020Consola/bin/Debug/netcoreapp3.1/2020Consola.runtimeconfig.json
+/Users/rogerruizescobar/Projects/2020Consola/2020Consola/bin/Debug/netcoreapp3.1/2020Consola.runtimeconfig.dev.json
+/Users/rogerruizescobar/Projects/2020Consola/2020Consola/bin/Debug/netcoreapp3.1/2020Consola.dll
+/Users/rogerruizescobar/Projects/2020Consola/2020Consola/bin/Debug/netcoreapp3.1/2020Consola.pdb
+/Users/rogerruizescobar/Projects/2020Consola/2020Consola/obj/Debug/netcoreapp3.1/2020Consola.csprojAssemblyReference.cache
+/Users/rogerruizescobar/Projects/2020Consola/2020Consola/obj/Debug/netcoreapp3.1/2020Consola.AssemblyInfoInputs.cache
+/Users/rogerruizescobar/Projects/2020Consola/2020Consola/obj/Debug/netcoreapp3.1/2020Consola.AssemblyInfo.cs
+/Users/rogerruizescobar/Projects/2020Consola/2020Consola/obj/Debug/netcoreapp3.1/2020Consola.csproj.CoreCompileInputs.cache
+/Users/rogerruizescobar/Projects/2020Consola/2020Consola/obj/Debug/netcoreapp3.1/2020Consola.dll
+/Users/rogerruizescobar/Projects/2020Consola/2020Consola/obj/Debug/netcoreapp3.1/2020Consola.pdb
+/Users/rogerruizescobar/Projects/2020Consola/2020Consola/obj/Debug/netcoreapp3.1/2020Consola.genruntimeconfig.cache

@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{781FB695-139E-43BF-9099-4D164AAFF35A}|Default">
+  <MonoDevelop.Ide.ItemProperties.UDABOL-Tareas FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.DAO FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Modelo FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DAO/ITareasDAO.cs">
+    <Files>
+      <File FileName="UDABOL-Tareas/Program.cs" Line="1" Column="1" />
+      <File FileName="Modelo/tareas.cs" />
+      <File FileName="Modelo/usuarios.cs" />
+      <File FileName="Negocio/ITareas.cs" />
+      <File FileName="Negocio/ServicioTareas.cs" />
+      <File FileName="DAO/ITareasDAO.cs" Line="7" Column="36" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="UDABOL-Tareas" expanded="True">
+            <Node name="DAO" expanded="True">
+              <Node name="ITareasDAO.cs" selected="True" />
+            </Node>
+            <Node name="UDABOL-Tareas" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Negocio FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

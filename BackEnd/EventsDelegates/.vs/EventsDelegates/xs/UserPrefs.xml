@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{03773D1A-918B-4664-A173-9CE788C5571C}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="EventsDelegates/Program.cs">
+    <Files>
+      <File FileName="EventsDelegates/Program.cs" Line="6" Column="6" />
+      <File FileName="EventsDelegates/Delegate.cs" Line="8" Column="33" />
+      <File FileName="EventsDelegates/Subscriber.cs" Line="22" Column="1" />
+      <File FileName="EventsDelegates/SubscriberFile.cs" Line="29" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="EventsDelegates" expanded="True">
+            <Node name="EventsDelegates" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.EventsDelegates PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,12 @@
+/Users/rogerruizescobar/Projects/TestConsola/TestConsola/bin/Debug/netcoreapp2.1/TestConsola.deps.json
+/Users/rogerruizescobar/Projects/TestConsola/TestConsola/bin/Debug/netcoreapp2.1/TestConsola.runtimeconfig.json
+/Users/rogerruizescobar/Projects/TestConsola/TestConsola/bin/Debug/netcoreapp2.1/TestConsola.runtimeconfig.dev.json
+/Users/rogerruizescobar/Projects/TestConsola/TestConsola/bin/Debug/netcoreapp2.1/TestConsola.dll
+/Users/rogerruizescobar/Projects/TestConsola/TestConsola/bin/Debug/netcoreapp2.1/TestConsola.pdb
+/Users/rogerruizescobar/Projects/TestConsola/TestConsola/obj/Debug/netcoreapp2.1/TestConsola.csprojAssemblyReference.cache
+/Users/rogerruizescobar/Projects/TestConsola/TestConsola/obj/Debug/netcoreapp2.1/TestConsola.AssemblyInfoInputs.cache
+/Users/rogerruizescobar/Projects/TestConsola/TestConsola/obj/Debug/netcoreapp2.1/TestConsola.AssemblyInfo.cs
+/Users/rogerruizescobar/Projects/TestConsola/TestConsola/obj/Debug/netcoreapp2.1/TestConsola.csproj.CoreCompileInputs.cache
+/Users/rogerruizescobar/Projects/TestConsola/TestConsola/obj/Debug/netcoreapp2.1/TestConsola.dll
+/Users/rogerruizescobar/Projects/TestConsola/TestConsola/obj/Debug/netcoreapp2.1/TestConsola.pdb
+/Users/rogerruizescobar/Projects/TestConsola/TestConsola/obj/Debug/netcoreapp2.1/TestConsola.genruntimeconfig.cache

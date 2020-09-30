@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{F8795877-C4A5-47BD-9E7C-6BB8900A865D}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="test_CM_API/Program.cs">
+    <Files>
+      <File FileName="test_CM_API/Startup.cs" Line="1" Column="1" />
+      <File FileName="test_CM_API/Program.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="test_CM_API" expanded="True">
+            <Node name="test_CM_API" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.test__CM__API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

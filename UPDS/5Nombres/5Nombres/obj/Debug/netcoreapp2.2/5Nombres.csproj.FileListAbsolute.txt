@@ -1,0 +1,11 @@
+/Users/rogerruizescobar/Projects/UPDS/5Nombres/5Nombres/bin/Debug/netcoreapp2.2/5Nombres.deps.json
+/Users/rogerruizescobar/Projects/UPDS/5Nombres/5Nombres/bin/Debug/netcoreapp2.2/5Nombres.runtimeconfig.json
+/Users/rogerruizescobar/Projects/UPDS/5Nombres/5Nombres/bin/Debug/netcoreapp2.2/5Nombres.runtimeconfig.dev.json
+/Users/rogerruizescobar/Projects/UPDS/5Nombres/5Nombres/bin/Debug/netcoreapp2.2/5Nombres.dll
+/Users/rogerruizescobar/Projects/UPDS/5Nombres/5Nombres/bin/Debug/netcoreapp2.2/5Nombres.pdb
+/Users/rogerruizescobar/Projects/UPDS/5Nombres/5Nombres/obj/Debug/netcoreapp2.2/5Nombres.csprojAssemblyReference.cache
+/Users/rogerruizescobar/Projects/UPDS/5Nombres/5Nombres/obj/Debug/netcoreapp2.2/5Nombres.csproj.CoreCompileInputs.cache
+/Users/rogerruizescobar/Projects/UPDS/5Nombres/5Nombres/obj/Debug/netcoreapp2.2/5Nombres.AssemblyInfoInputs.cache
+/Users/rogerruizescobar/Projects/UPDS/5Nombres/5Nombres/obj/Debug/netcoreapp2.2/5Nombres.AssemblyInfo.cs
+/Users/rogerruizescobar/Projects/UPDS/5Nombres/5Nombres/obj/Debug/netcoreapp2.2/5Nombres.dll
+/Users/rogerruizescobar/Projects/UPDS/5Nombres/5Nombres/obj/Debug/netcoreapp2.2/5Nombres.pdb

@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{AF9080E7-7A7D-4ACE-9070-054F4665AF7C}|Default">
+  <MonoDevelop.Ide.ItemProperties.ConsoleApp.SQlite PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="UsersCassandraDao.cs">
+    <Files>
+      <File FileName="UsersCassandraDao.cs" Line="90" Column="14" />
+      <File FileName="Program.cs" Line="28" Column="18" />
+      <File FileName="Model.cs" Line="33" Column="6" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ConsoleApp.SQlite" expanded="True" selected="True">
+            <Node name="ConsoleApp.SQlite" expanded="True">
+              <Node name="netcoreapp2.2" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

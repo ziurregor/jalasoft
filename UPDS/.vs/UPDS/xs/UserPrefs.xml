@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{6993FF8E-CC6D-4169-A2D1-D8DA6729037B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="UPDS/Program.cs">
+    <Files>
+      <File FileName="UPDS/Program.cs" Line="20" Column="8" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="UPDS" expanded="True">
+            <Node name="UPDS" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.UPDS PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/rogerruizescobar/Documents/Docencia/Docencia UPDS/git/Program.cs" line="20" column="1" />
+      <Breakpoint file="/Users/rogerruizescobar/Projects/UPDS/UPDS/Program.cs" relfile="UPDS/Program.cs" line="23" column="1" />
+      <Breakpoint file="/Users/rogerruizescobar/Projects/UPDS/UPDS/Program.cs" relfile="UPDS/Program.cs" line="20" column="1" />
+      <Breakpoint file="/Users/rogerruizescobar/Projects/UPDS/UPDS/Program.cs" relfile="UPDS/Program.cs" line="35" column="1" />
+      <Breakpoint file="/Users/rogerruizescobar/Projects/UPDS/UPDS/Program.cs" relfile="UPDS/Program.cs" line="113" column="1" />
+      <Breakpoint file="/Users/rogerruizescobar/Projects/UPDS/UPDS/Program.cs" relfile="UPDS/Program.cs" line="151" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

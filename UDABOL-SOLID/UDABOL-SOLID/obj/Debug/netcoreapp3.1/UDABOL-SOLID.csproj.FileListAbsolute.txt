@@ -1,0 +1,12 @@
+/Users/rogerruizescobar/Projects/UDABOL-SOLID/UDABOL-SOLID/bin/Debug/netcoreapp3.1/UDABOL-SOLID.deps.json
+/Users/rogerruizescobar/Projects/UDABOL-SOLID/UDABOL-SOLID/bin/Debug/netcoreapp3.1/UDABOL-SOLID.runtimeconfig.json
+/Users/rogerruizescobar/Projects/UDABOL-SOLID/UDABOL-SOLID/bin/Debug/netcoreapp3.1/UDABOL-SOLID.runtimeconfig.dev.json
+/Users/rogerruizescobar/Projects/UDABOL-SOLID/UDABOL-SOLID/bin/Debug/netcoreapp3.1/UDABOL-SOLID.dll
+/Users/rogerruizescobar/Projects/UDABOL-SOLID/UDABOL-SOLID/bin/Debug/netcoreapp3.1/UDABOL-SOLID.pdb
+/Users/rogerruizescobar/Projects/UDABOL-SOLID/UDABOL-SOLID/obj/Debug/netcoreapp3.1/UDABOL-SOLID.csprojAssemblyReference.cache
+/Users/rogerruizescobar/Projects/UDABOL-SOLID/UDABOL-SOLID/obj/Debug/netcoreapp3.1/UDABOL-SOLID.csproj.CoreCompileInputs.cache
+/Users/rogerruizescobar/Projects/UDABOL-SOLID/UDABOL-SOLID/obj/Debug/netcoreapp3.1/UDABOL-SOLID.AssemblyInfoInputs.cache
+/Users/rogerruizescobar/Projects/UDABOL-SOLID/UDABOL-SOLID/obj/Debug/netcoreapp3.1/UDABOL-SOLID.AssemblyInfo.cs
+/Users/rogerruizescobar/Projects/UDABOL-SOLID/UDABOL-SOLID/obj/Debug/netcoreapp3.1/UDABOL-SOLID.dll
+/Users/rogerruizescobar/Projects/UDABOL-SOLID/UDABOL-SOLID/obj/Debug/netcoreapp3.1/UDABOL-SOLID.pdb
+/Users/rogerruizescobar/Projects/UDABOL-SOLID/UDABOL-SOLID/obj/Debug/netcoreapp3.1/UDABOL-SOLID.genruntimeconfig.cache

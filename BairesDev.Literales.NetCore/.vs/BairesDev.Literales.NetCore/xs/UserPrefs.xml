@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{C9DE88C8-7760-4569-9DDF-C2CC0EBFDDEF}|Default">
+  <MonoDevelop.Ide.ItemProperties.DAO FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DAO/LiteralRepository.cs">
+    <Files>
+      <File FileName="Model/Startup.cs" Line="30" Column="1" />
+      <File FileName="Model/Literal.cs" />
+      <File FileName="DAO/LiteralRepository.cs" Line="15" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BairesDev.Literales.NetCore" expanded="True">
+            <Node name="DAO" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="LiteralRepository.cs" selected="True" />
+            </Node>
+            <Node name="Model" expanded="True">
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Model FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Services FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.BairesDev.Literales.NetCore FirstBuild="True" PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

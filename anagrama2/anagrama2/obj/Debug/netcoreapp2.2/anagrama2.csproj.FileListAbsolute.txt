@@ -1,0 +1,10 @@
+/Users/rogerruizescobar/Projects/anagrama2/anagrama2/bin/Debug/netcoreapp2.2/anagrama2.deps.json
+/Users/rogerruizescobar/Projects/anagrama2/anagrama2/bin/Debug/netcoreapp2.2/anagrama2.runtimeconfig.json
+/Users/rogerruizescobar/Projects/anagrama2/anagrama2/bin/Debug/netcoreapp2.2/anagrama2.runtimeconfig.dev.json
+/Users/rogerruizescobar/Projects/anagrama2/anagrama2/bin/Debug/netcoreapp2.2/anagrama2.dll
+/Users/rogerruizescobar/Projects/anagrama2/anagrama2/bin/Debug/netcoreapp2.2/anagrama2.pdb
+/Users/rogerruizescobar/Projects/anagrama2/anagrama2/obj/Debug/netcoreapp2.2/anagrama2.csproj.CoreCompileInputs.cache
+/Users/rogerruizescobar/Projects/anagrama2/anagrama2/obj/Debug/netcoreapp2.2/anagrama2.AssemblyInfoInputs.cache
+/Users/rogerruizescobar/Projects/anagrama2/anagrama2/obj/Debug/netcoreapp2.2/anagrama2.AssemblyInfo.cs
+/Users/rogerruizescobar/Projects/anagrama2/anagrama2/obj/Debug/netcoreapp2.2/anagrama2.dll
+/Users/rogerruizescobar/Projects/anagrama2/anagrama2/obj/Debug/netcoreapp2.2/anagrama2.pdb

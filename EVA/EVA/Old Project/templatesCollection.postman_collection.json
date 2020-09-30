@@ -1,0 +1,594 @@
+{
+	"info": {
+		"_postman_id": "15e216da-c217-471d-bcc7-93c8086d7ae0",
+		"name": "templatesCollection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetTemplates",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "d0401675-8efe-4873-9ccd-88d64719a882",
+						"exec": [
+							"var expectedSchema = {\r",
+							"  \"definitions\": {},\r",
+							"  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\r",
+							"  \"$id\": \"http://example.com/root.json\",\r",
+							"  \"type\": \"array\",\r",
+							"  \"title\": \"The Root Schema\",\r",
+							"  \"items\": {\r",
+							"    \"$id\": \"#/items\",\r",
+							"    \"type\": \"object\",\r",
+							"    \"title\": \"The Items Schema\",\r",
+							"    \"required\": [\r",
+							"      \"Id\",\r",
+							"      \"Name\",\r",
+							"      \"ScoreFormula\"\r",
+							"    ],\r",
+							"    \"properties\": {\r",
+							"      \"Id\": {\r",
+							"        \"$id\": \"#/items/properties/Id\",\r",
+							"        \"type\": \"string\",\r",
+							"        \"title\": \"The Id Schema\",\r",
+							"        \"default\": \"\",\r",
+							"        \"examples\": [\r",
+							"          \"11111111-1111-1111-1111-111111111112\"\r",
+							"        ],\r",
+							"        \"pattern\": \"^(.*)$\"\r",
+							"      },\r",
+							"      \"Name\": {\r",
+							"        \"$id\": \"#/items/properties/Name\",\r",
+							"        \"type\": \"string\",\r",
+							"        \"title\": \"The Name Schema\",\r",
+							"        \"default\": \"\",\r",
+							"        \"examples\": [\r",
+							"          \"Technical Template\"\r",
+							"        ],\r",
+							"        \"pattern\": \"^(.*)$\"\r",
+							"      },\r",
+							"      \"ScoreFormula\": {\r",
+							"        \"$id\": \"#/properties/ScoreFormula\",\r",
+							"        \"type\": \"string\",\r",
+							"        \"title\": \"The Scoreformula Schema\",\r",
+							"        \"default\": \"\",\r",
+							"        \"examples\": [\r",
+							"          \"sum(i, 0, questionsLength, questionScore(i))\"\r",
+							"        ],\r",
+							"        \"pattern\": \"^(.*)$\"\r",
+							"      },\r",
+							"    }\r",
+							"  }\r",
+							"}\r",
+							"\r",
+							"var actualSchema = JSON.parse(responseBody);\r",
+							"\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"pm.test(\"Content-Type is present\", function () {\r",
+							"    pm.response.to.have.header(\"Content-Type\");\r",
+							"});\r",
+							"pm.globals.unset(\"variable_key\");\r",
+							"\r",
+							"    tests[\"Template schema is valid\"] = tv4.validate(actualSchema, expectedSchema);\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{SERVICE_HOST}}/api/v1/templates",
+					"host": [
+						"{{SERVICE_HOST}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"templates"
+					]
+				},
+				"description": "Gets all templates"
+			},
+			"response": []
+		},
+		{
+			"name": "CreateTemplate",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "99a14b2f-333e-4b7b-87c3-0a98059a193d",
+						"exec": [
+							"const expectedSchema = {",
+							"  \"definitions\": {},",
+							"  \"$schema\": \"http://json-schema.org/draft-07/schema#\",",
+							"  \"$id\": \"http://example.com/root.json\",",
+							"  \"type\": \"object\",",
+							"  \"title\": \"Evaluation Schema\",",
+							"  \"required\": [",
+							"    \"Name\",",
+							"    \"Id\",",
+							"    \"ScoreFormula\"",
+							"  ],",
+							"  \"properties\": {",
+							"    \"Name\": {",
+							"      \"$id\": \"#/properties/template/properties/Name\",",
+							"      \"type\": \"string\",",
+							"      \"title\": \"The Name Schema\",",
+							"      \"default\": \"\",",
+							"      \"examples\": [",
+							"        \"My New Evaluation Template\"",
+							"      ],",
+							"      \"pattern\": \"^(.*)$\"",
+							"    },",
+							"    \"Id\": {",
+							"      \"$id\": \"#/properties/template/properties/Name\",",
+							"      \"type\": \"string\",",
+							"      \"title\": \"The Template Id\",",
+							"      \"default\": \"\",",
+							"      \"examples\": [",
+							"        \"My New Evaluation Template\"",
+							"      ],",
+							"      \"pattern\": \"^(.*)$\"",
+							"    },",
+							"    \"ScoreFormula\": {",
+							"      \"$id\": \"#/properties/ScoreFormula\",",
+							"      \"type\": \"string\",",
+							"      \"title\": \"The Scoreformula Schema\",",
+							"      \"default\": \"\",",
+							"      \"examples\": [",
+							"        \"sum(i, 0, questionsLength, questionScore(i))\"",
+							"      ],",
+							"      \"pattern\": \"^(.*)$\"",
+							"    },",
+							"    \"Body\": {",
+							"        \"$id\": \"#/items/properties/Body\",",
+							"        \"type\": \"array\",",
+							"        \"title\": \"The Body Schema\",",
+							"        \"items\": {",
+							"          \"$id\": \"#/items/properties/Body/items\",",
+							"          \"type\": \"object\",",
+							"          \"title\": \"The Items Schema\",",
+							"          \"required\": [",
+							"            \"OptionRules\",",
+							"            \"Id\",",
+							"            \"Label\",",
+							"            \"ScoreFormula\"",
+							"          ],",
+							"          \"properties\": {",
+							"            \"OptionRules\": {",
+							"              \"$id\": \"#/items/properties/Body/items/properties/OptionRules\",",
+							"              \"type\": \"object\",",
+							"              \"title\": \"The OptionRules Schema\",",
+							"              \"required\": [",
+							"                \"MinOptions\",",
+							"                \"MaxOptions\",",
+							"                \"OptionType\"",
+							"              ],",
+							"              \"properties\": {",
+							"                \"MinOptions\": {",
+							"                  \"$id\": \"#/items/properties/Body/items/properties/Options/properties/MinOptions\",",
+							"                  \"type\": \"integer\",",
+							"                  \"title\": \"The Minoptions Schema\",",
+							"                  \"default\": 0,",
+							"                  \"examples\": [",
+							"                    2",
+							"                  ]",
+							"                },",
+							"                \"MaxOptions\": {",
+							"                  \"$id\": \"#/items/properties/Body/items/properties/Options/properties/MaxOptions\",",
+							"                  \"type\": \"integer\",",
+							"                  \"title\": \"The Maxoptions Schema\",",
+							"                  \"default\": 0,",
+							"                  \"examples\": [",
+							"                    6",
+							"                  ]",
+							"                },",
+							"                \"OptionType\": {",
+							"                  \"$id\": \"#/items/properties/Body/items/properties/Options/properties/OptionType\",",
+							"                  \"type\": \"string\",",
+							"                  \"title\": \"The Optiontype Schema\",",
+							"                  \"default\": \"\",",
+							"                  \"examples\": [",
+							"                    \"Radio\"",
+							"                  ],",
+							"                  \"pattern\": \"^(.*)$\"",
+							"                }",
+							"              }",
+							"            },",
+							"            \"Id\": {",
+							"              \"$id\": \"#/items/properties/Body/items/properties/Id\",",
+							"              \"type\": \"string\",",
+							"              \"title\": \"The Id Schema\",",
+							"              \"default\": \"\",",
+							"              \"examples\": [",
+							"                \"5f4df704-8201-4e4f-94c2-4409da82bdb9\"",
+							"              ],",
+							"              \"pattern\": \"^(.*)$\"",
+							"            },",
+							"            \"Label\": {",
+							"              \"$id\": \"#/items/properties/Body/items/properties/Label\",",
+							"              \"type\": \"string\",",
+							"              \"title\": \"The Label Schema\",",
+							"              \"default\": \"\",",
+							"              \"examples\": [",
+							"                \"Multiple Choice\"",
+							"              ],",
+							"              \"pattern\": \"^(.*)$\"",
+							"            },",
+							"            \"ScoreFormula\": {",
+							"              \"$id\": \"#/properties/Body/items/properties/ScoreFormula\",",
+							"              \"type\": \"string\",",
+							"              \"title\": \"The Scoreformula Schema\",",
+							"              \"default\": \"\",",
+							"              \"examples\": [",
+							"                \"(correctAnswersLength / totalCorrectAnswers) * questionWeight\"",
+							"              ],",
+							"              \"pattern\": \"^(.*)$\"",
+							"            }",
+							"          }",
+							"        }",
+							"      }",
+							"   }",
+							"}",
+							"",
+							"var actualSchema = JSON.parse(responseBody);",
+							"",
+							"pm.test(\"Status code is 201\", function () {",
+							"    pm.response.to.have.status(201);",
+							"});",
+							"pm.test(\"Content-Type is present\", function () {",
+							"    pm.response.to.have.header(\"Content-Type\");",
+							"});",
+							"",
+							"tests[\"Template schema is valid\"] = tv4.validate(actualSchema, expectedSchema);",
+							"",
+							"var newTemplate = JSON.parse(responseBody);",
+							"pm.environment.set(\"temp_id_template\", newTemplate.Id);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"Name\": \"Evaluation Controller Test Template\",\n     \"EvalNameMaxChars\":150,\n\t\"AllowedCharsRule\":\"^[\\\\w\\\\s]+$\",\n    \"ScoreFormula\": \"sum(i, 0, questionsLength, questionScore(i))\",\n    \"Headers\": [\n        {\n            \"MinChar\": 4,\n            \"MaxChar\": 30,\n            \"Type\": \"Text\",\n            \"Id\": \"00000001-0001-0000-0000-000000000000\",\n            \"Input\": false,\n\t        \"AllowedCharsRule\":\"^[\\\\w\\\\s]+$\",\n\t        \"ValueRequired\": true,\n            \"Label\": \"Title\"\n        }\n    ],\n    \"Body\": [\n        {\n            \"OptionRules\": {\n                \"MinOptions\": 2,\n                \"MaxOptions\": 6,\n                \"OptionType\": \"Radio\",\n                \"AllowedCharsRule\":\"^[\\\\w\\\\s]+$\",\n\t        \t\"ValueRequired\": true\n            },\n            \"Id\": \"5f4df704-8201-4e4f-94c2-4409da82bdb9\",\n            \"Label\": \"Multiple Choice\",\n\t        \"AllowedCharsRule\":\"^[\\\\w\\\\s]+$\",\n\t        \"ValueRequired\": true,\n            \"ScoreFormula\": \"(correctAnswersLength / totalCorrectAnswers) * questionWeight\"\n        }\n    ]\n}"
+				},
+				"url": {
+					"raw": "{{SERVICE_HOST}}/api/v1/templates",
+					"host": [
+						"{{SERVICE_HOST}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"templates"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetTemplate",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "5cc0ea78-47d9-47dd-a5df-f157fcabc510",
+						"exec": [
+							"var expectedSchema = ",
+							"{",
+							"  \"$schema\": \"http://json-schema.org/draft-04/schema#\",",
+							"  \"type\": \"object\",",
+							"  \"properties\": {",
+							"    \"Name\": {",
+							"      \"type\": \"string\"",
+							"    },",
+							"    \"ScoreFormula\": {",
+							"      \"$id\": \"#/properties/ScoreFormula\",",
+							"      \"type\": \"string\",",
+							"      \"title\": \"The Scoreformula Schema\",",
+							"      \"default\": \"\",",
+							"      \"examples\": [",
+							"        \"sum(i, 0, questionsLength, questionScore(i))\"",
+							"      ],",
+							"      \"pattern\": \"^(.*)$\"",
+							"    },",
+							"    \"Headers\": {",
+							"      \"type\": \"array\",",
+							"      \"items\": [",
+							"        {",
+							"          \"type\": \"object\",",
+							"          \"properties\": {",
+							"            \"MaxChar\": {",
+							"              \"type\": \"integer\"",
+							"            },",
+							"            \"Type\": {",
+							"              \"type\": \"string\"",
+							"            },",
+							"            \"Id\": {",
+							"              \"type\": \"string\"",
+							"            },",
+							"            \"Label\": {",
+							"              \"type\": \"string\"",
+							"            }",
+							"          },",
+							"          \"required\": [",
+							"            \"Type\",",
+							"            \"Id\",",
+							"            \"Label\"",
+							"          ]",
+							"        },",
+							"        {",
+							"          \"type\": \"object\",",
+							"          \"properties\": {",
+							"            \"MaxChar\": {",
+							"              \"type\": \"integer\"",
+							"            },",
+							"            \"Type\": {",
+							"              \"type\": \"string\"",
+							"            },",
+							"            \"Id\": {",
+							"              \"type\": \"string\"",
+							"            },",
+							"            \"Label\": {",
+							"              \"type\": \"string\"",
+							"            }",
+							"          },",
+							"          \"required\": [",
+							"            \"Type\",",
+							"            \"Id\",",
+							"            \"Label\"",
+							"          ]",
+							"        }",
+							"      ]",
+							"    },",
+							"    \"Body\": {",
+							"      \"$id\": \"#/properties/Body\",",
+							"      \"type\": \"array\",",
+							"      \"title\": \"The Body Schema\",",
+							"      \"items\": {",
+							"        \"$id\": \"#/properties/Body/items\",",
+							"        \"type\": \"object\",",
+							"        \"title\": \"The Items Schema\",",
+							"        \"required\": [",
+							"          \"OptionRules\",",
+							"          \"Id\",",
+							"          \"Label\"",
+							"        ],",
+							"        \"properties\": {",
+							"          \"OptionRules\": {",
+							"            \"$id\": \"#/properties/Body/items/properties/OptionRules\",",
+							"            \"type\": \"object\",",
+							"            \"title\": \"The OptionRules Schema\",",
+							"            \"required\": [",
+							"              \"OptionType\"",
+							"            ],",
+							"            \"properties\": {",
+							"              \"MinOptions\": {",
+							"                \"$id\": \"#/properties/Body/items/properties/Options/properties/MinOptions\",",
+							"                \"type\": \"integer\",",
+							"                \"title\": \"The Minoptions Schema\",",
+							"                \"default\": 0,",
+							"                \"examples\": [",
+							"                  2",
+							"                ]",
+							"              },",
+							"              \"MaxOptions\": {",
+							"                \"$id\": \"#/properties/Body/items/properties/Options/properties/MaxOptions\",",
+							"                \"type\": \"integer\",",
+							"                \"title\": \"The Maxoptions Schema\",",
+							"                \"default\": 0,",
+							"                \"examples\": [",
+							"                  5",
+							"                ]",
+							"              },",
+							"              \"OptionType\": {",
+							"                \"$id\": \"#/properties/Body/items/properties/Options/properties/OptionType\",",
+							"                \"type\": \"string\",",
+							"                \"title\": \"The Optiontype Schema\",",
+							"                \"default\": \"\",",
+							"                \"examples\": [",
+							"                  \"Check\"",
+							"                ],",
+							"                \"pattern\": \"^(.*)$\"",
+							"              }",
+							"            }",
+							"          },",
+							"          \"Id\": {",
+							"            \"$id\": \"#/properties/Body/items/properties/Id\",",
+							"            \"type\": \"string\",",
+							"            \"title\": \"The Id Schema\",",
+							"            \"default\": \"\",",
+							"            \"examples\": [",
+							"              \"5f4df704-8201-4e4f-94c2-4409da82bdb9\"",
+							"            ],",
+							"            \"pattern\": \"^(.*)$\"",
+							"          },",
+							"          \"Label\": {",
+							"            \"$id\": \"#/properties/Body/items/properties/Label\",",
+							"            \"type\": \"string\",",
+							"            \"title\": \"The Label Schema\",",
+							"            \"default\": \"\",",
+							"            \"examples\": [",
+							"              \"Multiple Choice\"",
+							"            ],",
+							"            \"pattern\": \"^(.*)$\"",
+							"          }",
+							"        }",
+							"      }",
+							"    },",
+							"    \"Id\": {",
+							"      \"type\": \"string\"",
+							"    }",
+							"  },",
+							"  \"required\": [",
+							"    \"Name\",",
+							"    \"ScoreFormula\",",
+							"    \"Headers\",",
+							"    \"Body\",",
+							"    \"Id\"",
+							"  ]",
+							"};",
+							"",
+							"var actualSchema = JSON.parse(responseBody);",
+							"",
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"pm.test(\"Content-Type is present\", function () {",
+							"    pm.response.to.have.header(\"Content-Type\");",
+							"});",
+							"",
+							"tests[\"Evaluations schema is valid\"] = tv4.validate(actualSchema, expectedSchema);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{SERVICE_HOST}}/api/v1/templates/{{temp_id_template}}",
+					"host": [
+						"{{SERVICE_HOST}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"templates",
+						"{{temp_id_template}}"
+					]
+				},
+				"description": "Get a template with id as parameter"
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateTemplate",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "905d8302-6527-4ab2-afd6-4e7890647ccb",
+						"exec": [
+							"pm.test(\"Status 204 from Update\", function () {",
+							"    pm.response.to.have.status(204)",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"Name\" : \"My awesome updated 360 template\"\n}"
+				},
+				"url": {
+					"raw": "{{SERVICE_HOST}}/api/v1/templates/{{temp_id_template}}",
+					"host": [
+						"{{SERVICE_HOST}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"templates",
+						"{{temp_id_template}}"
+					]
+				},
+				"description": "Updates an already existing Template resource with a given Id"
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteTemplate",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "73ccccfc-fa09-414b-829f-9409f4fa0324",
+						"exec": [
+							"pm.test(\"Status code is 204\", function () {",
+							"    pm.response.to.have.status(204);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{SERVICE_HOST}}/api/v1/templates/{{temp_id_template}}",
+					"host": [
+						"{{SERVICE_HOST}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"templates",
+						"{{temp_id_template}}"
+					]
+				},
+				"description": "Deletes a template"
+			},
+			"response": []
+		}
+	]
+}

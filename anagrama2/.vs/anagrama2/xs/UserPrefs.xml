@@ -1,0 +1,39 @@
+﻿<Properties StartupConfiguration="{2A0972F1-5B6D-48E9-B840-DAE46CBB2C39}|Default">
+  <MonoDevelop.Ide.ItemProperties.anagrama2 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="anagrama2/Program.cs">
+    <Files>
+      <File FileName="anagrama2/Program.cs" Line="11" Column="32" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="anagrama2" expanded="True">
+            <Node name="anagrama2" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>i</Value>
+          <Value>valAux.ToString()</Value>
+          <Value>valorString.Remove(i, 1)</Value>
+          <Value>valorString.Insert(i, valAux.ToString())</Value>
+          <Value>                valorString</Value>
+          <Value>test[j]</Value>
+          <Value>Int.Parse(test[j])</Value>
+          <Value>test[j]</Value>
+          <Value>Convert.ToInt32( test[j])</Value>
+          <Value>(int)char.GetNumericValue(test[j])</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

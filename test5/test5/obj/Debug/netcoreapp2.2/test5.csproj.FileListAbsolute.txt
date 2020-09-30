@@ -1,0 +1,11 @@
+/Users/rogerruizescobar/Projects/test5/test5/obj/Debug/netcoreapp2.2/test5.csprojAssemblyReference.cache
+/Users/rogerruizescobar/Projects/test5/test5/obj/Debug/netcoreapp2.2/test5.csproj.CoreCompileInputs.cache
+/Users/rogerruizescobar/Projects/test5/test5/obj/Debug/netcoreapp2.2/test5.AssemblyInfoInputs.cache
+/Users/rogerruizescobar/Projects/test5/test5/obj/Debug/netcoreapp2.2/test5.AssemblyInfo.cs
+/Users/rogerruizescobar/Projects/test5/test5/bin/Debug/netcoreapp2.2/test5.deps.json
+/Users/rogerruizescobar/Projects/test5/test5/bin/Debug/netcoreapp2.2/test5.runtimeconfig.json
+/Users/rogerruizescobar/Projects/test5/test5/bin/Debug/netcoreapp2.2/test5.runtimeconfig.dev.json
+/Users/rogerruizescobar/Projects/test5/test5/bin/Debug/netcoreapp2.2/test5.dll
+/Users/rogerruizescobar/Projects/test5/test5/bin/Debug/netcoreapp2.2/test5.pdb
+/Users/rogerruizescobar/Projects/test5/test5/obj/Debug/netcoreapp2.2/test5.dll
+/Users/rogerruizescobar/Projects/test5/test5/obj/Debug/netcoreapp2.2/test5.pdb

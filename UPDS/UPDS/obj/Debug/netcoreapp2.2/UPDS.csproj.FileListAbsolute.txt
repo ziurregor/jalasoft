@@ -1,0 +1,12 @@
+/Users/rogerruizescobar/Projects/UPDS/UPDS/bin/Debug/netcoreapp2.2/UPDS.deps.json
+/Users/rogerruizescobar/Projects/UPDS/UPDS/bin/Debug/netcoreapp2.2/UPDS.runtimeconfig.json
+/Users/rogerruizescobar/Projects/UPDS/UPDS/bin/Debug/netcoreapp2.2/UPDS.runtimeconfig.dev.json
+/Users/rogerruizescobar/Projects/UPDS/UPDS/bin/Debug/netcoreapp2.2/UPDS.dll
+/Users/rogerruizescobar/Projects/UPDS/UPDS/bin/Debug/netcoreapp2.2/UPDS.pdb
+/Users/rogerruizescobar/Projects/UPDS/UPDS/obj/Debug/netcoreapp2.2/UPDS.csprojAssemblyReference.cache
+/Users/rogerruizescobar/Projects/UPDS/UPDS/obj/Debug/netcoreapp2.2/UPDS.csproj.CoreCompileInputs.cache
+/Users/rogerruizescobar/Projects/UPDS/UPDS/obj/Debug/netcoreapp2.2/UPDS.AssemblyInfoInputs.cache
+/Users/rogerruizescobar/Projects/UPDS/UPDS/obj/Debug/netcoreapp2.2/UPDS.AssemblyInfo.cs
+/Users/rogerruizescobar/Projects/UPDS/UPDS/obj/Debug/netcoreapp2.2/UPDS.dll
+/Users/rogerruizescobar/Projects/UPDS/UPDS/obj/Debug/netcoreapp2.2/UPDS.pdb
+/Users/rogerruizescobar/Projects/UPDS/UPDS/obj/Debug/netcoreapp2.2/UPDS.genruntimeconfig.cache
